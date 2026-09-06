@@ -13,123 +13,286 @@
       box-sizing: border-box;
     }
 
-    body {
-      font-family: Arial, sans-serif;
-      background: #0b0f14;
-      color: white;
+    html {
+      scroll-behavior: smooth;
     }
 
+    body {
+      font-family: Arial, sans-serif;
+      background: #080c12;
+      color: #ffffff;
+      line-height: 1.5;
+    }
+
+    /* HEADER */
     header {
-      background: #111820;
-      padding: 18px 20px;
+      background: #0d131b;
+      border-bottom: 1px solid #202a35;
+      padding: 15px 20px;
       display: flex;
       justify-content: space-between;
       align-items: center;
       position: sticky;
       top: 0;
-      z-index: 10;
+      z-index: 100;
     }
 
     .logo {
-      font-size: 22px;
-      font-weight: bold;
+      font-size: 21px;
+      font-weight: 800;
     }
 
     .logo span {
-      color: #19c37d;
+      color: #19d27e;
     }
 
     nav a {
-      color: white;
+      color: #c9d0d8;
       text-decoration: none;
-      margin-left: 15px;
-      font-size: 14px;
+      margin-left: 14px;
+      font-size: 13px;
     }
 
+    nav a:hover {
+      color: #19d27e;
+    }
+
+    /* HERO */
     .hero {
-      padding: 70px 20px;
+      min-height: 520px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
       text-align: center;
-      background: linear-gradient(135deg, #101820, #14251f);
+      padding: 70px 20px;
+      background:
+        linear-gradient(rgba(4, 8, 13, 0.82), rgba(4, 8, 13, 0.92)),
+        radial-gradient(circle at center, #173b2c, #080c12 65%);
+    }
+
+    .hero-content {
+      max-width: 750px;
+    }
+
+    .tag {
+      display: inline-block;
+      background: #123e2b;
+      color: #19d27e;
+      padding: 7px 13px;
+      border-radius: 20px;
+      font-size: 12px;
+      font-weight: bold;
+      margin-bottom: 18px;
     }
 
     .hero h1 {
-      font-size: 40px;
-      margin-bottom: 15px;
+      font-size: clamp(36px, 8vw, 64px);
+      line-height: 1.05;
+      margin-bottom: 20px;
     }
 
     .hero h1 span {
-      color: #19c37d;
+      color: #19d27e;
     }
 
     .hero p {
-      color: #b7c0c9;
+      color: #b5bec8;
       font-size: 17px;
-      margin-bottom: 25px;
+      margin-bottom: 28px;
     }
 
-    .button {
+    .hero-buttons a {
       display: inline-block;
-      background: #19c37d;
-      color: #06100b;
-      padding: 12px 22px;
-      border-radius: 7px;
       text-decoration: none;
+      padding: 13px 20px;
+      border-radius: 7px;
       font-weight: bold;
+      margin: 5px;
     }
 
+    .primary {
+      background: #19d27e;
+      color: #06100b;
+    }
+
+    .secondary {
+      border: 1px solid #3a4652;
+      color: white;
+    }
+
+    /* SECTIONS */
     section {
-      padding: 40px 20px;
-      max-width: 1100px;
+      max-width: 1150px;
       margin: auto;
+      padding: 55px 20px;
     }
 
-    section h2 {
-      margin-bottom: 25px;
+    .section-heading {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 22px;
+    }
+
+    .section-heading h2 {
       font-size: 25px;
     }
 
+    .section-heading a {
+      color: #19d27e;
+      text-decoration: none;
+      font-size: 13px;
+    }
+
+    /* CARDS */
     .cards {
       display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
       gap: 18px;
     }
 
     .card {
-      background: #151c24;
-      padding: 22px;
+      background: #111821;
+      border: 1px solid #202b36;
+      border-radius: 12px;
+      overflow: hidden;
+      transition: transform 0.2s;
+    }
+
+    .card:hover {
+      transform: translateY(-4px);
+    }
+
+    .thumbnail {
+      height: 145px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: linear-gradient(135deg, #17392b, #101720);
+      font-size: 42px;
+    }
+
+    .card-content {
+      padding: 17px;
+    }
+
+    .card-content h3 {
+      font-size: 17px;
+      margin-bottom: 7px;
+    }
+
+    .card-content p {
+      color: #929da8;
+      font-size: 13px;
+    }
+
+    .watch {
+      display: inline-block;
+      margin-top: 13px;
+      color: #19d27e;
+      text-decoration: none;
+      font-size: 13px;
+      font-weight: bold;
+    }
+
+    /* NEWS */
+    .news-item {
+      background: #111821;
+      border: 1px solid #202b36;
+      padding: 18px;
       border-radius: 10px;
-      border: 1px solid #222c36;
+      margin-bottom: 12px;
     }
 
-    .card h3 {
-      margin-bottom: 10px;
+    .news-item small {
+      color: #19d27e;
     }
 
-    .card p {
-      color: #aeb7c0;
-      line-height: 1.5;
+    .news-item h3 {
+      margin: 5px 0;
+      font-size: 17px;
     }
 
-    footer {
+    .news-item p {
+      color: #929da8;
+      font-size: 13px;
+    }
+
+    /* FIXTURES */
+    .fixture {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background: #111821;
+      border: 1px solid #202b36;
+      padding: 18px;
+      border-radius: 10px;
+      margin-bottom: 12px;
+    }
+
+    .team {
+      width: 35%;
+      font-weight: bold;
+    }
+
+    .team:last-child {
+      text-align: right;
+    }
+
+    .time {
+      color: #19d27e;
+      font-weight: bold;
       text-align: center;
-      padding: 25px;
-      background: #111820;
-      color: #89939d;
-      margin-top: 30px;
     }
 
-    @media (max-width: 600px) {
+    /* FOOTER */
+    footer {
+      background: #0d131b;
+      border-top: 1px solid #202a35;
+      padding: 35px 20px;
+      text-align: center;
+    }
+
+    footer .footer-logo {
+      font-size: 20px;
+      font-weight: bold;
+      margin-bottom: 8px;
+    }
+
+    footer span {
+      color: #19d27e;
+    }
+
+    footer p {
+      color: #7f8994;
+      font-size: 13px;
+    }
+
+    /* MOBILE */
+    @media (max-width: 650px) {
       header {
         flex-direction: column;
         gap: 12px;
       }
 
       nav a {
-        margin: 0 6px;
+        margin: 0 5px;
       }
 
-      .hero h1 {
-        font-size: 32px;
+      .hero {
+        min-height: 480px;
+      }
+
+      .hero p {
+        font-size: 15px;
+      }
+
+      section {
+        padding: 42px 16px;
+      }
+
+      .section-heading h2 {
+        font-size: 21px;
       }
     }
   </style>
@@ -137,8 +300,11 @@
 
 <body>
 
+  <!-- HEADER -->
   <header>
-    <div class="logo">Trebz <span>Football</span></div>
+    <div class="logo">
+      Trebz <span>Football</span>
+    </div>
 
     <nav>
       <a href="#home">Home</a>
@@ -148,73 +314,170 @@
     </nav>
   </header>
 
-  <section class="hero" id="home">
-    <h1>Welcome to <span>Trebz Football Hub</span></h1>
+
+  <!-- HERO -->
+  <div class="hero" id="home">
+    <div class="hero-content">
+
+      <div class="tag">⚽ THE HOME OF FOOTBALL</div>
+
+      <h1>
+        Football.<br>
+        <span>Passion. Action.</span>
+      </h1>
+
+      <p>
+        Welcome to Trebz Football Hub — your destination for
+        football highlights, news, fixtures and unforgettable moments.
+      </p>
+
+      <div class="hero-buttons">
+        <a href="#highlights" class="primary">
+          Watch Highlights
+        </a>
+
+        <a href="#fixtures" class="secondary">
+          View Fixtures
+        </a>
+      </div>
+
+    </div>
+  </div>
+
+
+  <!-- HIGHLIGHTS -->
+  <section id="highlights">
+
+    <div class="section-heading">
+      <h2>🔥 Latest Highlights</h2>
+      <a href="#">View all</a>
+    </div>
+
+    <div class="cards">
+
+      <div class="card">
+        <div class="thumbnail">⚽</div>
+
+        <div class="card-content">
+          <h3>Match Highlights</h3>
+
+          <p>
+            Catch the biggest moments from football matches around the world.
+          </p>
+
+          <a href="#" class="watch">▶ Watch now</a>
+        </div>
+      </div>
+
+
+      <div class="card">
+        <div class="thumbnail">🔥</div>
+
+        <div class="card-content">
+          <h3>Top Goals</h3>
+
+          <p>
+            Discover amazing goals and unforgettable football moments.
+          </p>
+
+          <a href="#" class="watch">▶ Watch now</a>
+        </div>
+      </div>
+
+
+      <div class="card">
+        <div class="thumbnail">🏆</div>
+
+        <div class="card-content">
+          <h3>Big Match Moments</h3>
+
+          <p>
+            Relive the moments that made football history.
+          </p>
+
+          <a href="#" class="watch">▶ Watch now</a>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- NEWS -->
+  <section id="news">
+
+    <div class="section-heading">
+      <h2>📰 Football News</h2>
+      <a href="#">More news</a>
+    </div>
+
+    <div class="news-item">
+      <small>FOOTBALL NEWS</small>
+      <h3>Latest football stories and updates</h3>
+      <p>
+        Stay informed about the biggest stories happening in football.
+      </p>
+    </div>
+
+    <div class="news-item">
+      <small>TRANSFERS</small>
+      <h3>Transfer news and rumours</h3>
+      <p>
+        Follow the latest transfer developments from around the football world.
+      </p>
+    </div>
+
+  </section>
+
+
+  <!-- FIXTURES -->
+  <section id="fixtures">
+
+    <div class="section-heading">
+      <h2>📅 Upcoming Fixtures</h2>
+    </div>
+
+    <div class="fixture">
+      <div class="team">Team A</div>
+
+      <div class="time">
+        VS<br>
+        <small>20:00</small>
+      </div>
+
+      <div class="team">Team B</div>
+    </div>
+
+    <div class="fixture">
+      <div class="team">Team C</div>
+
+      <div class="time">
+        VS<br>
+        <small>18:30</small>
+      </div>
+
+      <div class="team">Team D</div>
+    </div>
+
+  </section>
+
+
+  <!-- FOOTER -->
+  <footer>
+
+    <div class="footer-logo">
+      Trebz <span>Football Hub</span>
+    </div>
 
     <p>
-      Your home for football highlights, news, fixtures and the latest
-      football action.
+      Football highlights, news, fixtures and more.
     </p>
 
-    <a href="#highlights" class="button">Explore Highlights</a>
-  </section>
+    <p style="margin-top:12px;">
+      © 2026 Trebz Football Hub
+    </p>
 
-  <section id="highlights">
-    <h2>🔥 Latest Highlights</h2>
-
-    <div class="cards">
-      <div class="card">
-        <h3>Match Highlights</h3>
-        <p>Watch the biggest moments from today's football matches.</p>
-      </div>
-
-      <div class="card">
-        <h3>Top Goals</h3>
-        <p>Discover the best goals and unforgettable football moments.</p>
-      </div>
-
-      <div class="card">
-        <h3>Trending Moments</h3>
-        <p>Stay updated with the football moments everyone is talking about.</p>
-      </div>
-    </div>
-  </section>
-
-  <section id="news">
-    <h2>📰 Football News</h2>
-
-    <div class="cards">
-      <div class="card">
-        <h3>Latest Football News</h3>
-        <p>Breaking stories, transfers and important football updates.</p>
-      </div>
-
-      <div class="card">
-        <h3>Transfer News</h3>
-        <p>Follow the latest transfer rumours and confirmed moves.</p>
-      </div>
-    </div>
-  </section>
-
-  <section id="fixtures">
-    <h2>📅 Upcoming Fixtures</h2>
-
-    <div class="cards">
-      <div class="card">
-        <h3>Coming Soon</h3>
-        <p>Fixtures and match information will appear here.</p>
-      </div>
-
-      <div class="card">
-        <h3>Match Results</h3>
-        <p>We'll add live results and completed match results later.</p>
-      </div>
-    </div>
-  </section>
-
-  <footer>
-    <p>© 2026 Trebz Football Hub. All rights reserved.</p>
   </footer>
 
 </body>
-</html>
+  </html>
