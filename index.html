@@ -19,170 +19,239 @@
 
     body {
       font-family: Arial, sans-serif;
-      background: #080c12;
-      color: #ffffff;
+      background: #070b10;
+      color: white;
       line-height: 1.5;
     }
 
     /* HEADER */
+
     header {
-      background: #0d131b;
-      border-bottom: 1px solid #202a35;
-      padding: 15px 20px;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
+      background: #0c1219;
+      border-bottom: 1px solid #202a34;
+      padding: 17px 20px;
       position: sticky;
       top: 0;
       z-index: 100;
     }
 
+    .header-inner {
+      max-width: 1150px;
+      margin: auto;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
     .logo {
-      font-size: 21px;
+      font-size: 22px;
       font-weight: 800;
     }
 
     .logo span {
-      color: #19d27e;
+      color: #18d27c;
     }
 
     nav a {
-      color: #c9d0d8;
+      color: #c8d0d8;
       text-decoration: none;
-      margin-left: 14px;
-      font-size: 13px;
+      margin-left: 18px;
+      font-size: 14px;
     }
 
     nav a:hover {
-      color: #19d27e;
+      color: #18d27c;
     }
 
     /* HERO */
+
     .hero {
-      min-height: 520px;
+      min-height: 500px;
       display: flex;
       align-items: center;
       justify-content: center;
       text-align: center;
       padding: 70px 20px;
+
       background:
-        linear-gradient(rgba(4, 8, 13, 0.82), rgba(4, 8, 13, 0.92)),
-        radial-gradient(circle at center, #173b2c, #080c12 65%);
+        radial-gradient(circle at 50% 35%, #17462f 0%, #0a1110 35%, #070b10 70%);
     }
 
     .hero-content {
-      max-width: 750px;
+      max-width: 780px;
     }
 
-    .tag {
+    .badge {
       display: inline-block;
-      background: #123e2b;
+      padding: 8px 15px;
+      border-radius: 30px;
+      background: #123c2a;
       color: #19d27e;
-      padding: 7px 13px;
-      border-radius: 20px;
       font-size: 12px;
       font-weight: bold;
-      margin-bottom: 18px;
+      margin-bottom: 20px;
     }
 
     .hero h1 {
-      font-size: clamp(36px, 8vw, 64px);
+      font-size: clamp(38px, 9vw, 68px);
       line-height: 1.05;
       margin-bottom: 20px;
     }
 
-    .hero h1 span {
+    .green {
       color: #19d27e;
     }
 
     .hero p {
-      color: #b5bec8;
+      color: #aeb8c2;
       font-size: 17px;
       margin-bottom: 28px;
     }
 
-    .hero-buttons a {
+    .buttons a {
       display: inline-block;
+      padding: 14px 21px;
+      border-radius: 8px;
       text-decoration: none;
-      padding: 13px 20px;
-      border-radius: 7px;
       font-weight: bold;
       margin: 5px;
     }
 
     .primary {
       background: #19d27e;
-      color: #06100b;
+      color: #061009;
     }
 
     .secondary {
-      border: 1px solid #3a4652;
+      border: 1px solid #35414d;
       color: white;
     }
 
-    /* SECTIONS */
+    /* GENERAL */
+
     section {
       max-width: 1150px;
       margin: auto;
       padding: 55px 20px;
     }
 
-    .section-heading {
+    .heading {
       display: flex;
       justify-content: space-between;
       align-items: center;
-      margin-bottom: 22px;
+      margin-bottom: 23px;
     }
 
-    .section-heading h2 {
+    .heading h2 {
       font-size: 25px;
     }
 
-    .section-heading a {
+    .heading a {
       color: #19d27e;
       text-decoration: none;
       font-size: 13px;
     }
 
-    /* CARDS */
+    /* CATEGORY BUTTONS */
+
+    .categories {
+      display: flex;
+      gap: 10px;
+      overflow-x: auto;
+      padding-bottom: 8px;
+      margin-bottom: 25px;
+    }
+
+    .category {
+      white-space: nowrap;
+      border: 1px solid #2b3742;
+      background: #101720;
+      color: #c9d0d7;
+      padding: 9px 15px;
+      border-radius: 20px;
+      font-size: 13px;
+    }
+
+    .category.active {
+      background: #19d27e;
+      color: #061009;
+      border-color: #19d27e;
+      font-weight: bold;
+    }
+
+    /* HIGHLIGHT CARDS */
+
     .cards {
       display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+      grid-template-columns: repeat(auto-fit, minmax(245px, 1fr));
       gap: 18px;
     }
 
     .card {
-      background: #111821;
-      border: 1px solid #202b36;
-      border-radius: 12px;
+      background: #101720;
+      border: 1px solid #202c37;
+      border-radius: 13px;
       overflow: hidden;
-      transition: transform 0.2s;
-    }
-
-    .card:hover {
-      transform: translateY(-4px);
     }
 
     .thumbnail {
-      height: 145px;
+      height: 165px;
       display: flex;
-      align-items: center;
       justify-content: center;
-      background: linear-gradient(135deg, #17392b, #101720);
-      font-size: 42px;
+      align-items: center;
+      position: relative;
+
+      background:
+        radial-gradient(circle at center, #245c40, #10251c 45%, #0b1117);
+    }
+
+    .ball {
+      font-size: 55px;
+    }
+
+    .play {
+      position: absolute;
+      bottom: 12px;
+      left: 12px;
+      width: 42px;
+      height: 42px;
+      border-radius: 50%;
+      background: #19d27e;
+      color: #061009;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-weight: bold;
+    }
+
+    .duration {
+      position: absolute;
+      bottom: 12px;
+      right: 12px;
+      background: #05080b;
+      padding: 4px 7px;
+      border-radius: 4px;
+      font-size: 11px;
     }
 
     .card-content {
       padding: 17px;
     }
 
-    .card-content h3 {
+    .competition {
+      color: #19d27e;
+      font-size: 11px;
+      font-weight: bold;
+      margin-bottom: 7px;
+    }
+
+    .card h3 {
       font-size: 17px;
       margin-bottom: 7px;
     }
 
-    .card-content p {
-      color: #929da8;
+    .card p {
+      color: #8f9aa5;
       font-size: 13px;
     }
 
@@ -195,10 +264,48 @@
       font-weight: bold;
     }
 
+    /* FEATURED */
+
+    .featured {
+      background: linear-gradient(135deg, #10281e, #0d151d);
+      border: 1px solid #244333;
+      border-radius: 15px;
+      padding: 25px;
+      margin-bottom: 25px;
+    }
+
+    .featured small {
+      color: #19d27e;
+      font-weight: bold;
+    }
+
+    .featured h2 {
+      font-size: 28px;
+      margin: 8px 0;
+    }
+
+    .featured p {
+      color: #a6b0ba;
+      max-width: 650px;
+      font-size: 14px;
+    }
+
+    .featured-button {
+      display: inline-block;
+      margin-top: 18px;
+      background: #19d27e;
+      color: #061009;
+      padding: 11px 18px;
+      border-radius: 7px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
     /* NEWS */
+
     .news-item {
-      background: #111821;
-      border: 1px solid #202b36;
+      background: #101720;
+      border: 1px solid #202c37;
       padding: 18px;
       border-radius: 10px;
       margin-bottom: 12px;
@@ -206,6 +313,8 @@
 
     .news-item small {
       color: #19d27e;
+      font-size: 11px;
+      font-weight: bold;
     }
 
     .news-item h3 {
@@ -214,18 +323,19 @@
     }
 
     .news-item p {
-      color: #929da8;
+      color: #929ca7;
       font-size: 13px;
     }
 
     /* FIXTURES */
+
     .fixture {
       display: flex;
       justify-content: space-between;
       align-items: center;
-      background: #111821;
-      border: 1px solid #202b36;
-      padding: 18px;
+      background: #101720;
+      border: 1px solid #202c37;
+      padding: 19px;
       border-radius: 10px;
       margin-bottom: 12px;
     }
@@ -239,24 +349,23 @@
       text-align: right;
     }
 
-    .time {
+    .match-time {
       color: #19d27e;
-      font-weight: bold;
       text-align: center;
+      font-weight: bold;
     }
 
     /* FOOTER */
+
     footer {
-      background: #0d131b;
-      border-top: 1px solid #202a35;
-      padding: 35px 20px;
+      background: #0c1219;
+      border-top: 1px solid #202a34;
       text-align: center;
+      padding: 35px 20px;
     }
 
-    footer .footer-logo {
-      font-size: 20px;
-      font-weight: bold;
-      margin-bottom: 8px;
+    footer h3 {
+      margin-bottom: 7px;
     }
 
     footer span {
@@ -264,23 +373,25 @@
     }
 
     footer p {
-      color: #7f8994;
+      color: #7e8994;
       font-size: 13px;
     }
 
     /* MOBILE */
+
     @media (max-width: 650px) {
-      header {
+
+      .header-inner {
         flex-direction: column;
         gap: 12px;
       }
 
       nav a {
-        margin: 0 5px;
+        margin: 0 6px;
       }
 
       .hero {
-        min-height: 480px;
+        min-height: 470px;
       }
 
       .hero p {
@@ -288,10 +399,10 @@
       }
 
       section {
-        padding: 42px 16px;
+        padding: 43px 16px;
       }
 
-      .section-heading h2 {
+      .heading h2 {
         font-size: 21px;
       }
     }
@@ -301,173 +412,344 @@
 <body>
 
   <!-- HEADER -->
+
   <header>
-    <div class="logo">
-      Trebz <span>Football</span>
+
+    <div class="header-inner">
+
+      <div class="logo">
+        Trebz <span>Football</span>
+      </div>
+
+      <nav>
+        <a href="#home">Home</a>
+        <a href="#highlights">Highlights</a>
+        <a href="#news">News</a>
+        <a href="#fixtures">Fixtures</a>
+      </nav>
+
     </div>
 
-    <nav>
-      <a href="#home">Home</a>
-      <a href="#highlights">Highlights</a>
-      <a href="#news">News</a>
-      <a href="#fixtures">Fixtures</a>
-    </nav>
   </header>
 
 
   <!-- HERO -->
+
   <div class="hero" id="home">
+
     <div class="hero-content">
 
-      <div class="tag">⚽ THE HOME OF FOOTBALL</div>
+      <div class="badge">
+        ⚽ THE HOME OF FOOTBALL
+      </div>
 
       <h1>
         Football.<br>
-        <span>Passion. Action.</span>
+        <span class="green">Passion. Action.</span>
       </h1>
 
       <p>
-        Welcome to Trebz Football Hub — your destination for
-        football highlights, news, fixtures and unforgettable moments.
+        Discover football highlights, trending moments,
+        breaking news and upcoming matches all in one place.
       </p>
 
-      <div class="hero-buttons">
+      <div class="buttons">
+
         <a href="#highlights" class="primary">
-          Watch Highlights
+          ▶ Watch Highlights
         </a>
 
         <a href="#fixtures" class="secondary">
           View Fixtures
         </a>
+
       </div>
 
     </div>
+
   </div>
 
 
   <!-- HIGHLIGHTS -->
+
   <section id="highlights">
 
-    <div class="section-heading">
+    <div class="heading">
+
       <h2>🔥 Latest Highlights</h2>
-      <a href="#">View all</a>
+
+      <a href="#">View all →</a>
+
     </div>
+
+
+    <div class="categories">
+
+      <div class="category active">All</div>
+
+      <div class="category">Premier League</div>
+
+      <div class="category">Champions League</div>
+
+      <div class="category">La Liga</div>
+
+      <div class="category">World Cup</div>
+
+    </div>
+
+
+    <!-- FEATURED -->
+
+    <div class="featured">
+
+      <small>⭐ FEATURED MOMENT</small>
+
+      <h2>Today's Biggest Football Moments</h2>
+
+      <p>
+        Stay connected to the biggest goals, dramatic moments
+        and unforgettable action from the world of football.
+      </p>
+
+      <a href="#" class="featured-button">
+        Explore Highlights
+      </a>
+
+    </div>
+
+
+    <!-- CARDS -->
 
     <div class="cards">
 
       <div class="card">
-        <div class="thumbnail">⚽</div>
+
+        <div class="thumbnail">
+
+          <div class="ball">⚽</div>
+
+          <div class="play">▶</div>
+
+          <div class="duration">03:42</div>
+
+        </div>
 
         <div class="card-content">
-          <h3>Match Highlights</h3>
+
+          <div class="competition">
+            PREMIER LEAGUE
+          </div>
+
+          <h3>
+            Match Highlights
+          </h3>
 
           <p>
-            Catch the biggest moments from football matches around the world.
+            Watch the biggest moments from today's match.
           </p>
 
-          <a href="#" class="watch">▶ Watch now</a>
+          <a href="#" class="watch">
+            ▶ Watch highlight
+          </a>
+
         </div>
+
       </div>
 
 
       <div class="card">
-        <div class="thumbnail">🔥</div>
+
+        <div class="thumbnail">
+
+          <div class="ball">🔥</div>
+
+          <div class="play">▶</div>
+
+          <div class="duration">02:18</div>
+
+        </div>
 
         <div class="card-content">
-          <h3>Top Goals</h3>
+
+          <div class="competition">
+            TOP GOALS
+          </div>
+
+          <h3>
+            Goal of the Day
+          </h3>
 
           <p>
-            Discover amazing goals and unforgettable football moments.
+            One of the most exciting goals of the day.
           </p>
 
-          <a href="#" class="watch">▶ Watch now</a>
+          <a href="#" class="watch">
+            ▶ Watch goal
+          </a>
+
         </div>
+
       </div>
 
 
       <div class="card">
-        <div class="thumbnail">🏆</div>
+
+        <div class="thumbnail">
+
+          <div class="ball">🏆</div>
+
+          <div class="play">▶</div>
+
+          <div class="duration">04:11</div>
+
+        </div>
 
         <div class="card-content">
-          <h3>Big Match Moments</h3>
+
+          <div class="competition">
+            CHAMPIONS LEAGUE
+          </div>
+
+          <h3>
+            Big Match Moments
+          </h3>
 
           <p>
-            Relive the moments that made football history.
+            Relive the moments that changed the game.
           </p>
 
-          <a href="#" class="watch">▶ Watch now</a>
+          <a href="#" class="watch">
+            ▶ Watch moments
+          </a>
+
         </div>
+
       </div>
+
 
     </div>
+
   </section>
 
 
   <!-- NEWS -->
+
   <section id="news">
 
-    <div class="section-heading">
-      <h2>📰 Football News</h2>
-      <a href="#">More news</a>
+    <div class="heading">
+
+      <h2>📰 Latest Football News</h2>
+
+      <a href="#">More →</a>
+
     </div>
 
+
     <div class="news-item">
+
       <small>FOOTBALL NEWS</small>
-      <h3>Latest football stories and updates</h3>
+
+      <h3>
+        Breaking football stories and updates
+      </h3>
+
       <p>
-        Stay informed about the biggest stories happening in football.
+        Get the latest stories from the football world.
       </p>
+
     </div>
 
+
     <div class="news-item">
+
       <small>TRANSFERS</small>
-      <h3>Transfer news and rumours</h3>
+
+      <h3>
+        Transfer news and rumours
+      </h3>
+
       <p>
-        Follow the latest transfer developments from around the football world.
+        Follow the latest transfer developments and rumours.
       </p>
+
+    </div>
+
+
+    <div class="news-item">
+
+      <small>WORLD FOOTBALL</small>
+
+      <h3>
+        What's happening around football?
+      </h3>
+
+      <p>
+        Discover important stories from leagues and competitions around the world.
+      </p>
+
     </div>
 
   </section>
 
 
   <!-- FIXTURES -->
+
   <section id="fixtures">
 
-    <div class="section-heading">
+    <div class="heading">
+
       <h2>📅 Upcoming Fixtures</h2>
+
+      <a href="#">View all →</a>
+
     </div>
 
-    <div class="fixture">
-      <div class="team">Team A</div>
 
-      <div class="time">
+    <div class="fixture">
+
+      <div class="team">
+        Team A
+      </div>
+
+      <div class="match-time">
         VS<br>
         <small>20:00</small>
       </div>
 
-      <div class="team">Team B</div>
+      <div class="team">
+        Team B
+      </div>
+
     </div>
 
-    <div class="fixture">
-      <div class="team">Team C</div>
 
-      <div class="time">
+    <div class="fixture">
+
+      <div class="team">
+        Team C
+      </div>
+
+      <div class="match-time">
         VS<br>
         <small>18:30</small>
       </div>
 
-      <div class="team">Team D</div>
+      <div class="team">
+        Team D
+      </div>
+
     </div>
 
   </section>
 
 
   <!-- FOOTER -->
+
   <footer>
 
-    <div class="footer-logo">
+    <h3>
       Trebz <span>Football Hub</span>
-    </div>
+    </h3>
 
     <p>
       Football highlights, news, fixtures and more.
@@ -478,6 +760,7 @@
     </p>
 
   </footer>
+
 
 </body>
   </html>
