@@ -366,99 +366,125 @@
 
 
 <script>
+const params = new URLSearchParams(window.location.search);
+const league = params.get("league") || "premier-league";
 
-    const leagues = {
+const leagues = {
+    "premier-league": {
+        name: "Premier League",
+        logo: "PL",
+        desc: "England's top flight"
+    },
+    "la-liga": {
+        name: "La Liga",
+        logo: "LL",
+        desc: "Spain's top flight"
+    },
+    "serie-a": {
+        name: "Serie A",
+        logo: "SA",
+        desc: "Italy's top flight"
+    },
+    "bundesliga": {
+        name: "Bundesliga",
+        logo: "BL",
+        desc: "Germany's top flight"
+    },
+    "ligue-1": {
+        name: "Ligue 1",
+        logo: "L1",
+        desc: "France's top flight"
+    },
+    "eredivisie": {
+        name: "Eredivisie",
+        logo: "ED",
+        desc: "Netherlands' top flight"
+    },
+    "primeira-liga": {
+        name: "Primeira Liga",
+        logo: "PT",
+        desc: "Portugal's top flight"
+    },
+    "super-lig": {
+        name: "Süper Lig",
+        logo: "SL",
+        desc: "Turkey's top flight"
+    },
+    "champions-league": {
+        name: "Champions League",
+        logo: "UCL",
+        desc: "Europe's elite club competition"
+    },
+    "europa-league": {
+        name: "Europa League",
+        logo: "UEL",
+        desc: "Europe's second-tier competition"
+    },
+    "afcon": {
+        name: "AFCON",
+        logo: "AF",
+        desc: "Africa's premier national team competition"
+    },
+    "world-cup": {
+        name: "World Cup",
+        logo: "WC",
+        desc: "Football's biggest international tournament"
+    }
+};
 
-        "premier-league": {
-            logo: "PL",
-            name: "Premier League",
-            desc: "England's top flight"
-        },
+const data = leagues[league] || leagues["premier-league"];
 
-        "la-liga": {
-            logo: "LL",
-            name: "La Liga",
-            desc: "Spain's top flight"
-        },
+document.getElementById("leagueLogo").textContent = data.logo;
+document.getElementById("leagueName").textContent = data.name;
+document.getElementById("leagueDesc").textContent = data.desc;
 
-        "serie-a": {
-            logo: "SA",
-            name: "Serie A",
-            desc: "Italy's top flight"
-        },
+document.title = data.name + " Standings | Trebz Football";
 
-        "bundesliga": {
-            logo: "BL",
-            name: "Bundesliga",
-            desc: "Germany's top flight"
-        },
+async function loadStandings() {
+    const table = document.getElementById("standingsTable");
 
-        "ligue-1": {
-            logo: "L1",
-            name: "Ligue 1",
-            desc: "France's top flight"
-        },
+    try {
+        const response = await fetch("standings.json");
 
-        "eredivisie": {
-            logo: "ED",
-            name: "Eredivisie",
-            desc: "Netherlands' top flight"
-        },
-
-        "primeira-liga": {
-            logo: "PL",
-            name: "Primeira Liga",
-            desc: "Portugal's top flight"
-        },
-
-        "super-lig": {
-            logo: "SL",
-            name: "Süper Lig",
-            desc: "Turkey's top flight"
-        },
-
-        "champions-league": {
-            logo: "UCL",
-            name: "Champions League",
-            desc: "Europe's elite club competition"
-        },
-
-        "europa-league": {
-            logo: "UEL",
-            name: "Europa League",
-            desc: "Europe's second-tier club competition"
-        },
-
-        "afcon": {
-            logo: "AF",
-            name: "AFCON",
-            desc: "Africa's premier national team competition"
-        },
-
-        "world-cup": {
-            logo: "WC",
-            name: "World Cup",
-            desc: "Football's biggest international tournament"
+        if (!response.ok) {
+            throw new Error("Could not load standings");
         }
 
-    };
+        const standings = await response.json();
 
+        table.innerHTML = "";
 
-    const params = new URLSearchParams(window.location.search);
+        standings.forEach(team => {
+            const row = document.createElement("tr");
 
-    const league = params.get("league") || "premier-league";
+            row.innerHTML = `
+                <td>${team.position}</td>
+                <td>${team.team}</td>
+                <td>${team.played}</td>
+                <td>${team.won}</td>
+                <td>${team.draw}</td>
+                <td>${team.lost}</td>
+                <td>${team.goalDifference}</td>
+                <td>${team.points}</td>
+            `;
 
-    const data = leagues[league] || leagues["premier-league"];
+            table.appendChild(row);
+        });
 
+    } catch (error) {
+        table.innerHTML = `
+            <tr>
+                <td colspan="8">
+                    Unable to load live standings.
+                </td>
+            </tr>
+        `;
 
-    document.getElementById("leagueLogo").textContent = data.logo;
+        console.error(error);
+    }
+}
 
-    document.getElementById("leagueName").textContent = data.name;
-
-    document.getElementById("leagueDesc").textContent = data.desc + " • Standings";
-
-    document.title = data.name + " Standings | Trebz Football";
-
+loadStandings();
 </script>
 
 </body>
