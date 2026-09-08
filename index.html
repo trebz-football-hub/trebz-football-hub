@@ -414,6 +414,28 @@
         font-size: 21px;
       }
     }
+    #leagues {
+  background: #0a1110;
+}
+
+.league-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 12px;
+  margin-top: 20px;
+}
+
+.league-card {
+  display: block;
+  padding: 16px 10px;
+  border: 1px solid #35414d;
+  border-radius: 10px;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  background: #111a18;
+}
   </style>
 </head>
 
@@ -477,7 +499,27 @@
 
   </div>
 
+<section id="leagues">
+  <div class="heading">
+    <h2>Explore Leagues</h2>
+    <p>Follow your favourite leagues and competitions.</p>
+  </div>
 
+  <div class="league-grid">
+    <a href="#" class="league-card">Premier League</a>
+    <a href="#" class="league-card">La Liga</a>
+    <a href="#" class="league-card">Serie A</a>
+    <a href="#" class="league-card">Bundesliga</a>
+    <a href="#" class="league-card">Ligue 1</a>
+    <a href="#" class="league-card">Eredivisie</a>
+    <a href="#" class="league-card">Primeira Liga</a>
+    <a href="#" class="league-card">Süper Lig</a>
+    <a href="#" class="league-card">Champions League</a>
+    <a href="#" class="league-card">Europa League</a>
+    <a href="#" class="league-card">AFCON</a>
+    <a href="#" class="league-card">World Cup</a>
+  </div>
+</section>
   <!-- HIGHLIGHTS -->
 
   <section id="highlights">
