@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>League | Trebz Football</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background: #080d12;
+            color: white;
+        }
+
+        header {
+            background: #0b1118;
+            padding: 25px 20px;
+            text-align: center;
+            border-bottom: 1px solid #1d2930;
+        }
+
+        header h1 {
+            font-size: 30px;
+        }
+
+        header h1 span {
+            color: #19d27e;
+        }
+
+        nav {
+            margin-top: 20px;
+        }
+
+        nav a {
+            color: #d8dde1;
+            text-decoration: none;
+            margin: 0 10px;
+            font-size: 16px;
+        }
+
+        nav a:hover {
+            color: #19d27e;
+        }
+
+        .league-hero {
+            text-align: center;
+            padding: 45px 20px;
+            background: #0c1414;
+        }
+
+        .league-badge {
+            width: 100px;
+            height: 100px;
+            margin: 0 auto 20px;
+            border: 3px solid #19d27e;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 32px;
+            font-weight: 900;
+            color: #19d27e;
+            background: #080d12;
+            box-shadow: 0 0 25px rgba(25, 210, 126, 0.4);
+        }
+
+        .league-hero h2 {
+            font-size: 32px;
+            margin-bottom: 10px;
+        }
+
+        .league-hero p {
+            color: #aeb7bd;
+            font-size: 16px;
+        }
+
+        .container {
+            width: 92%;
+            max-width: 900px;
+            margin: 30px auto;
+        }
+
+        .section-title {
+            font-size: 22px;
+            margin-bottom: 15px;
+        }
+
+        .feature-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 15px;
+        }
+
+        .feature-card {
+            background: #101918;
+            border: 1px solid #29383d;
+            border-radius: 12px;
+            padding: 25px 15px;
+            text-align: center;
+        }
+
+        .feature-card .icon {
+            font-size: 30px;
+            margin-bottom: 10px;
+        }
+
+        .feature-card h3 {
+            margin-bottom: 8px;
+        }
+
+        .feature-card p {
+            color: #9ca7ad;
+            font-size: 14px;
+        }
+
+        .back-button {
+            display: inline-block;
+            margin-top: 30px;
+            padding: 12px 20px;
+            border: 1px solid #19d27e;
+            border-radius: 25px;
+            color: #19d27e;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        footer {
+            text-align: center;
+            padding: 30px 15px;
+            margin-top: 50px;
+            background: #0b1118;
+            color: #7f8a90;
+        }
+
+        @media (max-width: 600px) {
+            .feature-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .league-hero h2 {
+                font-size: 27px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>Trebz <span>Football</span></h1>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="index.html#highlights">Highlights</a>
+        <a href="index.html#news">News</a>
+        <a href="index.html#fixtures">Fixtures</a>
+    </nav>
+</header>
+
+
+<section class="league-hero">
+
+    <div class="league-badge" id="leagueLogo">
+        PL
+    </div>
+
+    <h2 id="leagueName">
+        Premier League
+    </h2>
+
+    <p id="leagueDesc">
+        England's top flight
+    </p>
+
+</section>
+
+
+<div class="container">
+
+    <h2 class="section-title">
+        Explore League
+    </h2>
+
+    <div class="feature-grid">
+
+        <div class="feature-card">
+            <div class="icon">📅</div>
+            <h3>Fixtures</h3>
+            <p>Upcoming matches and results.</p>
+        </div>
+
+        <div class="feature-card">
+            <div class="icon">📊</div>
+            <h3>Standings</h3>
+            <p>League table and team positions.</p>
+        </div>
+
+        <div class="feature-card">
+            <div class="icon">📰</div>
+            <h3>News</h3>
+            <p>Latest news from the league.</p>
+        </div>
+
+        <div class="feature-card">
+            <div class="icon">🎥</div>
+            <h3>Highlights</h3>
+            <p>Latest match highlights.</p>
+        </div>
+
+    </div>
+
+
+    <a href="index.html" class="back-button">
+        ← Back to Leagues
+    </a>
+
+</div>
+
+
+<footer>
+    © 2026 Trebz Football. All rights reserved.
+</footer>
+
+
+<script>
+
+    const leagues = {
+
+        "premier-league": {
+            logo: "PL",
+            name: "Premier League",
+            desc: "England's top flight"
+        },
+
+        "la-liga": {
+            logo: "LL",
+            name: "La Liga",
+            desc: "Spain's top flight"
+        },
+
+        "serie-a": {
+            logo: "SA",
+            name: "Serie A",
+            desc: "Italy's top flight"
+        },
+
+        "bundesliga": {
+            logo: "BL",
+            name: "Bundesliga",
+            desc: "Germany's top flight"
+        },
+
+        "ligue-1": {
+            logo: "L1",
+            name: "Ligue 1",
+            desc: "France's top flight"
+        },
+
+        "eredivisie": {
+            logo: "ED",
+            name: "Eredivisie",
+            desc: "Netherlands' top flight"
+        },
+
+        "primeira-liga": {
+            logo: "PL",
+            name: "Primeira Liga",
+            desc: "Portugal's top flight"
+        },
+
+        "super-lig": {
+            logo: "SL",
+            name: "Süper Lig",
+            desc: "Turkey's top flight"
+        },
+
+        "champions-league": {
+            logo: "UCL",
+            name: "Champions League",
+            desc: "Europe's elite club competition"
+        },
+
+        "europa-league": {
+            logo: "UEL",
+            name: "Europa League",
+            desc: "Europe's second-tier club competition"
+        },
+
+        "afcon": {
+            logo: "AF",
+            name: "AFCON",
+            desc: "Africa's premier national team competition"
+        },
+
+        "world-cup": {
+            logo: "WC",
+            name: "World Cup",
+            desc: "Football's biggest international tournament"
+        }
+
+    };
+
+
+    const params = new URLSearchParams(window.location.search);
+
+    const league = params.get("league") || "premier-league";
+
+    const data = leagues[league] || leagues["premier-league"];
+
+
+    document.getElementById("leagueLogo").textContent = data.logo;
+
+    document.getElementById("leagueName").textContent = data.name;
+
+    document.getElementById("leagueDesc").textContent = data.desc;
+
+    document.title = data.name + " | Trebz Football";
+
+</script>
+
+</body>
+  </html>
