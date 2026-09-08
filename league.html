@@ -196,11 +196,11 @@
             <p>Upcoming matches and results.</p>
         </div>
 
-        <div class="feature-card">
-            <div class="icon">📊</div>
-            <h3>Standings</h3>
-            <p>League table and team positions.</p>
-        </div>
+        <a href="#" class="feature-card" id="standingsLink">
+    <div class="icon">📊</div>
+    <h3>Standings</h3>
+    <p>League table and team positions.</p>
+        </a>
 
         <div class="feature-card">
             <div class="icon">📰</div>
@@ -322,6 +322,9 @@
     document.getElementById("leagueDesc").textContent = data.desc;
 
     document.title = data.name + " | Trebz Football";
+    
+    document.getElementById("standingsLink").href =
+    "standings.html?league=" + league;
 
 </script>
 
