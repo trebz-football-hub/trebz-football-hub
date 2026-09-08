@@ -312,12 +312,18 @@
     /* NEWS */
 
     .news-item {
-      background: #101720;
-      border: 1px solid #202c37;
-      padding: 18px;
-      border-radius: 10px;
-      margin-bottom: 12px;
-    }
+  background: #101720;
+  border: 1px solid #35414d;
+  padding: 18px;
+  border-radius: 14px;
+  margin-bottom: 14px;
+  transition: transform 0.2s ease, border-color 0.2s ease;
+}
+
+.news-item:hover {
+  transform: translateY(-3px);
+  border-color: #19d27e;
+}
 
     .news-item small {
       color: #19d27e;
