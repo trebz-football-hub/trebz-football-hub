@@ -1,370 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <title>Standings | Trebz Football</title>
-
-    <style>
-        * {
-            box-sizing: border-box;
-            margin: 0;
-            padding: 0;
-        }
-
-        body {
-            font-family: Arial, sans-serif;
-            background: #080d12;
-            color: white;
-        }
-
-        header {
-            background: #0b1118;
-            padding: 25px 20px;
-            text-align: center;
-            border-bottom: 1px solid #1d2930;
-        }
-
-        header h1 {
-            font-size: 30px;
-        }
-
-        header h1 span {
-            color: #19d27e;
-        }
-
-        nav {
-            margin-top: 20px;
-        }
-
-        nav a {
-            color: #d8dde1;
-            text-decoration: none;
-            margin: 0 10px;
-        }
-
-        nav a:hover {
-            color: #19d27e;
-        }
-
-        .page-header {
-            text-align: center;
-            padding: 40px 20px 25px;
-        }
-
-        .badge {
-            width: 75px;
-            height: 75px;
-            margin: 0 auto 15px;
-            border: 2px solid #19d27e;
-            border-radius: 50%;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            color: #19d27e;
-            font-size: 25px;
-            font-weight: 900;
-            box-shadow: 0 0 20px rgba(25, 210, 126, 0.35);
-        }
-
-        .page-header h2 {
-            font-size: 30px;
-            margin-bottom: 8px;
-        }
-
-        .page-header p {
-            color: #9da8ae;
-        }
-
-        .container {
-            width: 94%;
-            max-width: 900px;
-            margin: 20px auto 50px;
-        }
-
-        .table-wrapper {
-            overflow-x: auto;
-            background: #101918;
-            border: 1px solid #29383d;
-            border-radius: 12px;
-        }
-
-        table {
-            width: 100%;
-            border-collapse: collapse;
-            min-width: 600px;
-        }
-
-        th {
-            background: #151f1f;
-            color: #19d27e;
-            padding: 15px 10px;
-            text-align: center;
-            font-size: 13px;
-        }
-
-        th:nth-child(2) {
-            text-align: left;
-        }
-
-        td {
-            padding: 15px 10px;
-            border-top: 1px solid #243033;
-            text-align: center;
-            font-size: 14px;
-        }
-
-        td:nth-child(2) {
-            text-align: left;
-            font-weight: bold;
-        }
-
-        tr:hover {
-            background: #14201e;
-        }
-
-        .position {
-            font-weight: bold;
-            color: #9da8ae;
-        }
-
-        .team {
-            color: white;
-        }
-
-        .points {
-            color: #19d27e;
-            font-weight: bold;
-        }
-
-        .back-button {
-            display: inline-block;
-            margin-top: 25px;
-            padding: 12px 20px;
-            border: 1px solid #19d27e;
-            border-radius: 25px;
-            color: #19d27e;
-            text-decoration: none;
-            font-weight: bold;
-        }
-
-        footer {
-            text-align: center;
-            padding: 30px 15px;
-            background: #0b1118;
-            color: #7f8a90;
-        }
-    </style>
-</head>
-
-<body>
-
-<header>
-
-    <h1>Trebz <span>Football</span></h1>
-
-    <nav>
-        <a href="index.html">Home</a>
-        <a href="index.html#highlights">Highlights</a>
-        <a href="index.html#news">News</a>
-        <a href="index.html#fixtures">Fixtures</a>
-    </nav>
-
-</header>
-
-
-<section class="page-header">
-
-    <div class="badge" id="leagueLogo">PL</div>
-
-    <h2 id="leagueName">Premier League</h2>
-
-    <p id="leagueDesc">League Standings</p>
-
-</section>
-
-
-<div class="container">
-
-    <div class="table-wrapper">
-
-        <table>
-
-            <thead>
-                <tr>
-                    <th>POS</th>
-                    <th>TEAM</th>
-                    <th>P</th>
-                    <th>W</th>
-                    <th>D</th>
-                    <th>L</th>
-                    <th>GD</th>
-                    <th>PTS</th>
-                </tr>
-            </thead>
-
-            <tbody id="standingsTable">
-
-    <tr>
-        <td class="position">1</td>
-        <td class="team">AFC Bournemouth</td>
-        <td>0</td><td>0</td><td>0</td><td>0</td><td>0</td>
-        <td class="points">0</td>
-    </tr>
-
-    <tr>
-        <td class="position">2</td>
-        <td class="team">Arsenal</td>
-        <td>0</td><td>0</td><td>0</td><td>0</td><td>0</td>
-        <td class="points">0</td>
-    </tr>
-
-    <tr>
-        <td class="position">3</td>
-        <td class="team">Aston Villa</td>
-        <td>0</td><td>0</td><td>0</td><td>0</td><td>0</td>
-        <td class="points">0</td>
-    </tr>
-
-    <tr>
-        <td class="position">4</td>
-        <td class="team">Brentford</td>
-        <td>0</td><td>0</td><td>0</td><td>0</td><td>0</td>
-        <td class="points">0</td>
-    </tr>
-
-    <tr>
-        <td class="position">5</td>
-        <td class="team">Brighton &amp; Hove Albion</td>
-        <td>0</td><td>0</td><td>0</td><td>0</td><td>0</td>
-        <td class="points">0</td>
-    </tr>
-
-    <tr>
-        <td class="position">6</td>
-        <td class="team">Chelsea</td>
-        <td>0</td><td>0</td><td>0</td><td>0</td><td>0</td>
-        <td class="points">0</td>
-    </tr>
-
-    <tr>
-        <td class="position">7</td>
-        <td class="team">Coventry City</td>
-        <td>0</td><td>0</td><td>0</td><td>0</td><td>0</td>
-        <td class="points">0</td>
-    </tr>
-
-    <tr>
-        <td class="position">8</td>
-        <td class="team">Crystal Palace</td>
-        <td>0</td><td>0</td><td>0</td><td>0</td><td>0</td>
-        <td class="points">0</td>
-    </tr>
-
-    <tr>
-        <td class="position">9</td>
-        <td class="team">Everton</td>
-        <td>0</td><td>0</td><td>0</td><td>0</td><td>0</td>
-        <td class="points">0</td>
-    </tr>
-
-    <tr>
-        <td class="position">10</td>
-        <td class="team">Fulham</td>
-        <td>0</td><td>0</td><td>0</td><td>0</td><td>0</td>
-        <td class="points">0</td>
-    </tr>
-
-    <tr>
-        <td class="position">11</td>
-        <td class="team">Hull City</td>
-        <td>0</td><td>0</td><td>0</td><td>0</td><td>0</td>
-        <td class="points">0</td>
-    </tr>
-
-    <tr>
-        <td class="position">12</td>
-        <td class="team">Ipswich Town</td>
-        <td>0</td><td>0</td><td>0</td><td>0</td><td>0</td>
-        <td class="points">0</td>
-    </tr>
-
-    <tr>
-        <td class="position">13</td>
-        <td class="team">Leeds United</td>
-        <td>0</td><td>0</td><td>0</td><td>0</td><td>0</td>
-        <td class="points">0</td>
-    </tr>
-
-    <tr>
-        <td class="position">14</td>
-        <td class="team">Liverpool</td>
-        <td>0</td><td>0</td><td>0</td><td>0</td><td>0</td>
-        <td class="points">0</td>
-    </tr>
-
-    <tr>
-        <td class="position">15</td>
-        <td class="team">Manchester City</td>
-        <td>0</td><td>0</td><td>0</td><td>0</td><td>0</td>
-        <td class="points">0</td>
-    </tr>
-
-    <tr>
-        <td class="position">16</td>
-        <td class="team">Manchester United</td>
-        <td>0</td><td>0</td><td>0</td><td>0</td><td>0</td>
-        <td class="points">0</td>
-    </tr>
-
-    <tr>
-        <td class="position">17</td>
-        <td class="team">Newcastle United</td>
-        <td>0</td><td>0</td><td>0</td><td>0</td><td>0</td>
-        <td class="points">0</td>
-    </tr>
-
-    <tr>
-        <td class="position">18</td>
-        <td class="team">Nottingham Forest</td>
-        <td>0</td><td>0</td><td>0</td><td>0</td><td>0</td>
-        <td class="points">0</td>
-    </tr>
-
-    <tr>
-        <td class="position">19</td>
-        <td class="team">Sunderland</td>
-        <td>0</td><td>0</td><td>0</td><td>0</td><td>0</td>
-        <td class="points">0</td>
-    </tr>
-
-    <tr>
-        <td class="position">20</td>
-        <td class="team">Tottenham Hotspur</td>
-        <td>0</td><td>0</td><td>0</td><td>0</td><td>0</td>
-        <td class="points">0</td>
-    </tr>
-
-    </tbody>
-
-        </table>
-
-    </div>
-
-
-    <a href="index.html" class="back-button">
-        ← Back to Home
-    </a>
-
-</div>
-
-
-<footer>
-    © 2026 Trebz Football. All rights reserved.
-</footer>
-
-
 <script>
 const params = new URLSearchParams(window.location.search);
 const league = params.get("league") || "premier-league";
@@ -405,30 +38,15 @@ const leagues = {
         logo: "PT",
         desc: "Portugal's top flight"
     },
-    "super-lig": {
-        name: "Süper Lig",
-        logo: "SL",
-        desc: "Turkey's top flight"
+    "brazil-serie-a": {
+        name: "Brasileirão Série A",
+        logo: "BSA",
+        desc: "Brazil's top flight"
     },
-    "champions-league": {
-        name: "Champions League",
-        logo: "UCL",
-        desc: "Europe's elite club competition"
-    },
-    "europa-league": {
-        name: "Europa League",
-        logo: "UEL",
-        desc: "Europe's second-tier competition"
-    },
-    "afcon": {
-        name: "AFCON",
-        logo: "AF",
-        desc: "Africa's premier national team competition"
-    },
-    "world-cup": {
-        name: "World Cup",
-        logo: "WC",
-        desc: "Football's biggest international tournament"
+    "championship": {
+        name: "Championship",
+        logo: "ELC",
+        desc: "England's second tier"
     }
 };
 
@@ -436,21 +54,23 @@ const data = leagues[league] || leagues["premier-league"];
 
 document.getElementById("leagueLogo").textContent = data.logo;
 document.getElementById("leagueName").textContent = data.name;
-document.getElementById("leagueDesc").textContent = data.desc;
-
-document.title = data.name + " Standings | Trebz Football";
 
 async function loadStandings() {
     const table = document.getElementById("standingsTable");
 
     try {
-        const response = await fetch("standings.json");
+        const response = await fetch("standings.json?time=" + Date.now());
 
         if (!response.ok) {
             throw new Error("Could not load standings");
         }
 
-        const standings = await response.json();
+        const allStandings = await response.json();
+        const standings = allStandings[league];
+
+        if (!standings) {
+            throw new Error("No standings available");
+        }
 
         table.innerHTML = "";
 
@@ -475,7 +95,7 @@ async function loadStandings() {
         table.innerHTML = `
             <tr>
                 <td colspan="8">
-                    Unable to load live standings.
+                    Unable to load standings.
                 </td>
             </tr>
         `;
