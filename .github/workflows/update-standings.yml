@@ -16,7 +16,7 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Get Premier League standings
+      - name: Get league standings
         env:
           FOOTBALL_DATA_TOKEN: ${{ secrets.FOOTBALL_DATA_TOKEN }}
         run: |
@@ -25,38 +25,62 @@ jobs:
           import os
           import urllib.request
 
-          url = "https://api.football-data.org/v4/competitions/PL/standings"
+          leagues = {
+              "premier-league": "PL",
+              "bundesliga": "BL1",
+              "eredivisie": "DED",
+              "la-liga": "PD",
+              "ligue-1": "FL1",
+              "serie-a": "SA",
+              "primeira-liga": "PPL",
+              "brazil-serie-a": "BSA",
+              "championship": "ELC"
+          }
 
-          request = urllib.request.Request(
-              url,
-              headers={
-                  "X-Auth-Token": os.environ["FOOTBALL_DATA_TOKEN"]
-              }
-          )
+          all_standings = {}
 
-          with urllib.request.urlopen(request) as response:
-              data = json.load(response)
+          for name, code in leagues.items():
 
-          table = data["standings"][0]["table"]
+              url = f"https://api.football-data.org/v4/competitions/{code}/standings"
 
-          standings = []
+              request = urllib.request.Request(
+                  url,
+                  headers={
+                      "X-Auth-Token": os.environ["FOOTBALL_DATA_TOKEN"]
+                  }
+              )
 
-          for team in table:
-              standings.append({
-                  "position": team["position"],
-                  "team": team["team"]["name"],
-                  "played": team["playedGames"],
-                  "won": team["won"],
-                  "draw": team["draw"],
-                  "lost": team["lost"],
-                  "goalDifference": team["goalDifference"],
-                  "points": team["points"]
-              })
+              try:
+                  with urllib.request.urlopen(request) as response:
+                      data = json.load(response)
+
+                  table = data["standings"][0]["table"]
+
+                  standings = []
+
+                  for team in table:
+                      standings.append({
+                          "position": team["position"],
+                          "team": team["team"]["name"],
+                          "played": team["playedGames"],
+                          "won": team["won"],
+                          "draw": team["draw"],
+                          "lost": team["lost"],
+                          "goalDifference": team["goalDifference"],
+                          "points": team["points"]
+                      })
+
+                  all_standings[name] = standings
+
+                  print(f"{name}: updated successfully")
+
+              except Exception as e:
+                  print(f"{name}: could not update - {e}")
 
           with open("standings.json", "w") as file:
-              json.dump(standings, file, indent=2)
+              json.dump(all_standings, file, indent=2)
 
-          print("Standings updated successfully.")
+          print("All league standings updated.")
 
           PY
 
