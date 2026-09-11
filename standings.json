@@ -1204,13 +1204,13 @@
     },
     {
       "position": 6,
-      "team": "Sporting Clube de Braga",
-      "played": 4,
+      "team": "CF Estrela da Amadora",
+      "played": 5,
       "won": 2,
-      "draw": 2,
+      "draw": 3,
       "lost": 0,
       "goalDifference": 2,
-      "points": 8
+      "points": 9
     },
     {
       "position": 7,
@@ -1224,11 +1224,11 @@
     },
     {
       "position": 8,
-      "team": "CF Estrela da Amadora",
-      "played": 5,
-      "won": 1,
-      "draw": 4,
-      "lost": 0,
+      "team": "Sporting Clube de Braga",
+      "played": 4,
+      "won": 2,
+      "draw": 1,
+      "lost": 1,
       "goalDifference": 1,
       "points": 7
     },
