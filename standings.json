@@ -588,6 +588,16 @@
     },
     {
       "position": 3,
+      "team": "Sevilla FC",
+      "played": 5,
+      "won": 3,
+      "draw": 1,
+      "lost": 1,
+      "goalDifference": 2,
+      "points": 10
+    },
+    {
+      "position": 4,
       "team": "Real Madrid CF",
       "played": 4,
       "won": 3,
@@ -597,7 +607,7 @@
       "points": 9
     },
     {
-      "position": 4,
+      "position": 5,
       "team": "Real Betis Balompi\u00e9",
       "played": 4,
       "won": 3,
@@ -607,23 +617,13 @@
       "points": 9
     },
     {
-      "position": 5,
+      "position": 6,
       "team": "RC Deportivo La Coru\u00f1a",
       "played": 4,
       "won": 2,
       "draw": 2,
       "lost": 0,
       "goalDifference": 3,
-      "points": 8
-    },
-    {
-      "position": 6,
-      "team": "Sevilla FC",
-      "played": 5,
-      "won": 2,
-      "draw": 2,
-      "lost": 1,
-      "goalDifference": 1,
       "points": 8
     },
     {
@@ -748,22 +748,22 @@
     },
     {
       "position": 19,
-      "team": "Valencia CF",
-      "played": 5,
-      "won": 0,
-      "draw": 2,
-      "lost": 3,
-      "goalDifference": -8,
-      "points": 2
-    },
-    {
-      "position": 20,
       "team": "Elche CF",
       "played": 4,
       "won": 0,
       "draw": 1,
       "lost": 3,
       "goalDifference": -7,
+      "points": 1
+    },
+    {
+      "position": 20,
+      "team": "Valencia CF",
+      "played": 5,
+      "won": 0,
+      "draw": 1,
+      "lost": 4,
+      "goalDifference": -9,
       "points": 1
     }
   ],
@@ -1357,12 +1357,12 @@
     {
       "position": 3,
       "team": "CA Paranaense",
-      "played": 26,
+      "played": 27,
       "won": 13,
-      "draw": 6,
+      "draw": 7,
       "lost": 7,
       "goalDifference": 10,
-      "points": 45
+      "points": 46
     },
     {
       "position": 4,
@@ -1397,12 +1397,12 @@
     {
       "position": 7,
       "team": "Coritiba FBC",
-      "played": 26,
+      "played": 27,
       "won": 10,
-      "draw": 7,
+      "draw": 8,
       "lost": 9,
       "goalDifference": -1,
-      "points": 37
+      "points": 38
     },
     {
       "position": 8,
