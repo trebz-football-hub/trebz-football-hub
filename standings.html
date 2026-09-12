@@ -450,7 +450,8 @@ async function loadStandings() {
             throw new Error("Could not load standings");
         }
 
-        const standings = await response.json();
+     const allStandings = await response.json();
+const standings = allStandings[league] || [];
 
         table.innerHTML = "";
 
