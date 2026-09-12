@@ -1538,6 +1538,16 @@
   "championship": [
     {
       "position": 1,
+      "team": "West Ham United FC",
+      "played": 7,
+      "won": 4,
+      "draw": 2,
+      "lost": 1,
+      "goalDifference": 11,
+      "points": 14
+    },
+    {
+      "position": 2,
       "team": "West Bromwich Albion FC",
       "played": 6,
       "won": 4,
@@ -1545,16 +1555,6 @@
       "lost": 1,
       "goalDifference": 3,
       "points": 13
-    },
-    {
-      "position": 2,
-      "team": "West Ham United FC",
-      "played": 6,
-      "won": 3,
-      "draw": 2,
-      "lost": 1,
-      "goalDifference": 5,
-      "points": 11
     },
     {
       "position": 3,
@@ -1668,16 +1668,6 @@
     },
     {
       "position": 14,
-      "team": "Wrexham AFC",
-      "played": 6,
-      "won": 1,
-      "draw": 4,
-      "lost": 1,
-      "goalDifference": 2,
-      "points": 7
-    },
-    {
-      "position": 15,
       "team": "Birmingham City FC",
       "played": 6,
       "won": 1,
@@ -1687,13 +1677,23 @@
       "points": 7
     },
     {
-      "position": 16,
+      "position": 15,
       "team": "Stoke City FC",
       "played": 6,
       "won": 2,
       "draw": 1,
       "lost": 3,
       "goalDifference": -1,
+      "points": 7
+    },
+    {
+      "position": 16,
+      "team": "Wrexham AFC",
+      "played": 7,
+      "won": 1,
+      "draw": 4,
+      "lost": 2,
+      "goalDifference": -4,
       "points": 7
     },
     {
