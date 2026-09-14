@@ -598,6 +598,16 @@
     },
     {
       "position": 4,
+      "team": "Club Atl\u00e9tico de Madrid",
+      "played": 5,
+      "won": 3,
+      "draw": 1,
+      "lost": 1,
+      "goalDifference": 4,
+      "points": 10
+    },
+    {
+      "position": 5,
       "team": "Sevilla FC",
       "played": 5,
       "won": 3,
@@ -607,7 +617,7 @@
       "points": 10
     },
     {
-      "position": 5,
+      "position": 6,
       "team": "RC Deportivo La Coru\u00f1a",
       "played": 5,
       "won": 2,
@@ -617,7 +627,7 @@
       "points": 9
     },
     {
-      "position": 6,
+      "position": 7,
       "team": "Real Betis Balompi\u00e9",
       "played": 4,
       "won": 3,
@@ -627,27 +637,7 @@
       "points": 9
     },
     {
-      "position": 7,
-      "team": "Club Atl\u00e9tico de Madrid",
-      "played": 5,
-      "won": 2,
-      "draw": 2,
-      "lost": 1,
-      "goalDifference": 1,
-      "points": 8
-    },
-    {
       "position": 8,
-      "team": "Real Sociedad de F\u00fatbol",
-      "played": 6,
-      "won": 2,
-      "draw": 2,
-      "lost": 2,
-      "goalDifference": -2,
-      "points": 8
-    },
-    {
-      "position": 9,
       "team": "RCD Espanyol de Barcelona",
       "played": 5,
       "won": 2,
@@ -657,7 +647,7 @@
       "points": 7
     },
     {
-      "position": 10,
+      "position": 9,
       "team": "Athletic Club",
       "played": 5,
       "won": 2,
@@ -667,7 +657,7 @@
       "points": 7
     },
     {
-      "position": 11,
+      "position": 10,
       "team": "Real Racing Club de Santander",
       "played": 5,
       "won": 2,
@@ -677,13 +667,23 @@
       "points": 7
     },
     {
-      "position": 12,
+      "position": 11,
       "team": "CA Osasuna",
       "played": 5,
       "won": 2,
       "draw": 1,
       "lost": 2,
       "goalDifference": -3,
+      "points": 7
+    },
+    {
+      "position": 12,
+      "team": "Real Sociedad de F\u00fatbol",
+      "played": 6,
+      "won": 2,
+      "draw": 1,
+      "lost": 3,
+      "goalDifference": -5,
       "points": 7
     },
     {
@@ -1336,6 +1336,16 @@
   "brazil-serie-a": [
     {
       "position": 1,
+      "team": "CR Flamengo",
+      "played": 27,
+      "won": 17,
+      "draw": 6,
+      "lost": 4,
+      "goalDifference": 31,
+      "points": 57
+    },
+    {
+      "position": 2,
       "team": "SE Palmeiras",
       "played": 27,
       "won": 16,
@@ -1343,16 +1353,6 @@
       "lost": 3,
       "goalDifference": 26,
       "points": 56
-    },
-    {
-      "position": 2,
-      "team": "CR Flamengo",
-      "played": 26,
-      "won": 16,
-      "draw": 6,
-      "lost": 4,
-      "goalDifference": 30,
-      "points": 54
     },
     {
       "position": 3,
@@ -1426,16 +1426,6 @@
     },
     {
       "position": 10,
-      "team": "EC Vit\u00f3ria",
-      "played": 27,
-      "won": 10,
-      "draw": 5,
-      "lost": 12,
-      "goalDifference": -10,
-      "points": 35
-    },
-    {
-      "position": 11,
       "team": "Santos FC",
       "played": 26,
       "won": 9,
@@ -1445,7 +1435,7 @@
       "points": 35
     },
     {
-      "position": 12,
+      "position": 11,
       "team": "S\u00e3o Paulo FC",
       "played": 26,
       "won": 9,
@@ -1455,13 +1445,23 @@
       "points": 33
     },
     {
+      "position": 12,
+      "team": "EC Vit\u00f3ria",
+      "played": 27,
+      "won": 9,
+      "draw": 6,
+      "lost": 12,
+      "goalDifference": -12,
+      "points": 33
+    },
+    {
       "position": 13,
       "team": "SC Corinthians Paulista",
-      "played": 26,
+      "played": 27,
       "won": 8,
       "draw": 8,
-      "lost": 10,
-      "goalDifference": 0,
+      "lost": 11,
+      "goalDifference": -1,
       "points": 32
     },
     {
@@ -1476,6 +1476,16 @@
     },
     {
       "position": 15,
+      "team": "Mirassol FC",
+      "played": 27,
+      "won": 7,
+      "draw": 8,
+      "lost": 12,
+      "goalDifference": -11,
+      "points": 29
+    },
+    {
+      "position": 16,
       "team": "Gr\u00eamio FBPA",
       "played": 26,
       "won": 7,
@@ -1485,23 +1495,13 @@
       "points": 28
     },
     {
-      "position": 16,
+      "position": 17,
       "team": "CR Vasco da Gama",
       "played": 26,
       "won": 7,
       "draw": 7,
       "lost": 12,
       "goalDifference": -12,
-      "points": 28
-    },
-    {
-      "position": 17,
-      "team": "Mirassol FC",
-      "played": 27,
-      "won": 7,
-      "draw": 7,
-      "lost": 13,
-      "goalDifference": -13,
       "points": 28
     },
     {
