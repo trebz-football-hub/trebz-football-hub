@@ -952,6 +952,26 @@
   "serie-a": [
     {
       "position": 1,
+      "team": "AS Roma",
+      "played": 4,
+      "won": 4,
+      "draw": 0,
+      "lost": 0,
+      "goalDifference": 10,
+      "points": 12
+    },
+    {
+      "position": 2,
+      "team": "Como 1907",
+      "played": 4,
+      "won": 3,
+      "draw": 1,
+      "lost": 0,
+      "goalDifference": 5,
+      "points": 10
+    },
+    {
+      "position": 3,
       "team": "SS Lazio",
       "played": 4,
       "won": 3,
@@ -961,17 +981,7 @@
       "points": 10
     },
     {
-      "position": 2,
-      "team": "AS Roma",
-      "played": 3,
-      "won": 3,
-      "draw": 0,
-      "lost": 0,
-      "goalDifference": 9,
-      "points": 9
-    },
-    {
-      "position": 3,
+      "position": 4,
       "team": "FC Internazionale Milano",
       "played": 3,
       "won": 3,
@@ -981,7 +991,7 @@
       "points": 9
     },
     {
-      "position": 4,
+      "position": 5,
       "team": "Cagliari Calcio",
       "played": 4,
       "won": 3,
@@ -991,7 +1001,7 @@
       "points": 9
     },
     {
-      "position": 5,
+      "position": 6,
       "team": "AC Milan",
       "played": 4,
       "won": 2,
@@ -999,16 +1009,6 @@
       "lost": 0,
       "goalDifference": 3,
       "points": 8
-    },
-    {
-      "position": 6,
-      "team": "Como 1907",
-      "played": 3,
-      "won": 2,
-      "draw": 1,
-      "lost": 0,
-      "goalDifference": 4,
-      "points": 7
     },
     {
       "position": 7,
@@ -1083,11 +1083,11 @@
     {
       "position": 14,
       "team": "Torino FC",
-      "played": 3,
+      "played": 4,
       "won": 1,
       "draw": 0,
-      "lost": 2,
-      "goalDifference": -1,
+      "lost": 3,
+      "goalDifference": -2,
       "points": 3
     },
     {
@@ -1113,11 +1113,11 @@
     {
       "position": 17,
       "team": "Parma Calcio 1913",
-      "played": 3,
+      "played": 4,
       "won": 0,
       "draw": 1,
-      "lost": 2,
-      "goalDifference": -3,
+      "lost": 3,
+      "goalDifference": -4,
       "points": 1
     },
     {
