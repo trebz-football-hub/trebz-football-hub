@@ -416,6 +416,16 @@
     },
     {
       "position": 4,
+      "team": "AFC Ajax",
+      "played": 6,
+      "won": 4,
+      "draw": 1,
+      "lost": 1,
+      "goalDifference": 12,
+      "points": 13
+    },
+    {
+      "position": 5,
       "team": "FC Twente '65",
       "played": 6,
       "won": 4,
@@ -423,16 +433,6 @@
       "lost": 1,
       "goalDifference": 7,
       "points": 13
-    },
-    {
-      "position": 5,
-      "team": "AFC Ajax",
-      "played": 5,
-      "won": 3,
-      "draw": 1,
-      "lost": 1,
-      "goalDifference": 8,
-      "points": 10
     },
     {
       "position": 6,
@@ -547,11 +547,11 @@
     {
       "position": 17,
       "team": "Willem II Tilburg",
-      "played": 5,
+      "played": 6,
       "won": 0,
       "draw": 2,
-      "lost": 3,
-      "goalDifference": -9,
+      "lost": 4,
+      "goalDifference": -13,
       "points": 2
     },
     {
@@ -579,12 +579,12 @@
     {
       "position": 2,
       "team": "Real Madrid CF",
-      "played": 5,
-      "won": 4,
+      "played": 6,
+      "won": 5,
       "draw": 0,
       "lost": 1,
-      "goalDifference": 10,
-      "points": 12
+      "goalDifference": 12,
+      "points": 15
     },
     {
       "position": 3,
@@ -599,11 +599,11 @@
     {
       "position": 4,
       "team": "Deportivo Alav\u00e9s",
-      "played": 5,
+      "played": 6,
       "won": 3,
       "draw": 1,
-      "lost": 1,
-      "goalDifference": 6,
+      "lost": 2,
+      "goalDifference": 5,
       "points": 10
     },
     {
@@ -639,11 +639,11 @@
     {
       "position": 8,
       "team": "RCD Espanyol de Barcelona",
-      "played": 5,
+      "played": 6,
       "won": 2,
       "draw": 1,
-      "lost": 2,
-      "goalDifference": 3,
+      "lost": 3,
+      "goalDifference": 2,
       "points": 7
     },
     {
@@ -678,7 +678,7 @@
     },
     {
       "position": 12,
-      "team": "Real Sociedad de F\u00fatbol",
+      "team": "Rayo Vallecano de Madrid",
       "played": 6,
       "won": 2,
       "draw": 1,
@@ -688,6 +688,16 @@
     },
     {
       "position": 13,
+      "team": "Real Sociedad de F\u00fatbol",
+      "played": 6,
+      "won": 2,
+      "draw": 1,
+      "lost": 3,
+      "goalDifference": -5,
+      "points": 7
+    },
+    {
+      "position": 14,
       "team": "Levante UD",
       "played": 5,
       "won": 1,
@@ -697,7 +707,7 @@
       "points": 5
     },
     {
-      "position": 14,
+      "position": 15,
       "team": "Getafe CF",
       "played": 5,
       "won": 1,
@@ -707,7 +717,7 @@
       "points": 5
     },
     {
-      "position": 15,
+      "position": 16,
       "team": "RC Celta de Vigo",
       "played": 6,
       "won": 0,
@@ -717,17 +727,17 @@
       "points": 4
     },
     {
-      "position": 16,
-      "team": "Rayo Vallecano de Madrid",
-      "played": 5,
+      "position": 17,
+      "team": "Valencia CF",
+      "played": 6,
       "won": 1,
       "draw": 1,
-      "lost": 3,
-      "goalDifference": -6,
+      "lost": 4,
+      "goalDifference": -8,
       "points": 4
     },
     {
-      "position": 17,
+      "position": 18,
       "team": "M\u00e1laga CF",
       "played": 5,
       "won": 0,
@@ -737,7 +747,7 @@
       "points": 3
     },
     {
-      "position": 18,
+      "position": 19,
       "team": "Villarreal CF",
       "played": 5,
       "won": 0,
@@ -747,24 +757,14 @@
       "points": 2
     },
     {
-      "position": 19,
+      "position": 20,
       "team": "Elche CF",
-      "played": 5,
+      "played": 6,
       "won": 0,
       "draw": 2,
-      "lost": 3,
-      "goalDifference": -7,
-      "points": 2
-    },
-    {
-      "position": 20,
-      "team": "Valencia CF",
-      "played": 5,
-      "won": 0,
-      "draw": 1,
       "lost": 4,
       "goalDifference": -9,
-      "points": 1
+      "points": 2
     }
   ],
   "ligue-1": [
