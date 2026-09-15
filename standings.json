@@ -1216,11 +1216,11 @@
       "position": 7,
       "team": "Sporting Clube de Braga",
       "played": 5,
-      "won": 2,
-      "draw": 2,
+      "won": 3,
+      "draw": 1,
       "lost": 1,
-      "goalDifference": 1,
-      "points": 8
+      "goalDifference": 2,
+      "points": 10
     },
     {
       "position": 8,
@@ -1317,10 +1317,10 @@
       "team": "GD Estoril Praia",
       "played": 6,
       "won": 0,
-      "draw": 3,
-      "lost": 3,
-      "goalDifference": -5,
-      "points": 3
+      "draw": 2,
+      "lost": 4,
+      "goalDifference": -6,
+      "points": 2
     },
     {
       "position": 18,
@@ -1366,6 +1366,16 @@
     },
     {
       "position": 4,
+      "team": "EC Bahia",
+      "played": 27,
+      "won": 12,
+      "draw": 10,
+      "lost": 5,
+      "goalDifference": 9,
+      "points": 46
+    },
+    {
+      "position": 5,
       "team": "Fluminense FC",
       "played": 27,
       "won": 12,
@@ -1373,16 +1383,6 @@
       "lost": 6,
       "goalDifference": 6,
       "points": 45
-    },
-    {
-      "position": 5,
-      "team": "EC Bahia",
-      "played": 26,
-      "won": 11,
-      "draw": 10,
-      "lost": 5,
-      "goalDifference": 8,
-      "points": 43
     },
     {
       "position": 6,
@@ -1517,11 +1517,11 @@
     {
       "position": 19,
       "team": "Clube do Remo",
-      "played": 26,
+      "played": 27,
       "won": 5,
       "draw": 8,
-      "lost": 13,
-      "goalDifference": -13,
+      "lost": 14,
+      "goalDifference": -14,
       "points": 23
     },
     {
