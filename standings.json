@@ -583,7 +583,7 @@
       "won": 5,
       "draw": 0,
       "lost": 1,
-      "goalDifference": 12,
+      "goalDifference": 11,
       "points": 15
     },
     {
@@ -763,7 +763,7 @@
       "won": 0,
       "draw": 2,
       "lost": 4,
-      "goalDifference": -9,
+      "goalDifference": -8,
       "points": 2
     }
   ],
