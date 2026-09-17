@@ -573,7 +573,7 @@
       "won": 6,
       "draw": 0,
       "lost": 0,
-      "goalDifference": 20,
+      "goalDifference": 22,
       "points": 18
     },
     {
@@ -638,16 +638,6 @@
     },
     {
       "position": 8,
-      "team": "Athletic Club",
-      "played": 6,
-      "won": 2,
-      "draw": 2,
-      "lost": 2,
-      "goalDifference": 1,
-      "points": 8
-    },
-    {
-      "position": 9,
       "team": "RCD Espanyol de Barcelona",
       "played": 6,
       "won": 2,
@@ -657,13 +647,23 @@
       "points": 7
     },
     {
+      "position": 9,
+      "team": "Athletic Club",
+      "played": 5,
+      "won": 2,
+      "draw": 1,
+      "lost": 2,
+      "goalDifference": 1,
+      "points": 7
+    },
+    {
       "position": 10,
       "team": "Real Racing Club de Santander",
       "played": 6,
       "won": 2,
       "draw": 1,
       "lost": 3,
-      "goalDifference": -3,
+      "goalDifference": -5,
       "points": 7
     },
     {
@@ -699,12 +699,12 @@
     {
       "position": 14,
       "team": "Levante UD",
-      "played": 6,
+      "played": 5,
       "won": 1,
-      "draw": 3,
+      "draw": 2,
       "lost": 2,
       "goalDifference": -2,
-      "points": 6
+      "points": 5
     },
     {
       "position": 15,
@@ -1436,6 +1436,16 @@
     },
     {
       "position": 11,
+      "team": "Botafogo FR",
+      "played": 27,
+      "won": 9,
+      "draw": 8,
+      "lost": 10,
+      "goalDifference": -2,
+      "points": 35
+    },
+    {
+      "position": 12,
       "team": "S\u00e3o Paulo FC",
       "played": 26,
       "won": 9,
@@ -1445,7 +1455,7 @@
       "points": 33
     },
     {
-      "position": 12,
+      "position": 13,
       "team": "EC Vit\u00f3ria",
       "played": 27,
       "won": 9,
@@ -1455,23 +1465,13 @@
       "points": 33
     },
     {
-      "position": 13,
+      "position": 14,
       "team": "SC Corinthians Paulista",
       "played": 27,
       "won": 8,
       "draw": 8,
       "lost": 11,
       "goalDifference": -1,
-      "points": 32
-    },
-    {
-      "position": 14,
-      "team": "Botafogo FR",
-      "played": 26,
-      "won": 8,
-      "draw": 8,
-      "lost": 10,
-      "goalDifference": -3,
       "points": 32
     },
     {
@@ -1487,11 +1487,11 @@
     {
       "position": 16,
       "team": "Gr\u00eamio FBPA",
-      "played": 26,
+      "played": 27,
       "won": 7,
       "draw": 7,
-      "lost": 12,
-      "goalDifference": -7,
+      "lost": 13,
+      "goalDifference": -8,
       "points": 28
     },
     {
