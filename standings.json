@@ -1558,22 +1558,22 @@
     },
     {
       "position": 3,
+      "team": "Middlesbrough FC",
+      "played": 8,
+      "won": 4,
+      "draw": 3,
+      "lost": 1,
+      "goalDifference": 4,
+      "points": 15
+    },
+    {
+      "position": 4,
       "team": "Wolverhampton Wanderers FC",
       "played": 7,
       "won": 4,
       "draw": 2,
       "lost": 1,
       "goalDifference": 5,
-      "points": 14
-    },
-    {
-      "position": 4,
-      "team": "Middlesbrough FC",
-      "played": 7,
-      "won": 4,
-      "draw": 2,
-      "lost": 1,
-      "goalDifference": 4,
       "points": 14
     },
     {
@@ -1609,11 +1609,11 @@
     {
       "position": 8,
       "team": "Bristol City FC",
-      "played": 7,
+      "played": 8,
       "won": 4,
       "draw": 1,
-      "lost": 2,
-      "goalDifference": 0,
+      "lost": 3,
+      "goalDifference": -1,
       "points": 13
     },
     {
@@ -1638,6 +1638,26 @@
     },
     {
       "position": 11,
+      "team": "Millwall FC",
+      "played": 8,
+      "won": 3,
+      "draw": 2,
+      "lost": 3,
+      "goalDifference": 0,
+      "points": 11
+    },
+    {
+      "position": 12,
+      "team": "Lincoln City FC",
+      "played": 8,
+      "won": 3,
+      "draw": 2,
+      "lost": 3,
+      "goalDifference": -1,
+      "points": 11
+    },
+    {
+      "position": 13,
       "team": "Southampton FC",
       "played": 8,
       "won": 4,
@@ -1647,17 +1667,7 @@
       "points": 10
     },
     {
-      "position": 12,
-      "team": "Millwall FC",
-      "played": 7,
-      "won": 3,
-      "draw": 1,
-      "lost": 3,
-      "goalDifference": 0,
-      "points": 10
-    },
-    {
-      "position": 13,
+      "position": 14,
       "team": "Wrexham AFC",
       "played": 8,
       "won": 2,
@@ -1667,7 +1677,7 @@
       "points": 10
     },
     {
-      "position": 14,
+      "position": 15,
       "team": "Bolton Wanderers FC",
       "played": 8,
       "won": 3,
@@ -1677,7 +1687,7 @@
       "points": 10
     },
     {
-      "position": 15,
+      "position": 16,
       "team": "Blackburn Rovers FC",
       "played": 8,
       "won": 2,
@@ -1687,7 +1697,7 @@
       "points": 9
     },
     {
-      "position": 16,
+      "position": 17,
       "team": "Norwich City FC",
       "played": 8,
       "won": 3,
@@ -1697,7 +1707,7 @@
       "points": 9
     },
     {
-      "position": 17,
+      "position": 18,
       "team": "Sheffield United FC",
       "played": 8,
       "won": 2,
@@ -1707,23 +1717,13 @@
       "points": 9
     },
     {
-      "position": 18,
+      "position": 19,
       "team": "Portsmouth FC",
       "played": 7,
       "won": 2,
       "draw": 2,
       "lost": 3,
       "goalDifference": -1,
-      "points": 8
-    },
-    {
-      "position": 19,
-      "team": "Lincoln City FC",
-      "played": 7,
-      "won": 2,
-      "draw": 2,
-      "lost": 3,
-      "goalDifference": -2,
       "points": 8
     },
     {
