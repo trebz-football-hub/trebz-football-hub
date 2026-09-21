@@ -820,6 +820,16 @@
     },
     {
       "position": 6,
+      "team": "Paris Saint-Germain FC",
+      "played": 5,
+      "won": 2,
+      "draw": 2,
+      "lost": 1,
+      "goalDifference": 1,
+      "points": 8
+    },
+    {
+      "position": 7,
       "team": "Angers SCO",
       "played": 5,
       "won": 2,
@@ -829,7 +839,7 @@
       "points": 7
     },
     {
-      "position": 7,
+      "position": 8,
       "team": "RC Strasbourg Alsace",
       "played": 5,
       "won": 2,
@@ -839,18 +849,8 @@
       "points": 7
     },
     {
-      "position": 8,
-      "team": "Le Mans FC",
-      "played": 5,
-      "won": 1,
-      "draw": 3,
-      "lost": 1,
-      "goalDifference": 0,
-      "points": 6
-    },
-    {
       "position": 9,
-      "team": "Paris Saint-Germain FC",
+      "team": "Le Mans FC",
       "played": 5,
       "won": 1,
       "draw": 3,
@@ -920,16 +920,6 @@
     },
     {
       "position": 16,
-      "team": "Olympique de Marseille",
-      "played": 5,
-      "won": 1,
-      "draw": 1,
-      "lost": 3,
-      "goalDifference": 0,
-      "points": 4
-    },
-    {
-      "position": 17,
       "team": "ES Troyes AC",
       "played": 5,
       "won": 1,
@@ -937,6 +927,16 @@
       "lost": 3,
       "goalDifference": -7,
       "points": 4
+    },
+    {
+      "position": 17,
+      "team": "Olympique de Marseille",
+      "played": 5,
+      "won": 1,
+      "draw": 0,
+      "lost": 4,
+      "goalDifference": -1,
+      "points": 3
     },
     {
       "position": 18,
@@ -997,7 +997,7 @@
       "won": 3,
       "draw": 2,
       "lost": 0,
-      "goalDifference": 5,
+      "goalDifference": 6,
       "points": 11
     },
     {
@@ -1067,7 +1067,7 @@
       "won": 2,
       "draw": 0,
       "lost": 3,
-      "goalDifference": -4,
+      "goalDifference": -5,
       "points": 6
     },
     {
@@ -1159,7 +1159,7 @@
       "won": 7,
       "draw": 0,
       "lost": 0,
-      "goalDifference": 14,
+      "goalDifference": 15,
       "points": 21
     },
     {
@@ -1169,7 +1169,7 @@
       "won": 5,
       "draw": 1,
       "lost": 1,
-      "goalDifference": 16,
+      "goalDifference": 15,
       "points": 16
     },
     {
@@ -1337,12 +1337,12 @@
     {
       "position": 1,
       "team": "CR Flamengo",
-      "played": 27,
-      "won": 17,
+      "played": 28,
+      "won": 18,
       "draw": 6,
       "lost": 4,
-      "goalDifference": 31,
-      "points": 57
+      "goalDifference": 32,
+      "points": 60
     },
     {
       "position": 2,
@@ -1356,43 +1356,43 @@
     },
     {
       "position": 3,
+      "team": "CA Paranaense",
+      "played": 28,
+      "won": 14,
+      "draw": 7,
+      "lost": 7,
+      "goalDifference": 11,
+      "points": 49
+    },
+    {
+      "position": 4,
       "team": "Fluminense FC",
       "played": 28,
       "won": 13,
       "draw": 9,
       "lost": 6,
-      "goalDifference": 7,
+      "goalDifference": 8,
       "points": 48
-    },
-    {
-      "position": 4,
-      "team": "CA Paranaense",
-      "played": 27,
-      "won": 13,
-      "draw": 7,
-      "lost": 7,
-      "goalDifference": 10,
-      "points": 46
     },
     {
       "position": 5,
       "team": "EC Bahia",
-      "played": 27,
+      "played": 28,
       "won": 12,
       "draw": 10,
-      "lost": 5,
-      "goalDifference": 9,
+      "lost": 6,
+      "goalDifference": 8,
       "points": 46
     },
     {
       "position": 6,
       "team": "Cruzeiro EC",
       "played": 28,
-      "won": 12,
+      "won": 13,
       "draw": 6,
-      "lost": 10,
-      "goalDifference": -1,
-      "points": 42
+      "lost": 9,
+      "goalDifference": 2,
+      "points": 45
     },
     {
       "position": 7,
@@ -1427,11 +1427,11 @@
     {
       "position": 10,
       "team": "RB Bragantino",
-      "played": 26,
+      "played": 27,
       "won": 10,
       "draw": 6,
-      "lost": 10,
-      "goalDifference": 3,
+      "lost": 11,
+      "goalDifference": 2,
       "points": 36
     },
     {
@@ -1446,16 +1446,6 @@
     },
     {
       "position": 12,
-      "team": "EC Vit\u00f3ria",
-      "played": 28,
-      "won": 10,
-      "draw": 6,
-      "lost": 12,
-      "goalDifference": -11,
-      "points": 36
-    },
-    {
-      "position": 13,
       "team": "Botafogo FR",
       "played": 28,
       "won": 9,
@@ -1465,13 +1455,23 @@
       "points": 35
     },
     {
+      "position": 13,
+      "team": "EC Vit\u00f3ria",
+      "played": 28,
+      "won": 9,
+      "draw": 6,
+      "lost": 13,
+      "goalDifference": -14,
+      "points": 33
+    },
+    {
       "position": 14,
       "team": "SC Corinthians Paulista",
       "played": 28,
       "won": 8,
       "draw": 8,
       "lost": 12,
-      "goalDifference": -2,
+      "goalDifference": -3,
       "points": 32
     },
     {
