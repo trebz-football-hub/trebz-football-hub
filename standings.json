@@ -1427,15 +1427,15 @@
     {
       "position": 10,
       "team": "RB Bragantino",
-      "played": 28,
+      "played": 29,
       "won": 10,
-      "draw": 6,
+      "draw": 7,
       "lost": 12,
       "goalDifference": 1,
-      "points": 36
+      "points": 37
     },
     {
-      "position": 10,
+      "position": 11,
       "team": "S\u00e3o Paulo FC",
       "played": 28,
       "won": 10,
@@ -1467,22 +1467,22 @@
     {
       "position": 14,
       "team": "SC Corinthians Paulista",
-      "played": 28,
+      "played": 29,
       "won": 8,
-      "draw": 8,
+      "draw": 9,
       "lost": 12,
       "goalDifference": -3,
-      "points": 32
+      "points": 33
     },
     {
       "position": 15,
       "team": "Mirassol FC",
-      "played": 28,
+      "played": 29,
       "won": 8,
-      "draw": 8,
+      "draw": 9,
       "lost": 12,
       "goalDifference": -9,
-      "points": 32
+      "points": 33
     },
     {
       "position": 16,
@@ -1497,32 +1497,32 @@
     {
       "position": 17,
       "team": "Gr\u00eamio FBPA",
-      "played": 28,
+      "played": 29,
       "won": 7,
-      "draw": 8,
+      "draw": 9,
       "lost": 13,
       "goalDifference": -8,
-      "points": 29
+      "points": 30
     },
     {
       "position": 18,
       "team": "SC Internacional",
-      "played": 28,
+      "played": 29,
       "won": 6,
-      "draw": 10,
+      "draw": 11,
       "lost": 12,
       "goalDifference": -6,
-      "points": 28
+      "points": 29
     },
     {
       "position": 19,
       "team": "Clube do Remo",
-      "played": 28,
+      "played": 29,
       "won": 5,
-      "draw": 8,
+      "draw": 9,
       "lost": 15,
       "goalDifference": -15,
-      "points": 23
+      "points": 24
     },
     {
       "position": 20,
