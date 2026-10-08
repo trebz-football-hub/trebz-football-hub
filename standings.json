@@ -1337,12 +1337,12 @@
     {
       "position": 1,
       "team": "CR Flamengo",
-      "played": 28,
+      "played": 29,
       "won": 18,
-      "draw": 6,
+      "draw": 7,
       "lost": 4,
       "goalDifference": 32,
-      "points": 60
+      "points": 61
     },
     {
       "position": 2,
@@ -1407,12 +1407,12 @@
     {
       "position": 8,
       "team": "Santos FC",
-      "played": 28,
+      "played": 29,
       "won": 11,
-      "draw": 8,
+      "draw": 9,
       "lost": 9,
       "goalDifference": 2,
-      "points": 41
+      "points": 42
     },
     {
       "position": 9,
