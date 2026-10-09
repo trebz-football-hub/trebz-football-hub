@@ -1347,25 +1347,35 @@
     {
       "position": 2,
       "team": "SE Palmeiras",
-      "played": 28,
-      "won": 16,
+      "played": 29,
+      "won": 17,
       "draw": 9,
       "lost": 3,
-      "goalDifference": 26,
-      "points": 57
+      "goalDifference": 27,
+      "points": 60
     },
     {
       "position": 3,
-      "team": "CA Paranaense",
-      "played": 28,
+      "team": "Fluminense FC",
+      "played": 29,
       "won": 14,
-      "draw": 7,
-      "lost": 7,
-      "goalDifference": 11,
-      "points": 49
+      "draw": 9,
+      "lost": 6,
+      "goalDifference": 12,
+      "points": 51
     },
     {
       "position": 4,
+      "team": "CA Paranaense",
+      "played": 29,
+      "won": 14,
+      "draw": 8,
+      "lost": 7,
+      "goalDifference": 11,
+      "points": 50
+    },
+    {
+      "position": 5,
       "team": "Cruzeiro EC",
       "played": 29,
       "won": 14,
@@ -1375,34 +1385,24 @@
       "points": 48
     },
     {
-      "position": 5,
-      "team": "Fluminense FC",
-      "played": 28,
-      "won": 13,
-      "draw": 9,
-      "lost": 6,
-      "goalDifference": 8,
-      "points": 48
-    },
-    {
       "position": 6,
       "team": "EC Bahia",
-      "played": 28,
+      "played": 29,
       "won": 12,
       "draw": 10,
-      "lost": 6,
-      "goalDifference": 8,
+      "lost": 7,
+      "goalDifference": 7,
       "points": 46
     },
     {
       "position": 7,
       "team": "CA Mineiro",
-      "played": 28,
+      "played": 29,
       "won": 12,
-      "draw": 7,
+      "draw": 8,
       "lost": 9,
       "goalDifference": 5,
-      "points": 43
+      "points": 44
     },
     {
       "position": 8,
@@ -1417,11 +1417,11 @@
     {
       "position": 9,
       "team": "Coritiba FBC",
-      "played": 28,
+      "played": 29,
       "won": 10,
       "draw": 8,
-      "lost": 10,
-      "goalDifference": -6,
+      "lost": 11,
+      "goalDifference": -10,
       "points": 38
     },
     {
