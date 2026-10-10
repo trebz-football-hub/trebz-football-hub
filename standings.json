@@ -13,12 +13,12 @@
     {
       "position": 2,
       "team": "Arsenal FC",
-      "played": 5,
+      "played": 6,
       "won": 4,
-      "draw": 0,
+      "draw": 1,
       "lost": 1,
       "goalDifference": 4,
-      "points": 12
+      "points": 13
     },
     {
       "position": 3,
@@ -32,22 +32,22 @@
     },
     {
       "position": 4,
+      "team": "Leeds United FC",
+      "played": 6,
+      "won": 2,
+      "draw": 4,
+      "lost": 0,
+      "goalDifference": 4,
+      "points": 10
+    },
+    {
+      "position": 5,
       "team": "Brentford FC",
       "played": 5,
       "won": 2,
       "draw": 3,
       "lost": 0,
       "goalDifference": 6,
-      "points": 9
-    },
-    {
-      "position": 5,
-      "team": "Leeds United FC",
-      "played": 5,
-      "won": 2,
-      "draw": 3,
-      "lost": 0,
-      "goalDifference": 4,
       "points": 9
     },
     {
