@@ -1174,6 +1174,16 @@
     },
     {
       "position": 3,
+      "team": "CD Santa Clara",
+      "played": 8,
+      "won": 5,
+      "draw": 3,
+      "lost": 0,
+      "goalDifference": 8,
+      "points": 18
+    },
+    {
+      "position": 4,
       "team": "Sport Lisboa e Benfica",
       "played": 7,
       "won": 5,
@@ -1183,24 +1193,14 @@
       "points": 16
     },
     {
-      "position": 4,
-      "team": "CD Santa Clara",
-      "played": 8,
-      "won": 4,
-      "draw": 4,
-      "lost": 0,
-      "goalDifference": 7,
-      "points": 16
-    },
-    {
       "position": 5,
       "team": "Acad\u00e9mico de Viseu FC",
       "played": 8,
-      "won": 3,
-      "draw": 3,
+      "won": 4,
+      "draw": 2,
       "lost": 2,
-      "goalDifference": 0,
-      "points": 12
+      "goalDifference": 1,
+      "points": 14
     },
     {
       "position": 6,
@@ -1294,16 +1294,6 @@
     },
     {
       "position": 15,
-      "team": "Casa Pia AC",
-      "played": 8,
-      "won": 1,
-      "draw": 2,
-      "lost": 5,
-      "goalDifference": -13,
-      "points": 5
-    },
-    {
-      "position": 16,
       "team": "CD Nacional",
       "played": 7,
       "won": 1,
@@ -1313,7 +1303,7 @@
       "points": 4
     },
     {
-      "position": 17,
+      "position": 16,
       "team": "Rio Ave FC",
       "played": 7,
       "won": 1,
@@ -1323,14 +1313,24 @@
       "points": 4
     },
     {
+      "position": 17,
+      "team": "Casa Pia AC",
+      "played": 8,
+      "won": 1,
+      "draw": 1,
+      "lost": 6,
+      "goalDifference": -14,
+      "points": 4
+    },
+    {
       "position": 18,
       "team": "GD Estoril Praia",
       "played": 8,
       "won": 0,
-      "draw": 3,
-      "lost": 5,
-      "goalDifference": -7,
-      "points": 3
+      "draw": 2,
+      "lost": 6,
+      "goalDifference": -8,
+      "points": 2
     }
   ],
   "brazil-serie-a": [
@@ -1416,6 +1416,16 @@
     },
     {
       "position": 9,
+      "team": "S\u00e3o Paulo FC",
+      "played": 30,
+      "won": 11,
+      "draw": 6,
+      "lost": 13,
+      "goalDifference": 0,
+      "points": 39
+    },
+    {
+      "position": 10,
       "team": "Coritiba FBC",
       "played": 29,
       "won": 10,
@@ -1425,7 +1435,7 @@
       "points": 38
     },
     {
-      "position": 10,
+      "position": 11,
       "team": "RB Bragantino",
       "played": 29,
       "won": 10,
@@ -1435,23 +1445,13 @@
       "points": 37
     },
     {
-      "position": 11,
-      "team": "S\u00e3o Paulo FC",
-      "played": 29,
-      "won": 10,
-      "draw": 6,
-      "lost": 13,
-      "goalDifference": -1,
-      "points": 36
-    },
-    {
       "position": 12,
       "team": "EC Vit\u00f3ria",
-      "played": 29,
+      "played": 30,
       "won": 10,
       "draw": 6,
-      "lost": 13,
-      "goalDifference": -10,
+      "lost": 14,
+      "goalDifference": -11,
       "points": 36
     },
     {
