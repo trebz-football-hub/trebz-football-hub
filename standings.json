@@ -1336,33 +1336,33 @@
   "brazil-serie-a": [
     {
       "position": 1,
+      "team": "CR Flamengo",
+      "played": 30,
+      "won": 19,
+      "draw": 7,
+      "lost": 4,
+      "goalDifference": 33,
+      "points": 64
+    },
+    {
+      "position": 2,
       "team": "SE Palmeiras",
       "played": 30,
       "won": 18,
       "draw": 9,
       "lost": 3,
-      "goalDifference": 29,
+      "goalDifference": 30,
       "points": 63
-    },
-    {
-      "position": 2,
-      "team": "CR Flamengo",
-      "played": 30,
-      "won": 18,
-      "draw": 8,
-      "lost": 4,
-      "goalDifference": 32,
-      "points": 62
     },
     {
       "position": 3,
       "team": "Fluminense FC",
       "played": 30,
       "won": 14,
-      "draw": 10,
-      "lost": 6,
-      "goalDifference": 12,
-      "points": 52
+      "draw": 9,
+      "lost": 7,
+      "goalDifference": 11,
+      "points": 51
     },
     {
       "position": 4,
@@ -1376,6 +1376,16 @@
     },
     {
       "position": 5,
+      "team": "EC Bahia",
+      "played": 30,
+      "won": 13,
+      "draw": 10,
+      "lost": 7,
+      "goalDifference": 8,
+      "points": 49
+    },
+    {
+      "position": 6,
       "team": "Cruzeiro EC",
       "played": 29,
       "won": 14,
@@ -1385,7 +1395,7 @@
       "points": 48
     },
     {
-      "position": 6,
+      "position": 7,
       "team": "CA Mineiro",
       "played": 30,
       "won": 13,
@@ -1393,16 +1403,6 @@
       "lost": 9,
       "goalDifference": 6,
       "points": 47
-    },
-    {
-      "position": 7,
-      "team": "EC Bahia",
-      "played": 29,
-      "won": 12,
-      "draw": 10,
-      "lost": 7,
-      "goalDifference": 7,
-      "points": 46
     },
     {
       "position": 8,
@@ -1476,32 +1476,32 @@
     },
     {
       "position": 15,
-      "team": "SC Internacional",
+      "team": "Mirassol FC",
       "played": 30,
       "won": 8,
-      "draw": 10,
-      "lost": 12,
-      "goalDifference": -4,
-      "points": 34
-    },
-    {
-      "position": 16,
-      "team": "Mirassol FC",
-      "played": 29,
-      "won": 8,
       "draw": 9,
-      "lost": 12,
-      "goalDifference": -9,
+      "lost": 13,
+      "goalDifference": -10,
       "points": 33
     },
     {
-      "position": 17,
+      "position": 16,
       "team": "SC Corinthians Paulista",
       "played": 30,
       "won": 8,
       "draw": 8,
       "lost": 14,
-      "goalDifference": -6,
+      "goalDifference": -7,
+      "points": 32
+    },
+    {
+      "position": 17,
+      "team": "SC Internacional",
+      "played": 30,
+      "won": 7,
+      "draw": 11,
+      "lost": 12,
+      "goalDifference": -5,
       "points": 32
     },
     {
@@ -1509,10 +1509,10 @@
       "team": "Gr\u00eamio FBPA",
       "played": 30,
       "won": 7,
-      "draw": 9,
-      "lost": 14,
-      "goalDifference": -9,
-      "points": 30
+      "draw": 10,
+      "lost": 13,
+      "goalDifference": -8,
+      "points": 31
     },
     {
       "position": 19,
