@@ -1376,16 +1376,6 @@
     },
     {
       "position": 5,
-      "team": "Cruzeiro EC",
-      "played": 30,
-      "won": 14,
-      "draw": 7,
-      "lost": 9,
-      "goalDifference": 4,
-      "points": 49
-    },
-    {
-      "position": 6,
       "team": "EC Bahia",
       "played": 30,
       "won": 13,
@@ -1393,6 +1383,16 @@
       "lost": 7,
       "goalDifference": 8,
       "points": 49
+    },
+    {
+      "position": 6,
+      "team": "Cruzeiro EC",
+      "played": 30,
+      "won": 14,
+      "draw": 6,
+      "lost": 10,
+      "goalDifference": 2,
+      "points": 48
     },
     {
       "position": 7,
@@ -1416,6 +1416,16 @@
     },
     {
       "position": 9,
+      "team": "RB Bragantino",
+      "played": 30,
+      "won": 11,
+      "draw": 7,
+      "lost": 12,
+      "goalDifference": 3,
+      "points": 40
+    },
+    {
+      "position": 10,
       "team": "S\u00e3o Paulo FC",
       "played": 30,
       "won": 11,
@@ -1425,7 +1435,7 @@
       "points": 39
     },
     {
-      "position": 10,
+      "position": 11,
       "team": "Coritiba FBC",
       "played": 30,
       "won": 10,
@@ -1433,16 +1443,6 @@
       "lost": 11,
       "goalDifference": -10,
       "points": 39
-    },
-    {
-      "position": 11,
-      "team": "RB Bragantino",
-      "played": 30,
-      "won": 10,
-      "draw": 8,
-      "lost": 12,
-      "goalDifference": 1,
-      "points": 38
     },
     {
       "position": 12,
