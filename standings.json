@@ -1558,6 +1558,16 @@
     },
     {
       "position": 3,
+      "team": "West Ham United FC",
+      "played": 10,
+      "won": 5,
+      "draw": 4,
+      "lost": 1,
+      "goalDifference": 17,
+      "points": 19
+    },
+    {
+      "position": 4,
       "team": "Birmingham City FC",
       "played": 10,
       "won": 4,
@@ -1567,7 +1577,17 @@
       "points": 17
     },
     {
-      "position": 4,
+      "position": 5,
+      "team": "Queens Park Rangers FC",
+      "played": 10,
+      "won": 4,
+      "draw": 5,
+      "lost": 1,
+      "goalDifference": 6,
+      "points": 17
+    },
+    {
+      "position": 6,
       "team": "West Bromwich Albion FC",
       "played": 10,
       "won": 5,
@@ -1577,17 +1597,17 @@
       "points": 17
     },
     {
-      "position": 5,
-      "team": "West Ham United FC",
-      "played": 9,
-      "won": 4,
-      "draw": 4,
-      "lost": 1,
+      "position": 7,
+      "team": "Southampton FC",
+      "played": 10,
+      "won": 6,
+      "draw": 2,
+      "lost": 2,
       "goalDifference": 11,
       "points": 16
     },
     {
-      "position": 6,
+      "position": 8,
       "team": "Stoke City FC",
       "played": 10,
       "won": 5,
@@ -1597,7 +1617,7 @@
       "points": 16
     },
     {
-      "position": 7,
+      "position": 9,
       "team": "Blackburn Rovers FC",
       "played": 10,
       "won": 4,
@@ -1607,17 +1627,7 @@
       "points": 15
     },
     {
-      "position": 8,
-      "team": "Queens Park Rangers FC",
-      "played": 9,
-      "won": 3,
-      "draw": 5,
-      "lost": 1,
-      "goalDifference": 3,
-      "points": 14
-    },
-    {
-      "position": 9,
+      "position": 10,
       "team": "Wolverhampton Wanderers FC",
       "played": 9,
       "won": 4,
@@ -1627,7 +1637,7 @@
       "points": 14
     },
     {
-      "position": 10,
+      "position": 11,
       "team": "Millwall FC",
       "played": 10,
       "won": 4,
@@ -1637,7 +1647,7 @@
       "points": 14
     },
     {
-      "position": 11,
+      "position": 12,
       "team": "Bristol City FC",
       "played": 10,
       "won": 4,
@@ -1647,7 +1657,7 @@
       "points": 14
     },
     {
-      "position": 12,
+      "position": 13,
       "team": "Charlton Athletic FC",
       "played": 10,
       "won": 3,
@@ -1655,16 +1665,6 @@
       "lost": 2,
       "goalDifference": -3,
       "points": 14
-    },
-    {
-      "position": 13,
-      "team": "Southampton FC",
-      "played": 9,
-      "won": 5,
-      "draw": 2,
-      "lost": 2,
-      "goalDifference": 10,
-      "points": 13
     },
     {
       "position": 14,
@@ -1679,15 +1679,25 @@
     {
       "position": 15,
       "team": "Sheffield United FC",
-      "played": 9,
+      "played": 10,
       "won": 3,
       "draw": 3,
-      "lost": 3,
-      "goalDifference": 1,
+      "lost": 4,
+      "goalDifference": 0,
       "points": 12
     },
     {
       "position": 16,
+      "team": "Portsmouth FC",
+      "played": 9,
+      "won": 3,
+      "draw": 2,
+      "lost": 4,
+      "goalDifference": -1,
+      "points": 11
+    },
+    {
+      "position": 17,
       "team": "Wrexham AFC",
       "played": 10,
       "won": 2,
@@ -1697,17 +1707,17 @@
       "points": 11
     },
     {
-      "position": 17,
+      "position": 18,
       "team": "Lincoln City FC",
-      "played": 9,
+      "played": 10,
       "won": 3,
       "draw": 2,
-      "lost": 4,
-      "goalDifference": -4,
+      "lost": 5,
+      "goalDifference": -10,
       "points": 11
     },
     {
-      "position": 18,
+      "position": 19,
       "team": "Cardiff City FC",
       "played": 10,
       "won": 2,
@@ -1717,24 +1727,14 @@
       "points": 10
     },
     {
-      "position": 19,
+      "position": 20,
       "team": "Norwich City FC",
-      "played": 9,
+      "played": 10,
       "won": 3,
       "draw": 0,
-      "lost": 6,
-      "goalDifference": -2,
+      "lost": 7,
+      "goalDifference": -3,
       "points": 9
-    },
-    {
-      "position": 20,
-      "team": "Portsmouth FC",
-      "played": 8,
-      "won": 2,
-      "draw": 2,
-      "lost": 4,
-      "goalDifference": -2,
-      "points": 8
     },
     {
       "position": 21,
@@ -1759,11 +1759,11 @@
     {
       "position": 23,
       "team": "Derby County FC",
-      "played": 9,
+      "played": 10,
       "won": 1,
       "draw": 3,
-      "lost": 5,
-      "goalDifference": -7,
+      "lost": 6,
+      "goalDifference": -10,
       "points": 6
     },
     {
