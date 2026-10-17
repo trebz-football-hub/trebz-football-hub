@@ -1466,6 +1466,16 @@
     },
     {
       "position": 14,
+      "team": "Mirassol FC",
+      "played": 31,
+      "won": 9,
+      "draw": 9,
+      "lost": 13,
+      "goalDifference": -8,
+      "points": 36
+    },
+    {
+      "position": 15,
       "team": "CR Vasco da Gama",
       "played": 29,
       "won": 9,
@@ -1473,16 +1483,6 @@
       "lost": 12,
       "goalDifference": -6,
       "points": 35
-    },
-    {
-      "position": 15,
-      "team": "Mirassol FC",
-      "played": 30,
-      "won": 8,
-      "draw": 9,
-      "lost": 13,
-      "goalDifference": -10,
-      "points": 33
     },
     {
       "position": 16,
@@ -1497,11 +1497,11 @@
     {
       "position": 17,
       "team": "SC Internacional",
-      "played": 30,
+      "played": 31,
       "won": 7,
       "draw": 11,
-      "lost": 12,
-      "goalDifference": -5,
+      "lost": 13,
+      "goalDifference": -7,
       "points": 32
     },
     {
@@ -1588,6 +1588,16 @@
     },
     {
       "position": 6,
+      "team": "Wolverhampton Wanderers FC",
+      "played": 10,
+      "won": 5,
+      "draw": 2,
+      "lost": 3,
+      "goalDifference": 3,
+      "points": 17
+    },
+    {
+      "position": 7,
       "team": "West Bromwich Albion FC",
       "played": 10,
       "won": 5,
@@ -1597,7 +1607,7 @@
       "points": 17
     },
     {
-      "position": 7,
+      "position": 8,
       "team": "Southampton FC",
       "played": 10,
       "won": 6,
@@ -1607,7 +1617,7 @@
       "points": 16
     },
     {
-      "position": 8,
+      "position": 9,
       "team": "Stoke City FC",
       "played": 10,
       "won": 5,
@@ -1617,7 +1627,7 @@
       "points": 16
     },
     {
-      "position": 9,
+      "position": 10,
       "team": "Blackburn Rovers FC",
       "played": 10,
       "won": 4,
@@ -1625,16 +1635,6 @@
       "lost": 3,
       "goalDifference": 2,
       "points": 15
-    },
-    {
-      "position": 10,
-      "team": "Wolverhampton Wanderers FC",
-      "played": 9,
-      "won": 4,
-      "draw": 2,
-      "lost": 3,
-      "goalDifference": 2,
-      "points": 14
     },
     {
       "position": 11,
@@ -1739,11 +1739,11 @@
     {
       "position": 21,
       "team": "Burnley FC",
-      "played": 10,
+      "played": 11,
       "won": 1,
       "draw": 5,
-      "lost": 4,
-      "goalDifference": -4,
+      "lost": 5,
+      "goalDifference": -5,
       "points": 8
     },
     {
