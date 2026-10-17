@@ -32,16 +32,6 @@
     },
     {
       "position": 4,
-      "team": "Brentford FC",
-      "played": 7,
-      "won": 3,
-      "draw": 4,
-      "lost": 0,
-      "goalDifference": 7,
-      "points": 13
-    },
-    {
-      "position": 5,
       "team": "Chelsea FC",
       "played": 7,
       "won": 4,
@@ -51,7 +41,27 @@
       "points": 13
     },
     {
+      "position": 5,
+      "team": "Liverpool FC",
+      "played": 7,
+      "won": 3,
+      "draw": 3,
+      "lost": 1,
+      "goalDifference": 1,
+      "points": 12
+    },
+    {
       "position": 6,
+      "team": "Brentford FC",
+      "played": 7,
+      "won": 2,
+      "draw": 4,
+      "lost": 1,
+      "goalDifference": 5,
+      "points": 10
+    },
+    {
+      "position": 7,
       "team": "Everton FC",
       "played": 7,
       "won": 2,
@@ -61,7 +71,7 @@
       "points": 10
     },
     {
-      "position": 7,
+      "position": 8,
       "team": "Leeds United FC",
       "played": 6,
       "won": 2,
@@ -71,23 +81,13 @@
       "points": 9
     },
     {
-      "position": 8,
+      "position": 9,
       "team": "Hull City AFC",
       "played": 7,
       "won": 2,
       "draw": 3,
       "lost": 2,
       "goalDifference": 1,
-      "points": 9
-    },
-    {
-      "position": 9,
-      "team": "Liverpool FC",
-      "played": 7,
-      "won": 2,
-      "draw": 3,
-      "lost": 2,
-      "goalDifference": -1,
       "points": 9
     },
     {
@@ -103,15 +103,25 @@
     {
       "position": 11,
       "team": "Newcastle United FC",
-      "played": 6,
+      "played": 7,
       "won": 2,
       "draw": 2,
-      "lost": 2,
-      "goalDifference": -3,
+      "lost": 3,
+      "goalDifference": -4,
       "points": 8
     },
     {
       "position": 12,
+      "team": "Aston Villa FC",
+      "played": 7,
+      "won": 2,
+      "draw": 2,
+      "lost": 3,
+      "goalDifference": -4,
+      "points": 8
+    },
+    {
+      "position": 13,
       "team": "Crystal Palace FC",
       "played": 6,
       "won": 2,
@@ -121,7 +131,7 @@
       "points": 7
     },
     {
-      "position": 13,
+      "position": 14,
       "team": "Manchester United FC",
       "played": 6,
       "won": 1,
@@ -131,7 +141,7 @@
       "points": 6
     },
     {
-      "position": 14,
+      "position": 15,
       "team": "Coventry City FC",
       "played": 6,
       "won": 2,
@@ -141,7 +151,7 @@
       "points": 6
     },
     {
-      "position": 15,
+      "position": 16,
       "team": "Fulham FC",
       "played": 7,
       "won": 1,
@@ -151,23 +161,13 @@
       "points": 5
     },
     {
-      "position": 16,
+      "position": 17,
       "team": "Nottingham Forest FC",
       "played": 6,
       "won": 1,
       "draw": 2,
       "lost": 3,
       "goalDifference": -3,
-      "points": 5
-    },
-    {
-      "position": 17,
-      "team": "Aston Villa FC",
-      "played": 6,
-      "won": 1,
-      "draw": 2,
-      "lost": 3,
-      "goalDifference": -5,
       "points": 5
     },
     {
@@ -204,6 +204,16 @@
   "bundesliga": [
     {
       "position": 1,
+      "team": "FC Bayern M\u00fcnchen",
+      "played": 6,
+      "won": 4,
+      "draw": 2,
+      "lost": 0,
+      "goalDifference": 17,
+      "points": 14
+    },
+    {
+      "position": 2,
       "team": "Borussia Dortmund",
       "played": 6,
       "won": 4,
@@ -213,7 +223,7 @@
       "points": 14
     },
     {
-      "position": 2,
+      "position": 3,
       "team": "SC Freiburg",
       "played": 5,
       "won": 4,
@@ -221,16 +231,6 @@
       "lost": 0,
       "goalDifference": 10,
       "points": 13
-    },
-    {
-      "position": 3,
-      "team": "FC Bayern M\u00fcnchen",
-      "played": 5,
-      "won": 3,
-      "draw": 2,
-      "lost": 0,
-      "goalDifference": 12,
-      "points": 11
     },
     {
       "position": 4,
@@ -259,41 +259,51 @@
       "won": 3,
       "draw": 1,
       "lost": 2,
-      "goalDifference": 2,
+      "goalDifference": 1,
       "points": 10
     },
     {
       "position": 7,
       "team": "RB Leipzig",
-      "played": 5,
+      "played": 6,
       "won": 3,
       "draw": 0,
-      "lost": 2,
-      "goalDifference": 10,
+      "lost": 3,
+      "goalDifference": 5,
       "points": 9
     },
     {
       "position": 8,
+      "team": "SV Werder Bremen",
+      "played": 6,
+      "won": 2,
+      "draw": 3,
+      "lost": 1,
+      "goalDifference": 0,
+      "points": 9
+    },
+    {
+      "position": 9,
+      "team": "Hamburger SV",
+      "played": 6,
+      "won": 3,
+      "draw": 0,
+      "lost": 3,
+      "goalDifference": -9,
+      "points": 9
+    },
+    {
+      "position": 10,
       "team": "FC Augsburg",
       "played": 6,
       "won": 2,
       "draw": 2,
       "lost": 2,
-      "goalDifference": 3,
+      "goalDifference": 4,
       "points": 8
     },
     {
-      "position": 9,
-      "team": "SV Werder Bremen",
-      "played": 6,
-      "won": 2,
-      "draw": 2,
-      "lost": 2,
-      "goalDifference": -1,
-      "points": 8
-    },
-    {
-      "position": 10,
+      "position": 11,
       "team": "Eintracht Frankfurt",
       "played": 6,
       "won": 2,
@@ -301,16 +311,6 @@
       "lost": 2,
       "goalDifference": -6,
       "points": 8
-    },
-    {
-      "position": 11,
-      "team": "VfB Stuttgart",
-      "played": 6,
-      "won": 2,
-      "draw": 1,
-      "lost": 3,
-      "goalDifference": -1,
-      "points": 7
     },
     {
       "position": 12,
@@ -324,32 +324,32 @@
     },
     {
       "position": 13,
-      "team": "SC Paderborn 07",
+      "team": "VfB Stuttgart",
       "played": 6,
       "won": 2,
-      "draw": 1,
-      "lost": 3,
-      "goalDifference": -3,
-      "points": 7
+      "draw": 0,
+      "lost": 4,
+      "goalDifference": -2,
+      "points": 6
     },
     {
       "position": 14,
-      "team": "Hamburger SV",
-      "played": 6,
-      "won": 2,
-      "draw": 1,
-      "lost": 3,
-      "goalDifference": -10,
-      "points": 7
-    },
-    {
-      "position": 15,
       "team": "FC Schalke 04",
       "played": 6,
       "won": 1,
       "draw": 2,
       "lost": 3,
       "goalDifference": -3,
+      "points": 5
+    },
+    {
+      "position": 15,
+      "team": "SC Paderborn 07",
+      "played": 6,
+      "won": 1,
+      "draw": 2,
+      "lost": 3,
+      "goalDifference": -4,
       "points": 5
     },
     {
@@ -387,22 +387,22 @@
     {
       "position": 1,
       "team": "Feyenoord Rotterdam",
-      "played": 8,
-      "won": 6,
+      "played": 9,
+      "won": 7,
       "draw": 2,
       "lost": 0,
-      "goalDifference": 20,
-      "points": 20
+      "goalDifference": 21,
+      "points": 23
     },
     {
       "position": 2,
       "team": "PSV",
       "played": 9,
       "won": 6,
-      "draw": 2,
-      "lost": 1,
-      "goalDifference": 16,
-      "points": 20
+      "draw": 1,
+      "lost": 2,
+      "goalDifference": 15,
+      "points": 19
     },
     {
       "position": 3,
@@ -517,32 +517,32 @@
     {
       "position": 14,
       "team": "Sparta Rotterdam",
-      "played": 8,
+      "played": 9,
       "won": 1,
-      "draw": 3,
+      "draw": 4,
       "lost": 4,
       "goalDifference": -7,
-      "points": 6
+      "points": 7
     },
     {
       "position": 15,
       "team": "Telstar 1963",
-      "played": 8,
+      "played": 9,
       "won": 1,
       "draw": 3,
-      "lost": 4,
-      "goalDifference": -7,
+      "lost": 5,
+      "goalDifference": -8,
       "points": 6
     },
     {
       "position": 16,
       "team": "ADO Den Haag",
       "played": 9,
-      "won": 0,
-      "draw": 4,
+      "won": 1,
+      "draw": 3,
       "lost": 5,
-      "goalDifference": -10,
-      "points": 4
+      "goalDifference": -9,
+      "points": 6
     },
     {
       "position": 17,
@@ -557,24 +557,24 @@
     {
       "position": 18,
       "team": "Willem II Tilburg",
-      "played": 8,
+      "played": 9,
       "won": 0,
-      "draw": 2,
+      "draw": 3,
       "lost": 6,
       "goalDifference": -16,
-      "points": 2
+      "points": 3
     }
   ],
   "la-liga": [
     {
       "position": 1,
       "team": "FC Barcelona",
-      "played": 8,
-      "won": 8,
+      "played": 9,
+      "won": 9,
       "draw": 0,
       "lost": 0,
-      "goalDifference": 27,
-      "points": 24
+      "goalDifference": 30,
+      "points": 27
     },
     {
       "position": 2,
@@ -589,11 +589,11 @@
     {
       "position": 3,
       "team": "Real Betis Balompi\u00e9",
-      "played": 8,
+      "played": 9,
       "won": 6,
       "draw": 1,
-      "lost": 1,
-      "goalDifference": 5,
+      "lost": 2,
+      "goalDifference": 2,
       "points": 19
     },
     {
@@ -648,6 +648,16 @@
     },
     {
       "position": 9,
+      "team": "Athletic Club",
+      "played": 7,
+      "won": 2,
+      "draw": 3,
+      "lost": 2,
+      "goalDifference": 1,
+      "points": 9
+    },
+    {
+      "position": 10,
       "team": "Villarreal CF",
       "played": 9,
       "won": 2,
@@ -657,23 +667,13 @@
       "points": 9
     },
     {
-      "position": 10,
+      "position": 11,
       "team": "RC Celta de Vigo",
       "played": 8,
       "won": 1,
       "draw": 5,
       "lost": 2,
       "goalDifference": 2,
-      "points": 8
-    },
-    {
-      "position": 11,
-      "team": "Athletic Club",
-      "played": 6,
-      "won": 2,
-      "draw": 2,
-      "lost": 2,
-      "goalDifference": 1,
       "points": 8
     },
     {
@@ -749,12 +749,12 @@
     {
       "position": 19,
       "team": "Valencia CF",
-      "played": 8,
+      "played": 9,
       "won": 1,
-      "draw": 2,
+      "draw": 3,
       "lost": 5,
       "goalDifference": -9,
-      "points": 5
+      "points": 6
     },
     {
       "position": 20,
@@ -770,6 +770,16 @@
   "ligue-1": [
     {
       "position": 1,
+      "team": "Paris Saint-Germain FC",
+      "played": 7,
+      "won": 4,
+      "draw": 2,
+      "lost": 1,
+      "goalDifference": 5,
+      "points": 14
+    },
+    {
+      "position": 2,
       "team": "AS Monaco FC",
       "played": 6,
       "won": 4,
@@ -779,17 +789,17 @@
       "points": 14
     },
     {
-      "position": 2,
+      "position": 3,
       "team": "Lille OSC",
-      "played": 6,
+      "played": 7,
       "won": 4,
       "draw": 1,
-      "lost": 1,
-      "goalDifference": 5,
+      "lost": 2,
+      "goalDifference": 4,
       "points": 13
     },
     {
-      "position": 3,
+      "position": 4,
       "team": "Stade Rennais FC 1901",
       "played": 6,
       "won": 4,
@@ -799,7 +809,7 @@
       "points": 13
     },
     {
-      "position": 4,
+      "position": 5,
       "team": "Olympique Lyonnais",
       "played": 6,
       "won": 3,
@@ -809,7 +819,17 @@
       "points": 11
     },
     {
-      "position": 5,
+      "position": 6,
+      "team": "Stade Brestois 29",
+      "played": 7,
+      "won": 3,
+      "draw": 2,
+      "lost": 2,
+      "goalDifference": 4,
+      "points": 11
+    },
+    {
+      "position": 7,
       "team": "Paris FC",
       "played": 6,
       "won": 3,
@@ -819,17 +839,17 @@
       "points": 11
     },
     {
-      "position": 6,
-      "team": "Paris Saint-Germain FC",
-      "played": 6,
+      "position": 8,
+      "team": "Racing Club de Lens",
+      "played": 7,
       "won": 3,
-      "draw": 2,
-      "lost": 1,
-      "goalDifference": 3,
-      "points": 11
+      "draw": 1,
+      "lost": 3,
+      "goalDifference": 2,
+      "points": 10
     },
     {
-      "position": 7,
+      "position": 9,
       "team": "Toulouse FC",
       "played": 7,
       "won": 2,
@@ -839,17 +859,7 @@
       "points": 9
     },
     {
-      "position": 8,
-      "team": "Stade Brestois 29",
-      "played": 6,
-      "won": 2,
-      "draw": 2,
-      "lost": 2,
-      "goalDifference": 3,
-      "points": 8
-    },
-    {
-      "position": 9,
+      "position": 10,
       "team": "FC Lorient",
       "played": 6,
       "won": 2,
@@ -859,7 +869,7 @@
       "points": 8
     },
     {
-      "position": 10,
+      "position": 11,
       "team": "OGC Nice",
       "played": 6,
       "won": 2,
@@ -869,23 +879,13 @@
       "points": 8
     },
     {
-      "position": 11,
-      "team": "Racing Club de Lens",
-      "played": 6,
-      "won": 2,
-      "draw": 1,
-      "lost": 3,
-      "goalDifference": 1,
-      "points": 7
-    },
-    {
       "position": 12,
       "team": "RC Strasbourg Alsace",
-      "played": 6,
+      "played": 7,
       "won": 2,
       "draw": 1,
-      "lost": 3,
-      "goalDifference": -1,
+      "lost": 4,
+      "goalDifference": -3,
       "points": 7
     },
     {
@@ -931,11 +931,11 @@
     {
       "position": 17,
       "team": "ES Troyes AC",
-      "played": 6,
+      "played": 7,
       "won": 1,
       "draw": 1,
-      "lost": 4,
-      "goalDifference": -9,
+      "lost": 5,
+      "goalDifference": -10,
       "points": 4
     },
     {
@@ -953,15 +953,25 @@
     {
       "position": 1,
       "team": "FC Internazionale Milano",
-      "played": 6,
-      "won": 5,
+      "played": 7,
+      "won": 6,
       "draw": 1,
       "lost": 0,
-      "goalDifference": 10,
-      "points": 16
+      "goalDifference": 12,
+      "points": 19
     },
     {
       "position": 2,
+      "team": "AS Roma",
+      "played": 7,
+      "won": 5,
+      "draw": 2,
+      "lost": 0,
+      "goalDifference": 12,
+      "points": 17
+    },
+    {
+      "position": 3,
       "team": "SS Lazio",
       "played": 6,
       "won": 5,
@@ -969,16 +979,6 @@
       "lost": 0,
       "goalDifference": 7,
       "points": 16
-    },
-    {
-      "position": 3,
-      "team": "AS Roma",
-      "played": 6,
-      "won": 4,
-      "draw": 2,
-      "lost": 0,
-      "goalDifference": 11,
-      "points": 14
     },
     {
       "position": 4,
@@ -1083,11 +1083,11 @@
     {
       "position": 14,
       "team": "Bologna FC 1909",
-      "played": 6,
+      "played": 7,
       "won": 1,
       "draw": 2,
-      "lost": 3,
-      "goalDifference": -2,
+      "lost": 4,
+      "goalDifference": -4,
       "points": 5
     },
     {
@@ -1112,16 +1112,6 @@
     },
     {
       "position": 17,
-      "team": "Genoa CFC",
-      "played": 6,
-      "won": 1,
-      "draw": 1,
-      "lost": 4,
-      "goalDifference": -6,
-      "points": 4
-    },
-    {
-      "position": 18,
       "team": "Parma Calcio 1913",
       "played": 6,
       "won": 1,
@@ -1131,12 +1121,22 @@
       "points": 4
     },
     {
-      "position": 19,
+      "position": 18,
       "team": "ACF Fiorentina",
       "played": 6,
       "won": 1,
       "draw": 1,
       "lost": 4,
+      "goalDifference": -7,
+      "points": 4
+    },
+    {
+      "position": 19,
+      "team": "Genoa CFC",
+      "played": 7,
+      "won": 1,
+      "draw": 1,
+      "lost": 5,
       "goalDifference": -7,
       "points": 4
     },
@@ -1539,15 +1539,25 @@
     {
       "position": 1,
       "team": "Swansea City AFC",
-      "played": 10,
+      "played": 11,
       "won": 7,
       "draw": 2,
-      "lost": 1,
-      "goalDifference": 9,
+      "lost": 2,
+      "goalDifference": 8,
       "points": 23
     },
     {
       "position": 2,
+      "team": "West Ham United FC",
+      "played": 11,
+      "won": 6,
+      "draw": 4,
+      "lost": 1,
+      "goalDifference": 18,
+      "points": 22
+    },
+    {
+      "position": 3,
       "team": "Middlesbrough FC",
       "played": 11,
       "won": 6,
@@ -1557,37 +1567,47 @@
       "points": 22
     },
     {
-      "position": 3,
-      "team": "West Ham United FC",
-      "played": 10,
-      "won": 5,
-      "draw": 4,
-      "lost": 1,
-      "goalDifference": 17,
-      "points": 19
-    },
-    {
       "position": 4,
       "team": "Birmingham City FC",
-      "played": 10,
-      "won": 4,
+      "played": 11,
+      "won": 5,
       "draw": 5,
       "lost": 1,
-      "goalDifference": 6,
-      "points": 17
+      "goalDifference": 9,
+      "points": 20
     },
     {
       "position": 5,
-      "team": "Queens Park Rangers FC",
-      "played": 10,
-      "won": 4,
-      "draw": 5,
-      "lost": 1,
-      "goalDifference": 6,
-      "points": 17
+      "team": "West Bromwich Albion FC",
+      "played": 11,
+      "won": 6,
+      "draw": 2,
+      "lost": 3,
+      "goalDifference": 3,
+      "points": 20
     },
     {
       "position": 6,
+      "team": "Stoke City FC",
+      "played": 11,
+      "won": 6,
+      "draw": 1,
+      "lost": 4,
+      "goalDifference": 2,
+      "points": 19
+    },
+    {
+      "position": 7,
+      "team": "Southampton FC",
+      "played": 11,
+      "won": 6,
+      "draw": 3,
+      "lost": 2,
+      "goalDifference": 11,
+      "points": 17
+    },
+    {
+      "position": 8,
       "team": "Wolverhampton Wanderers FC",
       "played": 10,
       "won": 5,
@@ -1597,47 +1617,37 @@
       "points": 17
     },
     {
-      "position": 7,
-      "team": "West Bromwich Albion FC",
-      "played": 10,
-      "won": 5,
-      "draw": 2,
-      "lost": 3,
-      "goalDifference": 2,
-      "points": 17
-    },
-    {
-      "position": 8,
-      "team": "Southampton FC",
-      "played": 10,
-      "won": 6,
-      "draw": 2,
-      "lost": 2,
-      "goalDifference": 11,
-      "points": 16
-    },
-    {
       "position": 9,
-      "team": "Stoke City FC",
-      "played": 10,
-      "won": 5,
-      "draw": 1,
-      "lost": 4,
-      "goalDifference": 1,
-      "points": 16
+      "team": "Queens Park Rangers FC",
+      "played": 11,
+      "won": 4,
+      "draw": 5,
+      "lost": 2,
+      "goalDifference": 3,
+      "points": 17
     },
     {
       "position": 10,
       "team": "Blackburn Rovers FC",
-      "played": 10,
+      "played": 11,
       "won": 4,
       "draw": 3,
-      "lost": 3,
-      "goalDifference": 2,
+      "lost": 4,
+      "goalDifference": 1,
       "points": 15
     },
     {
       "position": 11,
+      "team": "Sheffield United FC",
+      "played": 11,
+      "won": 4,
+      "draw": 3,
+      "lost": 4,
+      "goalDifference": 1,
+      "points": 15
+    },
+    {
+      "position": 12,
       "team": "Millwall FC",
       "played": 11,
       "won": 4,
@@ -1647,17 +1657,47 @@
       "points": 15
     },
     {
-      "position": 12,
-      "team": "Bristol City FC",
+      "position": 13,
+      "team": "Portsmouth FC",
       "played": 10,
       "won": 4,
       "draw": 2,
       "lost": 4,
-      "goalDifference": -2,
+      "goalDifference": 0,
       "points": 14
     },
     {
-      "position": 13,
+      "position": 14,
+      "team": "Wrexham AFC",
+      "played": 11,
+      "won": 3,
+      "draw": 5,
+      "lost": 3,
+      "goalDifference": -1,
+      "points": 14
+    },
+    {
+      "position": 15,
+      "team": "Bolton Wanderers FC",
+      "played": 11,
+      "won": 4,
+      "draw": 2,
+      "lost": 5,
+      "goalDifference": -3,
+      "points": 14
+    },
+    {
+      "position": 16,
+      "team": "Bristol City FC",
+      "played": 11,
+      "won": 4,
+      "draw": 2,
+      "lost": 5,
+      "goalDifference": -3,
+      "points": 14
+    },
+    {
+      "position": 17,
       "team": "Charlton Athletic FC",
       "played": 11,
       "won": 3,
@@ -1667,27 +1707,7 @@
       "points": 14
     },
     {
-      "position": 14,
-      "team": "Bolton Wanderers FC",
-      "played": 10,
-      "won": 4,
-      "draw": 1,
-      "lost": 5,
-      "goalDifference": -3,
-      "points": 13
-    },
-    {
-      "position": 15,
-      "team": "Sheffield United FC",
-      "played": 10,
-      "won": 3,
-      "draw": 3,
-      "lost": 4,
-      "goalDifference": 0,
-      "points": 12
-    },
-    {
-      "position": 16,
+      "position": 18,
       "team": "Lincoln City FC",
       "played": 11,
       "won": 3,
@@ -1697,33 +1717,13 @@
       "points": 12
     },
     {
-      "position": 17,
+      "position": 19,
       "team": "Cardiff City FC",
       "played": 11,
       "won": 2,
       "draw": 5,
       "lost": 4,
       "goalDifference": 1,
-      "points": 11
-    },
-    {
-      "position": 18,
-      "team": "Portsmouth FC",
-      "played": 9,
-      "won": 3,
-      "draw": 2,
-      "lost": 4,
-      "goalDifference": -1,
-      "points": 11
-    },
-    {
-      "position": 19,
-      "team": "Wrexham AFC",
-      "played": 10,
-      "won": 2,
-      "draw": 5,
-      "lost": 3,
-      "goalDifference": -4,
       "points": 11
     },
     {
@@ -1739,11 +1739,11 @@
     {
       "position": 21,
       "team": "Norwich City FC",
-      "played": 10,
+      "played": 11,
       "won": 3,
       "draw": 0,
-      "lost": 7,
-      "goalDifference": -3,
+      "lost": 8,
+      "goalDifference": -4,
       "points": 9
     },
     {
@@ -1759,21 +1759,21 @@
     {
       "position": 23,
       "team": "Derby County FC",
-      "played": 10,
+      "played": 11,
       "won": 1,
       "draw": 3,
-      "lost": 6,
-      "goalDifference": -10,
+      "lost": 7,
+      "goalDifference": -11,
       "points": 6
     },
     {
       "position": 24,
       "team": "Preston North End FC",
-      "played": 10,
+      "played": 11,
       "won": 1,
       "draw": 1,
-      "lost": 8,
-      "goalDifference": -12,
+      "lost": 9,
+      "goalDifference": -15,
       "points": 4
     }
   ]
