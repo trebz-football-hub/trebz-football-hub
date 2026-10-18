@@ -496,6 +496,16 @@
     },
     {
       "position": 12,
+      "team": "Sparta Rotterdam",
+      "played": 9,
+      "won": 2,
+      "draw": 3,
+      "lost": 4,
+      "goalDifference": -6,
+      "points": 9
+    },
+    {
+      "position": 13,
       "team": "SC Cambuur-Leeuwarden",
       "played": 8,
       "won": 2,
@@ -505,7 +515,7 @@
       "points": 8
     },
     {
-      "position": 13,
+      "position": 14,
       "team": "FC Utrecht",
       "played": 8,
       "won": 2,
@@ -513,16 +523,6 @@
       "lost": 4,
       "goalDifference": -11,
       "points": 8
-    },
-    {
-      "position": 14,
-      "team": "Sparta Rotterdam",
-      "played": 9,
-      "won": 1,
-      "draw": 4,
-      "lost": 4,
-      "goalDifference": -7,
-      "points": 7
     },
     {
       "position": 15,
@@ -559,10 +559,10 @@
       "team": "Willem II Tilburg",
       "played": 9,
       "won": 0,
-      "draw": 3,
-      "lost": 6,
-      "goalDifference": -16,
-      "points": 3
+      "draw": 2,
+      "lost": 7,
+      "goalDifference": -17,
+      "points": 2
     }
   ],
   "la-liga": [
@@ -789,14 +789,14 @@
       "points": 14
     },
     {
-      "position": 3,
+      "position": 2,
       "team": "Lille OSC",
       "played": 7,
       "won": 4,
-      "draw": 1,
-      "lost": 2,
-      "goalDifference": 4,
-      "points": 13
+      "draw": 2,
+      "lost": 1,
+      "goalDifference": 5,
+      "points": 14
     },
     {
       "position": 4,
@@ -820,16 +820,6 @@
     },
     {
       "position": 6,
-      "team": "Stade Brestois 29",
-      "played": 7,
-      "won": 3,
-      "draw": 2,
-      "lost": 2,
-      "goalDifference": 4,
-      "points": 11
-    },
-    {
-      "position": 7,
       "team": "Paris FC",
       "played": 6,
       "won": 3,
@@ -839,14 +829,24 @@
       "points": 11
     },
     {
-      "position": 8,
+      "position": 7,
       "team": "Racing Club de Lens",
       "played": 7,
       "won": 3,
       "draw": 1,
       "lost": 3,
-      "goalDifference": 2,
+      "goalDifference": 3,
       "points": 10
+    },
+    {
+      "position": 8,
+      "team": "Stade Brestois 29",
+      "played": 7,
+      "won": 2,
+      "draw": 3,
+      "lost": 2,
+      "goalDifference": 3,
+      "points": 9
     },
     {
       "position": 9,
@@ -935,7 +935,7 @@
       "won": 1,
       "draw": 1,
       "lost": 5,
-      "goalDifference": -10,
+      "goalDifference": -11,
       "points": 4
     },
     {
@@ -967,7 +967,7 @@
       "won": 5,
       "draw": 2,
       "lost": 0,
-      "goalDifference": 12,
+      "goalDifference": 13,
       "points": 17
     },
     {
@@ -1137,7 +1137,7 @@
       "won": 1,
       "draw": 1,
       "lost": 5,
-      "goalDifference": -7,
+      "goalDifference": -8,
       "points": 4
     },
     {
@@ -1336,6 +1336,16 @@
   "brazil-serie-a": [
     {
       "position": 1,
+      "team": "SE Palmeiras",
+      "played": 31,
+      "won": 19,
+      "draw": 9,
+      "lost": 3,
+      "goalDifference": 32,
+      "points": 66
+    },
+    {
+      "position": 2,
       "team": "CR Flamengo",
       "played": 30,
       "won": 19,
@@ -1345,23 +1355,13 @@
       "points": 64
     },
     {
-      "position": 2,
-      "team": "SE Palmeiras",
-      "played": 30,
-      "won": 18,
-      "draw": 9,
-      "lost": 3,
-      "goalDifference": 30,
-      "points": 63
-    },
-    {
       "position": 3,
       "team": "CA Paranaense",
-      "played": 30,
+      "played": 31,
       "won": 15,
       "draw": 8,
-      "lost": 7,
-      "goalDifference": 14,
+      "lost": 8,
+      "goalDifference": 12,
       "points": 53
     },
     {
@@ -1376,6 +1376,16 @@
     },
     {
       "position": 5,
+      "team": "CA Mineiro",
+      "played": 31,
+      "won": 14,
+      "draw": 8,
+      "lost": 9,
+      "goalDifference": 7,
+      "points": 50
+    },
+    {
+      "position": 6,
       "team": "EC Bahia",
       "played": 30,
       "won": 13,
@@ -1385,7 +1395,7 @@
       "points": 49
     },
     {
-      "position": 6,
+      "position": 7,
       "team": "Cruzeiro EC",
       "played": 30,
       "won": 14,
@@ -1395,17 +1405,17 @@
       "points": 48
     },
     {
-      "position": 7,
-      "team": "CA Mineiro",
-      "played": 30,
-      "won": 13,
-      "draw": 8,
-      "lost": 9,
-      "goalDifference": 6,
-      "points": 47
+      "position": 8,
+      "team": "S\u00e3o Paulo FC",
+      "played": 31,
+      "won": 12,
+      "draw": 6,
+      "lost": 13,
+      "goalDifference": 1,
+      "points": 42
     },
     {
-      "position": 8,
+      "position": 9,
       "team": "Santos FC",
       "played": 30,
       "won": 11,
@@ -1415,7 +1425,7 @@
       "points": 42
     },
     {
-      "position": 9,
+      "position": 10,
       "team": "RB Bragantino",
       "played": 30,
       "won": 11,
@@ -1425,43 +1435,33 @@
       "points": 40
     },
     {
-      "position": 10,
-      "team": "S\u00e3o Paulo FC",
-      "played": 30,
-      "won": 11,
-      "draw": 6,
-      "lost": 13,
-      "goalDifference": 0,
-      "points": 39
-    },
-    {
       "position": 11,
-      "team": "Coritiba FBC",
-      "played": 30,
+      "team": "Botafogo FR",
+      "played": 31,
       "won": 10,
       "draw": 9,
-      "lost": 11,
-      "goalDifference": -10,
+      "lost": 12,
+      "goalDifference": -4,
       "points": 39
     },
     {
       "position": 12,
+      "team": "Coritiba FBC",
+      "played": 31,
+      "won": 10,
+      "draw": 9,
+      "lost": 12,
+      "goalDifference": -11,
+      "points": 39
+    },
+    {
+      "position": 13,
       "team": "EC Vit\u00f3ria",
       "played": 30,
       "won": 10,
       "draw": 6,
       "lost": 14,
       "goalDifference": -11,
-      "points": 36
-    },
-    {
-      "position": 13,
-      "team": "Botafogo FR",
-      "played": 30,
-      "won": 9,
-      "draw": 9,
-      "lost": 12,
-      "goalDifference": -5,
       "points": 36
     },
     {
@@ -1477,11 +1477,11 @@
     {
       "position": 15,
       "team": "CR Vasco da Gama",
-      "played": 29,
+      "played": 30,
       "won": 9,
       "draw": 8,
-      "lost": 12,
-      "goalDifference": -6,
+      "lost": 13,
+      "goalDifference": -7,
       "points": 35
     },
     {
@@ -1527,11 +1527,11 @@
     {
       "position": 20,
       "team": "Chapecoense AF",
-      "played": 29,
+      "played": 30,
       "won": 3,
       "draw": 9,
-      "lost": 17,
-      "goalDifference": -31,
+      "lost": 18,
+      "goalDifference": -32,
       "points": 18
     }
   ],
