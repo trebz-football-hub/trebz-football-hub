@@ -467,12 +467,12 @@
     {
       "position": 9,
       "team": "Go Ahead Eagles",
-      "played": 8,
+      "played": 9,
       "won": 2,
-      "draw": 5,
+      "draw": 6,
       "lost": 1,
       "goalDifference": 2,
-      "points": 11
+      "points": 12
     },
     {
       "position": 10,
@@ -547,12 +547,12 @@
     {
       "position": 17,
       "team": "PEC Zwolle",
-      "played": 8,
+      "played": 9,
       "won": 1,
-      "draw": 1,
+      "draw": 2,
       "lost": 6,
       "goalDifference": -15,
-      "points": 4
+      "points": 5
     },
     {
       "position": 18,
