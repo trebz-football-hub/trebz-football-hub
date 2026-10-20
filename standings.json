@@ -1598,22 +1598,22 @@
     },
     {
       "position": 7,
+      "team": "Wolverhampton Wanderers FC",
+      "played": 11,
+      "won": 5,
+      "draw": 3,
+      "lost": 3,
+      "goalDifference": 3,
+      "points": 18
+    },
+    {
+      "position": 8,
       "team": "Southampton FC",
       "played": 11,
       "won": 6,
       "draw": 3,
       "lost": 2,
       "goalDifference": 11,
-      "points": 17
-    },
-    {
-      "position": 8,
-      "team": "Wolverhampton Wanderers FC",
-      "played": 10,
-      "won": 5,
-      "draw": 2,
-      "lost": 3,
-      "goalDifference": 3,
       "points": 17
     },
     {
@@ -1659,12 +1659,12 @@
     {
       "position": 13,
       "team": "Portsmouth FC",
-      "played": 10,
+      "played": 11,
       "won": 4,
-      "draw": 2,
+      "draw": 3,
       "lost": 4,
       "goalDifference": 0,
-      "points": 14
+      "points": 15
     },
     {
       "position": 14,
