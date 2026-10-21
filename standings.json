@@ -668,13 +668,13 @@
     },
     {
       "position": 11,
-      "team": "Athletic Club",
-      "played": 7,
+      "team": "Levante UD",
+      "played": 9,
       "won": 2,
-      "draw": 3,
-      "lost": 2,
-      "goalDifference": 1,
-      "points": 9
+      "draw": 4,
+      "lost": 3,
+      "goalDifference": -2,
+      "points": 10
     },
     {
       "position": 12,
@@ -688,6 +688,16 @@
     },
     {
       "position": 13,
+      "team": "Athletic Club",
+      "played": 8,
+      "won": 2,
+      "draw": 3,
+      "lost": 3,
+      "goalDifference": -1,
+      "points": 9
+    },
+    {
+      "position": 14,
       "team": "Rayo Vallecano de Madrid",
       "played": 8,
       "won": 2,
@@ -697,7 +707,7 @@
       "points": 9
     },
     {
-      "position": 14,
+      "position": 15,
       "team": "Getafe CF",
       "played": 9,
       "won": 2,
@@ -707,7 +717,7 @@
       "points": 9
     },
     {
-      "position": 15,
+      "position": 16,
       "team": "RCD Espanyol de Barcelona",
       "played": 9,
       "won": 2,
@@ -717,7 +727,7 @@
       "points": 8
     },
     {
-      "position": 16,
+      "position": 17,
       "team": "Real Racing Club de Santander",
       "played": 9,
       "won": 2,
@@ -725,16 +735,6 @@
       "lost": 5,
       "goalDifference": -12,
       "points": 8
-    },
-    {
-      "position": 17,
-      "team": "Levante UD",
-      "played": 8,
-      "won": 1,
-      "draw": 4,
-      "lost": 3,
-      "goalDifference": -4,
-      "points": 7
     },
     {
       "position": 18,
