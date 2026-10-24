@@ -1259,27 +1259,27 @@
       "won": 2,
       "draw": 2,
       "lost": 5,
-      "goalDifference": -4,
+      "goalDifference": 0,
       "points": 8
     },
     {
       "position": 12,
-      "team": "CS Mar\u00edtimo",
-      "played": 9,
-      "won": 2,
-      "draw": 2,
-      "lost": 5,
-      "goalDifference": -6,
-      "points": 8
-    },
-    {
-      "position": 13,
       "team": "Moreirense FC",
       "played": 8,
       "won": 2,
       "draw": 2,
       "lost": 4,
       "goalDifference": -7,
+      "points": 8
+    },
+    {
+      "position": 13,
+      "team": "CS Mar\u00edtimo",
+      "played": 9,
+      "won": 2,
+      "draw": 2,
+      "lost": 5,
+      "goalDifference": -10,
       "points": 8
     },
     {
@@ -1356,6 +1356,16 @@
     },
     {
       "position": 3,
+      "team": "Cruzeiro EC",
+      "played": 32,
+      "won": 16,
+      "draw": 6,
+      "lost": 10,
+      "goalDifference": 5,
+      "points": 54
+    },
+    {
+      "position": 4,
       "team": "CA Paranaense",
       "played": 31,
       "won": 15,
@@ -1363,16 +1373,6 @@
       "lost": 8,
       "goalDifference": 12,
       "points": 53
-    },
-    {
-      "position": 4,
-      "team": "Cruzeiro EC",
-      "played": 31,
-      "won": 15,
-      "draw": 6,
-      "lost": 10,
-      "goalDifference": 4,
-      "points": 51
     },
     {
       "position": 5,
@@ -1517,11 +1517,11 @@
     {
       "position": 19,
       "team": "Clube do Remo",
-      "played": 31,
+      "played": 32,
       "won": 5,
       "draw": 11,
-      "lost": 15,
-      "goalDifference": -15,
+      "lost": 16,
+      "goalDifference": -16,
       "points": 26
     },
     {
