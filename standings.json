@@ -406,16 +406,6 @@
     },
     {
       "position": 3,
-      "team": "AZ",
-      "played": 10,
-      "won": 6,
-      "draw": 3,
-      "lost": 1,
-      "goalDifference": 10,
-      "points": 21
-    },
-    {
-      "position": 4,
       "team": "PSV",
       "played": 10,
       "won": 6,
@@ -425,14 +415,24 @@
       "points": 20
     },
     {
-      "position": 5,
+      "position": 4,
       "team": "FC Twente '65",
       "played": 10,
-      "won": 5,
-      "draw": 3,
+      "won": 6,
+      "draw": 2,
       "lost": 2,
-      "goalDifference": 7,
-      "points": 18
+      "goalDifference": 9,
+      "points": 20
+    },
+    {
+      "position": 5,
+      "team": "AZ",
+      "played": 10,
+      "won": 6,
+      "draw": 2,
+      "lost": 2,
+      "goalDifference": 8,
+      "points": 20
     },
     {
       "position": 6,
@@ -571,10 +571,10 @@
       "team": "FC Barcelona",
       "played": 10,
       "won": 9,
-      "draw": 1,
-      "lost": 0,
-      "goalDifference": 30,
-      "points": 28
+      "draw": 0,
+      "lost": 1,
+      "goalDifference": 29,
+      "points": 27
     },
     {
       "position": 2,
@@ -590,11 +590,11 @@
       "position": 3,
       "team": "Real Madrid CF",
       "played": 10,
-      "won": 7,
-      "draw": 1,
+      "won": 8,
+      "draw": 0,
       "lost": 2,
-      "goalDifference": 14,
-      "points": 22
+      "goalDifference": 15,
+      "points": 24
     },
     {
       "position": 4,
@@ -987,7 +987,7 @@
       "won": 5,
       "draw": 3,
       "lost": 0,
-      "goalDifference": 8,
+      "goalDifference": 9,
       "points": 18
     },
     {
@@ -1117,7 +1117,7 @@
       "won": 1,
       "draw": 1,
       "lost": 6,
-      "goalDifference": -8,
+      "goalDifference": -9,
       "points": 4
     },
     {
@@ -1175,11 +1175,11 @@
     {
       "position": 3,
       "team": "Sporting Clube de Portugal",
-      "played": 8,
+      "played": 9,
       "won": 5,
       "draw": 3,
-      "lost": 0,
-      "goalDifference": 11,
+      "lost": 1,
+      "goalDifference": 10,
       "points": 18
     },
     {
@@ -1205,12 +1205,12 @@
     {
       "position": 6,
       "team": "Acad\u00e9mico de Viseu FC",
-      "played": 8,
-      "won": 4,
+      "played": 9,
+      "won": 5,
       "draw": 2,
       "lost": 2,
-      "goalDifference": 1,
-      "points": 14
+      "goalDifference": 2,
+      "points": 17
     },
     {
       "position": 7,
