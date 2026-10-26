@@ -619,12 +619,12 @@
     {
       "position": 6,
       "team": "Sevilla FC",
-      "played": 9,
-      "won": 4,
+      "played": 10,
+      "won": 5,
       "draw": 2,
       "lost": 3,
-      "goalDifference": -2,
-      "points": 14
+      "goalDifference": 0,
+      "points": 17
     },
     {
       "position": 7,
@@ -679,11 +679,11 @@
     {
       "position": 12,
       "team": "CA Osasuna",
-      "played": 9,
+      "played": 10,
       "won": 3,
       "draw": 2,
-      "lost": 4,
-      "goalDifference": -8,
+      "lost": 5,
+      "goalDifference": -10,
       "points": 11
     },
     {
@@ -770,6 +770,16 @@
   "ligue-1": [
     {
       "position": 1,
+      "team": "Paris Saint-Germain FC",
+      "played": 8,
+      "won": 5,
+      "draw": 2,
+      "lost": 1,
+      "goalDifference": 7,
+      "points": 17
+    },
+    {
+      "position": 2,
       "team": "Stade Rennais FC 1901",
       "played": 8,
       "won": 5,
@@ -779,7 +789,7 @@
       "points": 16
     },
     {
-      "position": 2,
+      "position": 3,
       "team": "Lille OSC",
       "played": 8,
       "won": 4,
@@ -789,7 +799,7 @@
       "points": 15
     },
     {
-      "position": 3,
+      "position": 4,
       "team": "AS Monaco FC",
       "played": 8,
       "won": 4,
@@ -799,23 +809,13 @@
       "points": 15
     },
     {
-      "position": 4,
-      "team": "Olympique Lyonnais",
-      "played": 7,
-      "won": 4,
-      "draw": 2,
-      "lost": 1,
-      "goalDifference": 8,
-      "points": 14
-    },
-    {
       "position": 5,
-      "team": "Paris Saint-Germain FC",
-      "played": 7,
+      "team": "Olympique Lyonnais",
+      "played": 8,
       "won": 4,
       "draw": 2,
-      "lost": 1,
-      "goalDifference": 5,
+      "lost": 2,
+      "goalDifference": 6,
       "points": 14
     },
     {
@@ -1165,12 +1165,12 @@
     {
       "position": 2,
       "team": "Sport Lisboa e Benfica",
-      "played": 8,
-      "won": 6,
+      "played": 9,
+      "won": 7,
       "draw": 1,
       "lost": 1,
-      "goalDifference": 17,
-      "points": 19
+      "goalDifference": 18,
+      "points": 22
     },
     {
       "position": 3,
@@ -1185,11 +1185,11 @@
     {
       "position": 4,
       "team": "CD Santa Clara",
-      "played": 8,
+      "played": 9,
       "won": 5,
       "draw": 3,
-      "lost": 0,
-      "goalDifference": 8,
+      "lost": 1,
+      "goalDifference": 7,
       "points": 18
     },
     {
