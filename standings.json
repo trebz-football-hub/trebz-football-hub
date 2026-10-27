@@ -952,6 +952,16 @@
   "serie-a": [
     {
       "position": 1,
+      "team": "SS Lazio",
+      "played": 9,
+      "won": 8,
+      "draw": 1,
+      "lost": 0,
+      "goalDifference": 15,
+      "points": 25
+    },
+    {
+      "position": 2,
       "team": "FC Internazionale Milano",
       "played": 8,
       "won": 7,
@@ -961,27 +971,27 @@
       "points": 22
     },
     {
-      "position": 2,
-      "team": "SS Lazio",
-      "played": 8,
-      "won": 7,
-      "draw": 1,
-      "lost": 0,
-      "goalDifference": 11,
-      "points": 22
-    },
-    {
       "position": 3,
       "team": "AS Roma",
-      "played": 8,
-      "won": 5,
+      "played": 9,
+      "won": 6,
       "draw": 3,
       "lost": 0,
-      "goalDifference": 13,
-      "points": 18
+      "goalDifference": 15,
+      "points": 21
     },
     {
       "position": 4,
+      "team": "Como 1907",
+      "played": 9,
+      "won": 6,
+      "draw": 2,
+      "lost": 1,
+      "goalDifference": 8,
+      "points": 20
+    },
+    {
+      "position": 5,
       "team": "AC Milan",
       "played": 8,
       "won": 5,
@@ -989,16 +999,6 @@
       "lost": 0,
       "goalDifference": 9,
       "points": 18
-    },
-    {
-      "position": 5,
-      "team": "Como 1907",
-      "played": 8,
-      "won": 5,
-      "draw": 2,
-      "lost": 1,
-      "goalDifference": 7,
-      "points": 17
     },
     {
       "position": 6,
@@ -1023,21 +1023,21 @@
     {
       "position": 8,
       "team": "Torino FC",
-      "played": 8,
+      "played": 9,
       "won": 4,
       "draw": 1,
-      "lost": 3,
-      "goalDifference": 2,
+      "lost": 4,
+      "goalDifference": 1,
       "points": 13
     },
     {
       "position": 9,
       "team": "Cagliari Calcio",
-      "played": 8,
+      "played": 9,
       "won": 4,
       "draw": 1,
-      "lost": 3,
-      "goalDifference": -3,
+      "lost": 4,
+      "goalDifference": -5,
       "points": 13
     },
     {
@@ -1083,11 +1083,11 @@
     {
       "position": 14,
       "team": "US Sassuolo Calcio",
-      "played": 8,
+      "played": 9,
       "won": 2,
       "draw": 2,
-      "lost": 4,
-      "goalDifference": -4,
+      "lost": 5,
+      "goalDifference": -8,
       "points": 8
     },
     {
