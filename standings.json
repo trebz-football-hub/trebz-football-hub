@@ -987,7 +987,7 @@
       "won": 6,
       "draw": 2,
       "lost": 1,
-      "goalDifference": 8,
+      "goalDifference": 9,
       "points": 20
     },
     {
@@ -1027,7 +1027,7 @@
       "won": 4,
       "draw": 1,
       "lost": 4,
-      "goalDifference": 1,
+      "goalDifference": 0,
       "points": 13
     },
     {
