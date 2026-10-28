@@ -952,7 +952,7 @@
   "serie-a": [
     {
       "position": 1,
-      "team": "SS Lazio",
+      "team": "FC Internazionale Milano",
       "played": 9,
       "won": 8,
       "draw": 1,
@@ -962,13 +962,13 @@
     },
     {
       "position": 2,
-      "team": "FC Internazionale Milano",
-      "played": 8,
-      "won": 7,
+      "team": "SS Lazio",
+      "played": 9,
+      "won": 8,
       "draw": 1,
       "lost": 0,
-      "goalDifference": 13,
-      "points": 22
+      "goalDifference": 15,
+      "points": 25
     },
     {
       "position": 3,
@@ -993,15 +993,25 @@
     {
       "position": 5,
       "team": "AC Milan",
-      "played": 8,
+      "played": 9,
       "won": 5,
       "draw": 3,
-      "lost": 0,
-      "goalDifference": 9,
+      "lost": 1,
+      "goalDifference": 7,
       "points": 18
     },
     {
       "position": 6,
+      "team": "SSC Napoli",
+      "played": 9,
+      "won": 4,
+      "draw": 2,
+      "lost": 3,
+      "goalDifference": 6,
+      "points": 14
+    },
+    {
+      "position": 7,
       "team": "Frosinone Calcio",
       "played": 8,
       "won": 4,
@@ -1011,17 +1021,17 @@
       "points": 14
     },
     {
-      "position": 7,
+      "position": 8,
       "team": "Juventus FC",
-      "played": 8,
+      "played": 9,
       "won": 4,
       "draw": 2,
-      "lost": 2,
-      "goalDifference": 3,
+      "lost": 3,
+      "goalDifference": 1,
       "points": 14
     },
     {
-      "position": 8,
+      "position": 9,
       "team": "Torino FC",
       "played": 9,
       "won": 4,
@@ -1031,7 +1041,7 @@
       "points": 13
     },
     {
-      "position": 9,
+      "position": 10,
       "team": "Cagliari Calcio",
       "played": 9,
       "won": 4,
@@ -1041,17 +1051,17 @@
       "points": 13
     },
     {
-      "position": 10,
-      "team": "SSC Napoli",
-      "played": 8,
+      "position": 11,
+      "team": "Bologna FC 1909",
+      "played": 9,
       "won": 3,
       "draw": 2,
-      "lost": 3,
-      "goalDifference": 3,
+      "lost": 4,
+      "goalDifference": 0,
       "points": 11
     },
     {
-      "position": 11,
+      "position": 12,
       "team": "Atalanta BC",
       "played": 8,
       "won": 3,
@@ -1061,7 +1071,17 @@
       "points": 10
     },
     {
-      "position": 12,
+      "position": 13,
+      "team": "Genoa CFC",
+      "played": 9,
+      "won": 3,
+      "draw": 1,
+      "lost": 5,
+      "goalDifference": -5,
+      "points": 10
+    },
+    {
+      "position": 14,
       "team": "US Lecce",
       "played": 8,
       "won": 3,
@@ -1071,17 +1091,7 @@
       "points": 9
     },
     {
-      "position": 13,
-      "team": "Bologna FC 1909",
-      "played": 8,
-      "won": 2,
-      "draw": 2,
-      "lost": 4,
-      "goalDifference": -2,
-      "points": 8
-    },
-    {
-      "position": 14,
+      "position": 15,
       "team": "US Sassuolo Calcio",
       "played": 9,
       "won": 2,
@@ -1091,48 +1101,38 @@
       "points": 8
     },
     {
-      "position": 15,
-      "team": "AC Monza",
-      "played": 8,
-      "won": 2,
-      "draw": 1,
-      "lost": 5,
-      "goalDifference": -3,
-      "points": 7
-    },
-    {
       "position": 16,
-      "team": "Genoa CFC",
-      "played": 8,
+      "team": "AC Monza",
+      "played": 9,
       "won": 2,
       "draw": 1,
-      "lost": 5,
-      "goalDifference": -7,
+      "lost": 6,
+      "goalDifference": -6,
       "points": 7
     },
     {
       "position": 17,
       "team": "Udinese Calcio",
-      "played": 8,
+      "played": 9,
       "won": 1,
-      "draw": 1,
+      "draw": 2,
       "lost": 6,
       "goalDifference": -9,
-      "points": 4
+      "points": 5
     },
     {
       "position": 18,
-      "team": "ACF Fiorentina",
-      "played": 8,
+      "team": "Parma Calcio 1913",
+      "played": 9,
       "won": 1,
-      "draw": 1,
+      "draw": 2,
       "lost": 6,
       "goalDifference": -10,
-      "points": 4
+      "points": 5
     },
     {
       "position": 19,
-      "team": "Parma Calcio 1913",
+      "team": "ACF Fiorentina",
       "played": 8,
       "won": 1,
       "draw": 1,
@@ -1143,11 +1143,11 @@
     {
       "position": 20,
       "team": "Venezia FC",
-      "played": 8,
+      "played": 9,
       "won": 1,
       "draw": 0,
-      "lost": 7,
-      "goalDifference": -11,
+      "lost": 8,
+      "goalDifference": -13,
       "points": 3
     }
   ],
