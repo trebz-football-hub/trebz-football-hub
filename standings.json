@@ -1347,12 +1347,12 @@
     {
       "position": 2,
       "team": "SE Palmeiras",
-      "played": 32,
+      "played": 33,
       "won": 20,
-      "draw": 9,
+      "draw": 10,
       "lost": 3,
       "goalDifference": 34,
-      "points": 69
+      "points": 70
     },
     {
       "position": 3,
@@ -1377,15 +1377,25 @@
     {
       "position": 5,
       "team": "Fluminense FC",
-      "played": 32,
-      "won": 14,
+      "played": 33,
+      "won": 15,
       "draw": 9,
       "lost": 9,
-      "goalDifference": 9,
-      "points": 51
+      "goalDifference": 10,
+      "points": 54
     },
     {
       "position": 6,
+      "team": "EC Bahia",
+      "played": 33,
+      "won": 14,
+      "draw": 11,
+      "lost": 8,
+      "goalDifference": 6,
+      "points": 53
+    },
+    {
+      "position": 7,
       "team": "CA Mineiro",
       "played": 32,
       "won": 14,
@@ -1395,53 +1405,43 @@
       "points": 50
     },
     {
-      "position": 7,
-      "team": "EC Bahia",
-      "played": 32,
-      "won": 13,
-      "draw": 11,
-      "lost": 8,
-      "goalDifference": 5,
-      "points": 50
-    },
-    {
       "position": 8,
       "team": "Santos FC",
-      "played": 32,
+      "played": 33,
       "won": 12,
-      "draw": 10,
+      "draw": 11,
       "lost": 10,
       "goalDifference": 2,
-      "points": 46
+      "points": 47
     },
     {
       "position": 9,
-      "team": "S\u00e3o Paulo FC",
-      "played": 32,
+      "team": "RB Bragantino",
+      "played": 33,
       "won": 12,
-      "draw": 7,
+      "draw": 8,
       "lost": 13,
-      "goalDifference": 1,
-      "points": 43
+      "goalDifference": 4,
+      "points": 44
     },
     {
       "position": 10,
-      "team": "RB Bragantino",
-      "played": 32,
-      "won": 11,
-      "draw": 8,
-      "lost": 13,
-      "goalDifference": 1,
-      "points": 41
+      "team": "S\u00e3o Paulo FC",
+      "played": 33,
+      "won": 12,
+      "draw": 7,
+      "lost": 14,
+      "goalDifference": 0,
+      "points": 43
     },
     {
       "position": 11,
       "team": "Botafogo FR",
-      "played": 32,
+      "played": 33,
       "won": 10,
       "draw": 9,
-      "lost": 13,
-      "goalDifference": -7,
+      "lost": 14,
+      "goalDifference": -8,
       "points": 39
     },
     {
@@ -1487,11 +1487,11 @@
     {
       "position": 16,
       "team": "SC Internacional",
-      "played": 32,
+      "played": 33,
       "won": 8,
       "draw": 11,
-      "lost": 13,
-      "goalDifference": -4,
+      "lost": 14,
+      "goalDifference": -5,
       "points": 35
     },
     {
@@ -1517,21 +1517,21 @@
     {
       "position": 19,
       "team": "Clube do Remo",
-      "played": 32,
-      "won": 5,
+      "played": 33,
+      "won": 6,
       "draw": 11,
       "lost": 16,
-      "goalDifference": -16,
-      "points": 26
+      "goalDifference": -15,
+      "points": 29
     },
     {
       "position": 20,
       "team": "Chapecoense AF",
-      "played": 31,
+      "played": 32,
       "won": 4,
       "draw": 9,
-      "lost": 18,
-      "goalDifference": -31,
+      "lost": 19,
+      "goalDifference": -34,
       "points": 21
     }
   ],
