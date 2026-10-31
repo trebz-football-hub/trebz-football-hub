@@ -1179,7 +1179,7 @@
       "won": 6,
       "draw": 3,
       "lost": 1,
-      "goalDifference": 11,
+      "goalDifference": 12,
       "points": 21
     },
     {
@@ -1319,7 +1319,7 @@
       "won": 2,
       "draw": 1,
       "lost": 7,
-      "goalDifference": -13,
+      "goalDifference": -14,
       "points": 7
     },
     {
@@ -1487,15 +1487,25 @@
     {
       "position": 16,
       "team": "Mirassol FC",
-      "played": 32,
+      "played": 33,
       "won": 9,
       "draw": 10,
-      "lost": 13,
-      "goalDifference": -8,
+      "lost": 14,
+      "goalDifference": -10,
       "points": 37
     },
     {
       "position": 17,
+      "team": "SC Corinthians Paulista",
+      "played": 33,
+      "won": 9,
+      "draw": 9,
+      "lost": 15,
+      "goalDifference": -6,
+      "points": 36
+    },
+    {
+      "position": 18,
       "team": "SC Internacional",
       "played": 33,
       "won": 8,
@@ -1503,16 +1513,6 @@
       "lost": 14,
       "goalDifference": -5,
       "points": 35
-    },
-    {
-      "position": 18,
-      "team": "SC Corinthians Paulista",
-      "played": 32,
-      "won": 8,
-      "draw": 9,
-      "lost": 15,
-      "goalDifference": -8,
-      "points": 33
     },
     {
       "position": 19,
