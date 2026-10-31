@@ -1628,6 +1628,16 @@
     },
     {
       "position": 10,
+      "team": "Sheffield United FC",
+      "played": 13,
+      "won": 5,
+      "draw": 4,
+      "lost": 4,
+      "goalDifference": 2,
+      "points": 19
+    },
+    {
+      "position": 11,
       "team": "Blackburn Rovers FC",
       "played": 12,
       "won": 5,
@@ -1637,7 +1647,7 @@
       "points": 18
     },
     {
-      "position": 11,
+      "position": 12,
       "team": "Portsmouth FC",
       "played": 12,
       "won": 5,
@@ -1645,16 +1655,6 @@
       "lost": 4,
       "goalDifference": 1,
       "points": 18
-    },
-    {
-      "position": 12,
-      "team": "Sheffield United FC",
-      "played": 12,
-      "won": 4,
-      "draw": 4,
-      "lost": 4,
-      "goalDifference": 1,
-      "points": 16
     },
     {
       "position": 13,
@@ -1699,30 +1699,30 @@
     {
       "position": 17,
       "team": "Wrexham AFC",
-      "played": 12,
+      "played": 13,
       "won": 3,
       "draw": 5,
-      "lost": 4,
-      "goalDifference": -3,
+      "lost": 5,
+      "goalDifference": -4,
       "points": 14
     },
     {
       "position": 18,
-      "team": "Charlton Athletic FC",
-      "played": 12,
-      "won": 3,
-      "draw": 5,
-      "lost": 4,
-      "goalDifference": -6,
-      "points": 14
-    },
-    {
-      "position": 19,
       "team": "Bolton Wanderers FC",
       "played": 12,
       "won": 4,
       "draw": 2,
       "lost": 6,
+      "goalDifference": -7,
+      "points": 14
+    },
+    {
+      "position": 19,
+      "team": "Charlton Athletic FC",
+      "played": 12,
+      "won": 3,
+      "draw": 5,
+      "lost": 4,
       "goalDifference": -7,
       "points": 14
     },
@@ -1733,7 +1733,7 @@
       "won": 4,
       "draw": 0,
       "lost": 8,
-      "goalDifference": -3,
+      "goalDifference": -2,
       "points": 12
     },
     {
