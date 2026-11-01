@@ -516,6 +516,16 @@
     },
     {
       "position": 14,
+      "team": "PEC Zwolle",
+      "played": 11,
+      "won": 3,
+      "draw": 2,
+      "lost": 6,
+      "goalDifference": -11,
+      "points": 11
+    },
+    {
+      "position": 15,
       "team": "Sparta Rotterdam",
       "played": 10,
       "won": 2,
@@ -523,16 +533,6 @@
       "lost": 5,
       "goalDifference": -7,
       "points": 9
-    },
-    {
-      "position": 15,
-      "team": "PEC Zwolle",
-      "played": 10,
-      "won": 2,
-      "draw": 2,
-      "lost": 6,
-      "goalDifference": -12,
-      "points": 8
     },
     {
       "position": 16,
@@ -547,11 +547,11 @@
     {
       "position": 17,
       "team": "ADO Den Haag",
-      "played": 10,
+      "played": 11,
       "won": 1,
       "draw": 3,
-      "lost": 6,
-      "goalDifference": -10,
+      "lost": 7,
+      "goalDifference": -11,
       "points": 6
     },
     {
@@ -982,6 +982,16 @@
     },
     {
       "position": 4,
+      "team": "Como 1907",
+      "played": 10,
+      "won": 7,
+      "draw": 2,
+      "lost": 1,
+      "goalDifference": 10,
+      "points": 23
+    },
+    {
+      "position": 5,
       "team": "AC Milan",
       "played": 10,
       "won": 6,
@@ -989,16 +999,6 @@
       "lost": 1,
       "goalDifference": 9,
       "points": 21
-    },
-    {
-      "position": 5,
-      "team": "Como 1907",
-      "played": 9,
-      "won": 6,
-      "draw": 2,
-      "lost": 1,
-      "goalDifference": 9,
-      "points": 20
     },
     {
       "position": 6,
@@ -1143,11 +1143,11 @@
     {
       "position": 20,
       "team": "Venezia FC",
-      "played": 9,
+      "played": 10,
       "won": 1,
       "draw": 0,
-      "lost": 8,
-      "goalDifference": -13,
+      "lost": 9,
+      "goalDifference": -14,
       "points": 3
     }
   ],
