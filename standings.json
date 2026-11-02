@@ -1017,7 +1017,7 @@
       "won": 5,
       "draw": 2,
       "lost": 3,
-      "goalDifference": 2,
+      "goalDifference": 3,
       "points": 17
     },
     {
@@ -1027,7 +1027,7 @@
       "won": 4,
       "draw": 2,
       "lost": 4,
-      "goalDifference": 5,
+      "goalDifference": 4,
       "points": 14
     },
     {
@@ -1214,6 +1214,16 @@
     },
     {
       "position": 7,
+      "team": "Sporting Clube de Braga",
+      "played": 10,
+      "won": 4,
+      "draw": 2,
+      "lost": 4,
+      "goalDifference": 1,
+      "points": 14
+    },
+    {
+      "position": 8,
       "team": "Gil Vicente FC",
       "played": 9,
       "won": 4,
@@ -1223,7 +1233,7 @@
       "points": 14
     },
     {
-      "position": 8,
+      "position": 9,
       "team": "Moreirense FC",
       "played": 10,
       "won": 4,
@@ -1233,27 +1243,7 @@
       "points": 14
     },
     {
-      "position": 9,
-      "team": "Sporting Clube de Braga",
-      "played": 10,
-      "won": 3,
-      "draw": 3,
-      "lost": 4,
-      "goalDifference": -2,
-      "points": 12
-    },
-    {
       "position": 10,
-      "team": "FC Famalic\u00e3o",
-      "played": 10,
-      "won": 2,
-      "draw": 5,
-      "lost": 3,
-      "goalDifference": 3,
-      "points": 11
-    },
-    {
-      "position": 11,
       "team": "FC Alverca",
       "played": 9,
       "won": 3,
@@ -1261,6 +1251,16 @@
       "lost": 4,
       "goalDifference": 0,
       "points": 11
+    },
+    {
+      "position": 11,
+      "team": "FC Famalic\u00e3o",
+      "played": 10,
+      "won": 2,
+      "draw": 4,
+      "lost": 4,
+      "goalDifference": 0,
+      "points": 10
     },
     {
       "position": 12,
