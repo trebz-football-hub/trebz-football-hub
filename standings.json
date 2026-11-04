@@ -1437,15 +1437,25 @@
     {
       "position": 11,
       "team": "Coritiba FBC",
-      "played": 33,
+      "played": 34,
       "won": 11,
       "draw": 9,
-      "lost": 13,
-      "goalDifference": -10,
+      "lost": 14,
+      "goalDifference": -11,
       "points": 42
     },
     {
       "position": 12,
+      "team": "Mirassol FC",
+      "played": 34,
+      "won": 10,
+      "draw": 10,
+      "lost": 14,
+      "goalDifference": -9,
+      "points": 40
+    },
+    {
+      "position": 13,
       "team": "Botafogo FR",
       "played": 33,
       "won": 10,
@@ -1455,7 +1465,7 @@
       "points": 39
     },
     {
-      "position": 13,
+      "position": 14,
       "team": "CR Vasco da Gama",
       "played": 32,
       "won": 10,
@@ -1465,7 +1475,7 @@
       "points": 38
     },
     {
-      "position": 14,
+      "position": 15,
       "team": "EC Vit\u00f3ria",
       "played": 33,
       "won": 10,
@@ -1475,7 +1485,17 @@
       "points": 38
     },
     {
-      "position": 15,
+      "position": 16,
+      "team": "SC Internacional",
+      "played": 34,
+      "won": 9,
+      "draw": 11,
+      "lost": 14,
+      "goalDifference": -4,
+      "points": 38
+    },
+    {
+      "position": 17,
       "team": "Gr\u00eamio FBPA",
       "played": 33,
       "won": 9,
@@ -1485,17 +1505,7 @@
       "points": 37
     },
     {
-      "position": 16,
-      "team": "Mirassol FC",
-      "played": 34,
-      "won": 9,
-      "draw": 10,
-      "lost": 15,
-      "goalDifference": -11,
-      "points": 37
-    },
-    {
-      "position": 17,
+      "position": 18,
       "team": "SC Corinthians Paulista",
       "played": 33,
       "won": 9,
@@ -1503,16 +1513,6 @@
       "lost": 15,
       "goalDifference": -6,
       "points": 36
-    },
-    {
-      "position": 18,
-      "team": "SC Internacional",
-      "played": 33,
-      "won": 8,
-      "draw": 11,
-      "lost": 14,
-      "goalDifference": -5,
-      "points": 35
     },
     {
       "position": 19,
@@ -1528,11 +1528,11 @@
       "position": 20,
       "team": "Chapecoense AF",
       "played": 33,
-      "won": 5,
+      "won": 4,
       "draw": 9,
-      "lost": 19,
-      "goalDifference": -33,
-      "points": 24
+      "lost": 20,
+      "goalDifference": -35,
+      "points": 21
     }
   ],
   "championship": [
