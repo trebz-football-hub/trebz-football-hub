@@ -1337,12 +1337,12 @@
     {
       "position": 1,
       "team": "CR Flamengo",
-      "played": 33,
-      "won": 22,
+      "played": 34,
+      "won": 23,
       "draw": 7,
       "lost": 4,
-      "goalDifference": 40,
-      "points": 73
+      "goalDifference": 42,
+      "points": 76
     },
     {
       "position": 2,
@@ -1366,17 +1366,17 @@
     },
     {
       "position": 4,
-      "team": "Fluminense FC",
-      "played": 33,
-      "won": 15,
+      "team": "CA Paranaense",
+      "played": 34,
+      "won": 16,
       "draw": 9,
       "lost": 9,
-      "goalDifference": 10,
-      "points": 54
+      "goalDifference": 11,
+      "points": 57
     },
     {
       "position": 5,
-      "team": "CA Paranaense",
+      "team": "Fluminense FC",
       "played": 33,
       "won": 15,
       "draw": 9,
@@ -1467,11 +1467,11 @@
     {
       "position": 14,
       "team": "CR Vasco da Gama",
-      "played": 32,
+      "played": 33,
       "won": 10,
       "draw": 8,
-      "lost": 14,
-      "goalDifference": -9,
+      "lost": 15,
+      "goalDifference": -10,
       "points": 38
     },
     {
@@ -1497,11 +1497,11 @@
     {
       "position": 17,
       "team": "Gr\u00eamio FBPA",
-      "played": 33,
+      "played": 34,
       "won": 9,
       "draw": 10,
-      "lost": 14,
-      "goalDifference": -7,
+      "lost": 15,
+      "goalDifference": -9,
       "points": 37
     },
     {
@@ -1539,15 +1539,25 @@
     {
       "position": 1,
       "team": "Middlesbrough FC",
-      "played": 13,
+      "played": 14,
       "won": 8,
       "draw": 4,
-      "lost": 1,
-      "goalDifference": 13,
+      "lost": 2,
+      "goalDifference": 11,
       "points": 28
     },
     {
       "position": 2,
+      "team": "Wolverhampton Wanderers FC",
+      "played": 14,
+      "won": 8,
+      "draw": 3,
+      "lost": 3,
+      "goalDifference": 8,
+      "points": 27
+    },
+    {
+      "position": 3,
       "team": "Birmingham City FC",
       "played": 14,
       "won": 7,
@@ -1557,7 +1567,7 @@
       "points": 26
     },
     {
-      "position": 3,
+      "position": 4,
       "team": "Stoke City FC",
       "played": 14,
       "won": 8,
@@ -1567,7 +1577,7 @@
       "points": 26
     },
     {
-      "position": 4,
+      "position": 5,
       "team": "Swansea City AFC",
       "played": 14,
       "won": 8,
@@ -1577,7 +1587,7 @@
       "points": 26
     },
     {
-      "position": 5,
+      "position": 6,
       "team": "West Bromwich Albion FC",
       "played": 14,
       "won": 7,
@@ -1587,7 +1597,7 @@
       "points": 25
     },
     {
-      "position": 6,
+      "position": 7,
       "team": "Southampton FC",
       "played": 14,
       "won": 8,
@@ -1597,24 +1607,14 @@
       "points": 24
     },
     {
-      "position": 7,
-      "team": "Wolverhampton Wanderers FC",
-      "played": 13,
-      "won": 7,
-      "draw": 3,
-      "lost": 3,
-      "goalDifference": 7,
-      "points": 24
-    },
-    {
       "position": 8,
       "team": "West Ham United FC",
-      "played": 13,
+      "played": 14,
       "won": 6,
-      "draw": 4,
+      "draw": 5,
       "lost": 3,
       "goalDifference": 15,
-      "points": 22
+      "points": 23
     },
     {
       "position": 9,
@@ -1679,15 +1679,25 @@
     {
       "position": 15,
       "team": "Bristol City FC",
-      "played": 13,
+      "played": 14,
       "won": 5,
       "draw": 3,
-      "lost": 5,
-      "goalDifference": -2,
+      "lost": 6,
+      "goalDifference": -3,
       "points": 18
     },
     {
       "position": 16,
+      "team": "Wrexham AFC",
+      "played": 14,
+      "won": 4,
+      "draw": 5,
+      "lost": 5,
+      "goalDifference": -2,
+      "points": 17
+    },
+    {
+      "position": 17,
       "team": "Bolton Wanderers FC",
       "played": 14,
       "won": 5,
@@ -1697,7 +1707,17 @@
       "points": 17
     },
     {
-      "position": 17,
+      "position": 18,
+      "team": "Cardiff City FC",
+      "played": 14,
+      "won": 3,
+      "draw": 6,
+      "lost": 5,
+      "goalDifference": -1,
+      "points": 15
+    },
+    {
+      "position": 19,
       "team": "Lincoln City FC",
       "played": 14,
       "won": 4,
@@ -1705,26 +1725,6 @@
       "lost": 7,
       "goalDifference": -10,
       "points": 15
-    },
-    {
-      "position": 18,
-      "team": "Cardiff City FC",
-      "played": 13,
-      "won": 3,
-      "draw": 5,
-      "lost": 5,
-      "goalDifference": -1,
-      "points": 14
-    },
-    {
-      "position": 19,
-      "team": "Wrexham AFC",
-      "played": 13,
-      "won": 3,
-      "draw": 5,
-      "lost": 5,
-      "goalDifference": -4,
-      "points": 14
     },
     {
       "position": 20,
