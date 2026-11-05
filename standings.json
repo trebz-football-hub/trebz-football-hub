@@ -1347,12 +1347,12 @@
     {
       "position": 2,
       "team": "SE Palmeiras",
-      "played": 33,
-      "won": 20,
+      "played": 34,
+      "won": 21,
       "draw": 10,
       "lost": 3,
-      "goalDifference": 34,
-      "points": 70
+      "goalDifference": 38,
+      "points": 73
     },
     {
       "position": 3,
@@ -1517,11 +1517,11 @@
     {
       "position": 19,
       "team": "Clube do Remo",
-      "played": 33,
+      "played": 34,
       "won": 6,
       "draw": 11,
-      "lost": 16,
-      "goalDifference": -15,
+      "lost": 17,
+      "goalDifference": -19,
       "points": 29
     },
     {
