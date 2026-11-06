@@ -1351,18 +1351,18 @@
       "won": 21,
       "draw": 10,
       "lost": 3,
-      "goalDifference": 38,
+      "goalDifference": 39,
       "points": 73
     },
     {
       "position": 3,
       "team": "Cruzeiro EC",
-      "played": 33,
-      "won": 17,
+      "played": 34,
+      "won": 18,
       "draw": 6,
       "lost": 10,
-      "goalDifference": 6,
-      "points": 57
+      "goalDifference": 7,
+      "points": 60
     },
     {
       "position": 4,
@@ -1387,11 +1387,11 @@
     {
       "position": 6,
       "team": "EC Bahia",
-      "played": 33,
+      "played": 34,
       "won": 14,
       "draw": 11,
-      "lost": 8,
-      "goalDifference": 6,
+      "lost": 9,
+      "goalDifference": 5,
       "points": 53
     },
     {
@@ -1521,7 +1521,7 @@
       "won": 6,
       "draw": 11,
       "lost": 17,
-      "goalDifference": -19,
+      "goalDifference": -20,
       "points": 29
     },
     {
