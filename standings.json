@@ -1367,12 +1367,12 @@
     {
       "position": 4,
       "team": "Fluminense FC",
-      "played": 33,
-      "won": 15,
+      "played": 34,
+      "won": 16,
       "draw": 9,
       "lost": 9,
-      "goalDifference": 10,
-      "points": 54
+      "goalDifference": 13,
+      "points": 57
     },
     {
       "position": 5,
@@ -1477,11 +1477,11 @@
     {
       "position": 15,
       "team": "EC Vit\u00f3ria",
-      "played": 33,
+      "played": 34,
       "won": 10,
       "draw": 8,
-      "lost": 15,
-      "goalDifference": -13,
+      "lost": 16,
+      "goalDifference": -16,
       "points": 38
     },
     {
