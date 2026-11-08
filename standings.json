@@ -387,11 +387,11 @@
     {
       "position": 1,
       "team": "Feyenoord Rotterdam",
-      "played": 11,
+      "played": 12,
       "won": 7,
       "draw": 4,
-      "lost": 0,
-      "goalDifference": 21,
+      "lost": 1,
+      "goalDifference": 20,
       "points": 25
     },
     {
@@ -426,6 +426,16 @@
     },
     {
       "position": 5,
+      "team": "SC Heerenveen",
+      "played": 12,
+      "won": 6,
+      "draw": 3,
+      "lost": 3,
+      "goalDifference": 7,
+      "points": 21
+    },
+    {
+      "position": 6,
       "team": "AZ",
       "played": 11,
       "won": 6,
@@ -435,7 +445,7 @@
       "points": 20
     },
     {
-      "position": 6,
+      "position": 7,
       "team": "Fortuna Sittard",
       "played": 12,
       "won": 5,
@@ -443,16 +453,6 @@
       "lost": 2,
       "goalDifference": 0,
       "points": 20
-    },
-    {
-      "position": 7,
-      "team": "SC Heerenveen",
-      "played": 11,
-      "won": 5,
-      "draw": 3,
-      "lost": 3,
-      "goalDifference": 6,
-      "points": 18
     },
     {
       "position": 8,
@@ -953,12 +953,12 @@
     {
       "position": 1,
       "team": "SS Lazio",
-      "played": 10,
+      "played": 11,
       "won": 9,
-      "draw": 1,
+      "draw": 2,
       "lost": 0,
       "goalDifference": 16,
-      "points": 28
+      "points": 29
     },
     {
       "position": 2,
@@ -1043,12 +1043,12 @@
     {
       "position": 10,
       "team": "SSC Napoli",
-      "played": 10,
+      "played": 11,
       "won": 4,
-      "draw": 2,
+      "draw": 3,
       "lost": 4,
       "goalDifference": 4,
-      "points": 14
+      "points": 15
     },
     {
       "position": 11,
