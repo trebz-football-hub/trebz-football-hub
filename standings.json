@@ -1226,11 +1226,11 @@
       "position": 8,
       "team": "Sporting Clube de Braga",
       "played": 11,
-      "won": 4,
-      "draw": 3,
+      "won": 5,
+      "draw": 2,
       "lost": 4,
-      "goalDifference": 1,
-      "points": 15
+      "goalDifference": 2,
+      "points": 17
     },
     {
       "position": 9,
@@ -1304,7 +1304,7 @@
     },
     {
       "position": 16,
-      "team": "Rio Ave FC",
+      "team": "Casa Pia AC",
       "played": 11,
       "won": 2,
       "draw": 2,
@@ -1314,13 +1314,13 @@
     },
     {
       "position": 17,
-      "team": "Casa Pia AC",
+      "team": "Rio Ave FC",
       "played": 11,
       "won": 2,
-      "draw": 2,
-      "lost": 7,
-      "goalDifference": -14,
-      "points": 8
+      "draw": 1,
+      "lost": 8,
+      "goalDifference": -15,
+      "points": 7
     },
     {
       "position": 18,
