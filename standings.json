@@ -1397,12 +1397,12 @@
     {
       "position": 7,
       "team": "CA Mineiro",
-      "played": 34,
+      "played": 35,
       "won": 14,
-      "draw": 8,
+      "draw": 9,
       "lost": 12,
       "goalDifference": 4,
-      "points": 50
+      "points": 51
     },
     {
       "position": 8,
@@ -1467,12 +1467,12 @@
     {
       "position": 14,
       "team": "Mirassol FC",
-      "played": 34,
+      "played": 35,
       "won": 10,
-      "draw": 10,
+      "draw": 11,
       "lost": 14,
       "goalDifference": -9,
-      "points": 40
+      "points": 41
     },
     {
       "position": 15,
