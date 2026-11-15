@@ -1436,6 +1436,16 @@
     },
     {
       "position": 11,
+      "team": "CR Vasco da Gama",
+      "played": 34,
+      "won": 12,
+      "draw": 8,
+      "lost": 14,
+      "goalDifference": -5,
+      "points": 44
+    },
+    {
+      "position": 12,
       "team": "Botafogo FR",
       "played": 34,
       "won": 11,
@@ -1445,7 +1455,7 @@
       "points": 42
     },
     {
-      "position": 12,
+      "position": 13,
       "team": "Coritiba FBC",
       "played": 34,
       "won": 11,
@@ -1453,16 +1463,6 @@
       "lost": 14,
       "goalDifference": -11,
       "points": 42
-    },
-    {
-      "position": 13,
-      "team": "CR Vasco da Gama",
-      "played": 33,
-      "won": 11,
-      "draw": 8,
-      "lost": 14,
-      "goalDifference": -7,
-      "points": 41
     },
     {
       "position": 14,
@@ -1527,11 +1527,11 @@
     {
       "position": 20,
       "team": "Chapecoense AF",
-      "played": 33,
+      "played": 34,
       "won": 4,
       "draw": 9,
-      "lost": 20,
-      "goalDifference": -35,
+      "lost": 21,
+      "goalDifference": -37,
       "points": 21
     }
   ],
