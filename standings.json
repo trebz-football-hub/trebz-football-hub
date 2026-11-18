@@ -1337,32 +1337,32 @@
     {
       "position": 1,
       "team": "CR Flamengo",
-      "played": 34,
+      "played": 35,
       "won": 23,
-      "draw": 7,
+      "draw": 8,
       "lost": 4,
       "goalDifference": 42,
-      "points": 76
+      "points": 77
     },
     {
       "position": 2,
       "team": "SE Palmeiras",
-      "played": 34,
+      "played": 35,
       "won": 21,
-      "draw": 10,
+      "draw": 11,
       "lost": 3,
       "goalDifference": 39,
-      "points": 73
+      "points": 74
     },
     {
       "position": 3,
       "team": "Cruzeiro EC",
-      "played": 34,
+      "played": 35,
       "won": 18,
-      "draw": 6,
+      "draw": 7,
       "lost": 10,
       "goalDifference": 7,
-      "points": 60
+      "points": 61
     },
     {
       "position": 4,
@@ -1377,12 +1377,12 @@
     {
       "position": 5,
       "team": "CA Paranaense",
-      "played": 34,
+      "played": 35,
       "won": 15,
-      "draw": 9,
+      "draw": 10,
       "lost": 10,
       "goalDifference": 8,
-      "points": 54
+      "points": 55
     },
     {
       "position": 6,
@@ -1406,22 +1406,22 @@
     },
     {
       "position": 8,
+      "team": "Santos FC",
+      "played": 35,
+      "won": 12,
+      "draw": 12,
+      "lost": 11,
+      "goalDifference": 1,
+      "points": 48
+    },
+    {
+      "position": 9,
       "team": "RB Bragantino",
       "played": 34,
       "won": 13,
       "draw": 8,
       "lost": 13,
       "goalDifference": 5,
-      "points": 47
-    },
-    {
-      "position": 9,
-      "team": "Santos FC",
-      "played": 34,
-      "won": 12,
-      "draw": 11,
-      "lost": 11,
-      "goalDifference": 1,
       "points": 47
     },
     {
@@ -1446,22 +1446,22 @@
     },
     {
       "position": 12,
+      "team": "Coritiba FBC",
+      "played": 35,
+      "won": 11,
+      "draw": 10,
+      "lost": 14,
+      "goalDifference": -11,
+      "points": 43
+    },
+    {
+      "position": 13,
       "team": "Botafogo FR",
       "played": 34,
       "won": 11,
       "draw": 9,
       "lost": 14,
       "goalDifference": -7,
-      "points": 42
-    },
-    {
-      "position": 13,
-      "team": "Coritiba FBC",
-      "played": 34,
-      "won": 11,
-      "draw": 9,
-      "lost": 14,
-      "goalDifference": -11,
       "points": 42
     },
     {
@@ -1517,21 +1517,21 @@
     {
       "position": 19,
       "team": "Clube do Remo",
-      "played": 34,
-      "won": 6,
+      "played": 35,
+      "won": 7,
       "draw": 11,
       "lost": 17,
-      "goalDifference": -20,
-      "points": 29
+      "goalDifference": -18,
+      "points": 32
     },
     {
       "position": 20,
       "team": "Chapecoense AF",
-      "played": 34,
+      "played": 35,
       "won": 4,
       "draw": 9,
-      "lost": 21,
-      "goalDifference": -37,
+      "lost": 22,
+      "goalDifference": -39,
       "points": 21
     }
   ],
