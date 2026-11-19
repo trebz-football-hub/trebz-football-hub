@@ -1338,31 +1338,31 @@
       "position": 1,
       "team": "CR Flamengo",
       "played": 35,
-      "won": 23,
-      "draw": 8,
+      "won": 24,
+      "draw": 7,
       "lost": 4,
-      "goalDifference": 42,
-      "points": 77
+      "goalDifference": 43,
+      "points": 79
     },
     {
       "position": 2,
       "team": "SE Palmeiras",
       "played": 35,
       "won": 21,
-      "draw": 11,
-      "lost": 3,
-      "goalDifference": 39,
-      "points": 74
+      "draw": 10,
+      "lost": 4,
+      "goalDifference": 38,
+      "points": 73
     },
     {
       "position": 3,
       "team": "Cruzeiro EC",
       "played": 35,
-      "won": 18,
-      "draw": 7,
+      "won": 19,
+      "draw": 6,
       "lost": 10,
-      "goalDifference": 7,
-      "points": 61
+      "goalDifference": 8,
+      "points": 63
     },
     {
       "position": 4,
@@ -1379,20 +1379,20 @@
       "team": "CA Paranaense",
       "played": 35,
       "won": 15,
-      "draw": 10,
-      "lost": 10,
-      "goalDifference": 8,
-      "points": 55
+      "draw": 9,
+      "lost": 11,
+      "goalDifference": 7,
+      "points": 54
     },
     {
       "position": 6,
       "team": "EC Bahia",
-      "played": 34,
+      "played": 35,
       "won": 14,
-      "draw": 11,
+      "draw": 12,
       "lost": 9,
       "goalDifference": 5,
-      "points": 53
+      "points": 54
     },
     {
       "position": 7,
@@ -1408,11 +1408,11 @@
       "position": 8,
       "team": "Santos FC",
       "played": 35,
-      "won": 12,
-      "draw": 12,
+      "won": 13,
+      "draw": 11,
       "lost": 11,
-      "goalDifference": 1,
-      "points": 48
+      "goalDifference": 2,
+      "points": 50
     },
     {
       "position": 9,
@@ -1446,22 +1446,22 @@
     },
     {
       "position": 12,
-      "team": "Coritiba FBC",
+      "team": "Botafogo FR",
       "played": 35,
       "won": 11,
-      "draw": 10,
-      "lost": 14,
+      "draw": 9,
+      "lost": 15,
       "goalDifference": -11,
-      "points": 43
+      "points": 42
     },
     {
       "position": 13,
-      "team": "Botafogo FR",
-      "played": 34,
+      "team": "Coritiba FBC",
+      "played": 35,
       "won": 11,
       "draw": 9,
-      "lost": 14,
-      "goalDifference": -7,
+      "lost": 15,
+      "goalDifference": -12,
       "points": 42
     },
     {
@@ -1476,6 +1476,16 @@
     },
     {
       "position": 15,
+      "team": "SC Corinthians Paulista",
+      "played": 35,
+      "won": 10,
+      "draw": 10,
+      "lost": 15,
+      "goalDifference": -2,
+      "points": 40
+    },
+    {
+      "position": 16,
       "team": "EC Vit\u00f3ria",
       "played": 34,
       "won": 10,
@@ -1485,7 +1495,7 @@
       "points": 38
     },
     {
-      "position": 16,
+      "position": 17,
       "team": "SC Internacional",
       "played": 34,
       "won": 9,
@@ -1495,24 +1505,14 @@
       "points": 38
     },
     {
-      "position": 17,
-      "team": "SC Corinthians Paulista",
-      "played": 34,
-      "won": 9,
-      "draw": 10,
-      "lost": 15,
-      "goalDifference": -6,
-      "points": 37
-    },
-    {
       "position": 18,
       "team": "Gr\u00eamio FBPA",
-      "played": 34,
+      "played": 35,
       "won": 9,
-      "draw": 10,
+      "draw": 11,
       "lost": 15,
       "goalDifference": -9,
-      "points": 37
+      "points": 38
     },
     {
       "position": 19,
