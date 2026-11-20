@@ -1417,31 +1417,31 @@
     {
       "position": 9,
       "team": "RB Bragantino",
-      "played": 34,
+      "played": 35,
       "won": 13,
       "draw": 8,
-      "lost": 13,
-      "goalDifference": 5,
+      "lost": 14,
+      "goalDifference": 3,
       "points": 47
     },
     {
       "position": 10,
+      "team": "CR Vasco da Gama",
+      "played": 35,
+      "won": 13,
+      "draw": 8,
+      "lost": 14,
+      "goalDifference": -4,
+      "points": 47
+    },
+    {
+      "position": 11,
       "team": "S\u00e3o Paulo FC",
       "played": 34,
       "won": 12,
       "draw": 8,
       "lost": 14,
       "goalDifference": 0,
-      "points": 44
-    },
-    {
-      "position": 11,
-      "team": "CR Vasco da Gama",
-      "played": 34,
-      "won": 12,
-      "draw": 8,
-      "lost": 14,
-      "goalDifference": -5,
       "points": 44
     },
     {
@@ -1466,6 +1466,16 @@
     },
     {
       "position": 14,
+      "team": "EC Vit\u00f3ria",
+      "played": 35,
+      "won": 11,
+      "draw": 8,
+      "lost": 16,
+      "goalDifference": -14,
+      "points": 41
+    },
+    {
+      "position": 15,
       "team": "Mirassol FC",
       "played": 35,
       "won": 10,
@@ -1475,7 +1485,7 @@
       "points": 41
     },
     {
-      "position": 15,
+      "position": 16,
       "team": "SC Corinthians Paulista",
       "played": 35,
       "won": 10,
@@ -1485,23 +1495,13 @@
       "points": 40
     },
     {
-      "position": 16,
-      "team": "EC Vit\u00f3ria",
-      "played": 34,
-      "won": 10,
-      "draw": 8,
-      "lost": 16,
-      "goalDifference": -16,
-      "points": 38
-    },
-    {
       "position": 17,
       "team": "SC Internacional",
-      "played": 34,
+      "played": 35,
       "won": 9,
       "draw": 11,
-      "lost": 14,
-      "goalDifference": -4,
+      "lost": 15,
+      "goalDifference": -5,
       "points": 38
     },
     {
