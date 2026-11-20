@@ -205,12 +205,12 @@
     {
       "position": 1,
       "team": "FC Bayern M\u00fcnchen",
-      "played": 9,
+      "played": 10,
       "won": 6,
-      "draw": 3,
+      "draw": 4,
       "lost": 0,
       "goalDifference": 20,
-      "points": 21
+      "points": 22
     },
     {
       "position": 2,
@@ -334,22 +334,22 @@
     },
     {
       "position": 14,
+      "team": "1. FC K\u00f6ln",
+      "played": 10,
+      "won": 2,
+      "draw": 4,
+      "lost": 4,
+      "goalDifference": -4,
+      "points": 10
+    },
+    {
+      "position": 15,
       "team": "FC Augsburg",
       "played": 9,
       "won": 2,
       "draw": 3,
       "lost": 4,
       "goalDifference": 0,
-      "points": 9
-    },
-    {
-      "position": 15,
-      "team": "1. FC K\u00f6ln",
-      "played": 9,
-      "won": 2,
-      "draw": 3,
-      "lost": 4,
-      "goalDifference": -4,
       "points": 9
     },
     {
@@ -629,11 +629,11 @@
     {
       "position": 7,
       "team": "Athletic Club",
-      "played": 11,
+      "played": 12,
       "won": 4,
       "draw": 4,
-      "lost": 3,
-      "goalDifference": 4,
+      "lost": 4,
+      "goalDifference": 3,
       "points": 16
     },
     {
@@ -658,6 +658,16 @@
     },
     {
       "position": 10,
+      "team": "RCD Espanyol de Barcelona",
+      "played": 13,
+      "won": 4,
+      "draw": 3,
+      "lost": 6,
+      "goalDifference": 0,
+      "points": 15
+    },
+    {
+      "position": 11,
       "team": "Real Racing Club de Santander",
       "played": 12,
       "won": 4,
@@ -667,7 +677,7 @@
       "points": 14
     },
     {
-      "position": 11,
+      "position": 12,
       "team": "RC Celta de Vigo",
       "played": 12,
       "won": 2,
@@ -677,7 +687,7 @@
       "points": 13
     },
     {
-      "position": 12,
+      "position": 13,
       "team": "Deportivo Alav\u00e9s",
       "played": 12,
       "won": 3,
@@ -685,16 +695,6 @@
       "lost": 5,
       "goalDifference": -2,
       "points": 13
-    },
-    {
-      "position": 13,
-      "team": "RCD Espanyol de Barcelona",
-      "played": 12,
-      "won": 3,
-      "draw": 3,
-      "lost": 6,
-      "goalDifference": -1,
-      "points": 12
     },
     {
       "position": 14,
@@ -890,6 +890,16 @@
     },
     {
       "position": 13,
+      "team": "ES Troyes AC",
+      "played": 11,
+      "won": 3,
+      "draw": 2,
+      "lost": 6,
+      "goalDifference": -8,
+      "points": 11
+    },
+    {
+      "position": 14,
       "team": "RC Strasbourg Alsace",
       "played": 10,
       "won": 3,
@@ -899,7 +909,7 @@
       "points": 10
     },
     {
-      "position": 14,
+      "position": 15,
       "team": "AJ Auxerre",
       "played": 10,
       "won": 3,
@@ -909,7 +919,7 @@
       "points": 10
     },
     {
-      "position": 15,
+      "position": 16,
       "team": "Le Mans FC",
       "played": 10,
       "won": 1,
@@ -919,18 +929,8 @@
       "points": 8
     },
     {
-      "position": 16,
-      "team": "Angers SCO",
-      "played": 10,
-      "won": 2,
-      "draw": 2,
-      "lost": 6,
-      "goalDifference": -10,
-      "points": 8
-    },
-    {
       "position": 17,
-      "team": "ES Troyes AC",
+      "team": "Angers SCO",
       "played": 10,
       "won": 2,
       "draw": 2,
@@ -941,11 +941,11 @@
     {
       "position": 18,
       "team": "Le Havre AC",
-      "played": 10,
+      "played": 11,
       "won": 0,
       "draw": 2,
-      "lost": 8,
-      "goalDifference": -13,
+      "lost": 9,
+      "goalDifference": -15,
       "points": 2
     }
   ],
