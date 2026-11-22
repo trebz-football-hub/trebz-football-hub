@@ -1357,12 +1357,12 @@
     {
       "position": 3,
       "team": "Cruzeiro EC",
-      "played": 35,
-      "won": 19,
+      "played": 36,
+      "won": 20,
       "draw": 6,
       "lost": 10,
-      "goalDifference": 8,
-      "points": 63
+      "goalDifference": 9,
+      "points": 66
     },
     {
       "position": 4,
@@ -1527,11 +1527,11 @@
     {
       "position": 20,
       "team": "Chapecoense AF",
-      "played": 35,
+      "played": 36,
       "won": 4,
       "draw": 9,
-      "lost": 22,
-      "goalDifference": -39,
+      "lost": 23,
+      "goalDifference": -40,
       "points": 21
     }
   ],
