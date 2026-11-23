@@ -1166,11 +1166,11 @@
       "position": 4,
       "team": "Fluminense FC",
       "played": 36,
-      "won": 17,
-      "draw": 10,
+      "won": 18,
+      "draw": 9,
       "lost": 9,
-      "goalDifference": 14,
-      "points": 61
+      "goalDifference": 15,
+      "points": 63
     },
     {
       "position": 5,
@@ -1204,6 +1204,16 @@
     },
     {
       "position": 8,
+      "team": "RB Bragantino",
+      "played": 36,
+      "won": 14,
+      "draw": 8,
+      "lost": 14,
+      "goalDifference": 5,
+      "points": 50
+    },
+    {
+      "position": 9,
       "team": "Santos FC",
       "played": 35,
       "won": 13,
@@ -1213,24 +1223,14 @@
       "points": 50
     },
     {
-      "position": 9,
-      "team": "RB Bragantino",
-      "played": 36,
-      "won": 13,
-      "draw": 9,
-      "lost": 14,
-      "goalDifference": 4,
-      "points": 48
-    },
-    {
       "position": 10,
       "team": "CR Vasco da Gama",
       "played": 36,
       "won": 13,
-      "draw": 9,
-      "lost": 14,
-      "goalDifference": -4,
-      "points": 48
+      "draw": 8,
+      "lost": 15,
+      "goalDifference": -5,
+      "points": 47
     },
     {
       "position": 11,
@@ -1264,22 +1264,22 @@
     },
     {
       "position": 14,
-      "team": "Mirassol FC",
-      "played": 36,
-      "won": 10,
-      "draw": 12,
-      "lost": 14,
-      "goalDifference": -9,
-      "points": 42
-    },
-    {
-      "position": 15,
       "team": "EC Vit\u00f3ria",
       "played": 35,
       "won": 11,
       "draw": 8,
       "lost": 16,
       "goalDifference": -15,
+      "points": 41
+    },
+    {
+      "position": 15,
+      "team": "Mirassol FC",
+      "played": 36,
+      "won": 10,
+      "draw": 11,
+      "lost": 15,
+      "goalDifference": -10,
       "points": 41
     },
     {
